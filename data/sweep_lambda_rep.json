@@ -1,0 +1,237 @@
+{
+ "param": "lambda_rep",
+ "default": 0.2,
+ "n": 30,
+ "seeds": [
+  102,
+  202,
+  302
+ ],
+ "points": [
+  {
+   "param": "lambda_rep",
+   "value": 0.2,
+   "source": "ablation-full",
+   "per_seed": [
+    {
+     "format_pct": 100.0,
+     "rhyme_full_pct": 88.0,
+     "rhyme_quartet_pct": 88.61,
+     "syll_mean": 10.13,
+     "syll_in_range_pct": 60.71,
+     "distinct_endwords_pct": 84.29
+    },
+    {
+     "format_pct": 100.0,
+     "rhyme_full_pct": 90.0,
+     "rhyme_quartet_pct": 89.72,
+     "syll_mean": 10.1,
+     "syll_in_range_pct": 65.71,
+     "distinct_endwords_pct": 79.05
+    },
+    {
+     "format_pct": 100.0,
+     "rhyme_full_pct": 92.44,
+     "rhyme_quartet_pct": 92.78,
+     "syll_mean": 10.12,
+     "syll_in_range_pct": 64.29,
+     "distinct_endwords_pct": 85.71
+    }
+   ],
+   "aggregate": {
+    "format_pct": {
+     "mean": 100.0,
+     "halfwidth": 0.0,
+     "lo": 100.0,
+     "hi": 100.0,
+     "n": 3
+    },
+    "rhyme_full_pct": {
+     "mean": 90.14814814814815,
+     "halfwidth": 5.529498881815585,
+     "lo": 84.61864926633257,
+     "hi": 95.67764702996374,
+     "n": 3
+    },
+    "rhyme_quartet_pct": {
+     "mean": 90.37037037037038,
+     "halfwidth": 5.359840021404144,
+     "lo": 85.01053034896624,
+     "hi": 95.73021039177452,
+     "n": 3
+    },
+    "syll_mean": {
+     "mean": 10.112698412698412,
+     "halfwidth": 0.03938143803886365,
+     "lo": 10.073316974659548,
+     "hi": 10.152079850737277,
+     "n": 3
+    },
+    "syll_in_range_pct": {
+     "mean": 63.57142857142858,
+     "halfwidth": 6.3976327821640036,
+     "lo": 57.173795789264574,
+     "hi": 69.96906135359258,
+     "n": 3
+    },
+    "distinct_endwords_pct": {
+     "mean": 83.01587301587301,
+     "halfwidth": 8.719459162841451,
+     "lo": 74.29641385303157,
+     "hi": 91.73533217871446,
+     "n": 3
+    }
+   }
+  },
+  {
+   "param": "lambda_rep",
+   "value": 1.0,
+   "source": "generated",
+   "per_seed": [
+    {
+     "format_pct": 100.0,
+     "rhyme_full_pct": 87.33,
+     "rhyme_quartet_pct": 87.5,
+     "syll_mean": 10.14,
+     "syll_in_range_pct": 63.33,
+     "distinct_endwords_pct": 91.19
+    },
+    {
+     "format_pct": 100.0,
+     "rhyme_full_pct": 93.11,
+     "rhyme_quartet_pct": 93.89,
+     "syll_mean": 10.27,
+     "syll_in_range_pct": 64.05,
+     "distinct_endwords_pct": 88.1
+    },
+    {
+     "format_pct": 100.0,
+     "rhyme_full_pct": 85.11,
+     "rhyme_quartet_pct": 86.67,
+     "syll_mean": 10.16,
+     "syll_in_range_pct": 64.76,
+     "distinct_endwords_pct": 91.43
+    }
+   ],
+   "aggregate": {
+    "format_pct": {
+     "mean": 100.0,
+     "halfwidth": 0.0,
+     "lo": 100.0,
+     "hi": 100.0,
+     "n": 3
+    },
+    "rhyme_full_pct": {
+     "mean": 88.51851851851852,
+     "halfwidth": 10.258465553274545,
+     "lo": 78.26005296524397,
+     "hi": 98.77698407179307,
+     "n": 3
+    },
+    "rhyme_quartet_pct": {
+     "mean": 89.35185185185185,
+     "halfwidth": 9.81537474437147,
+     "lo": 79.53647710748038,
+     "hi": 99.16722659622332,
+     "n": 3
+    },
+    "syll_mean": {
+     "mean": 10.191269841269841,
+     "halfwidth": 0.1754890208284198,
+     "lo": 10.015780820441421,
+     "hi": 10.366758862098262,
+     "n": 3
+    },
+    "syll_in_range_pct": {
+     "mean": 64.04761904761904,
+     "halfwidth": 1.7743840798216668,
+     "lo": 62.27323496779737,
+     "hi": 65.82200312744071,
+     "n": 3
+    },
+    "distinct_endwords_pct": {
+     "mean": 90.23809523809523,
+     "halfwidth": 4.619460894786998,
+     "lo": 85.61863434330823,
+     "hi": 94.85755613288222,
+     "n": 3
+    }
+   }
+  },
+  {
+   "param": "lambda_rep",
+   "value": 5.0,
+   "source": "generated",
+   "per_seed": [
+    {
+     "format_pct": 100.0,
+     "rhyme_full_pct": 90.0,
+     "rhyme_quartet_pct": 91.67,
+     "syll_mean": 10.14,
+     "syll_in_range_pct": 61.9,
+     "distinct_endwords_pct": 90.95
+    },
+    {
+     "format_pct": 100.0,
+     "rhyme_full_pct": 85.33,
+     "rhyme_quartet_pct": 86.11,
+     "syll_mean": 10.25,
+     "syll_in_range_pct": 61.9,
+     "distinct_endwords_pct": 90.0
+    },
+    {
+     "format_pct": 100.0,
+     "rhyme_full_pct": 86.0,
+     "rhyme_quartet_pct": 86.67,
+     "syll_mean": 10.21,
+     "syll_in_range_pct": 62.86,
+     "distinct_endwords_pct": 92.62
+    }
+   ],
+   "aggregate": {
+    "format_pct": {
+     "mean": 100.0,
+     "halfwidth": 0.0,
+     "lo": 100.0,
+     "hi": 100.0,
+     "n": 3
+    },
+    "rhyme_full_pct": {
+     "mean": 87.11111111111113,
+     "halfwidth": 6.2698623926116115,
+     "lo": 80.84124871849951,
+     "hi": 93.38097350372274,
+     "n": 3
+    },
+    "rhyme_quartet_pct": {
+     "mean": 88.14814814814815,
+     "halfwidth": 7.6008687203548755,
+     "lo": 80.54727942779327,
+     "hi": 95.74901686850303,
+     "n": 3
+    },
+    "syll_mean": {
+     "mean": 10.197619047619048,
+     "halfwidth": 0.1355208226284562,
+     "lo": 10.062098224990592,
+     "hi": 10.333139870247503,
+     "n": 3
+    },
+    "syll_in_range_pct": {
+     "mean": 62.22222222222222,
+     "halfwidth": 1.365921501507761,
+     "lo": 60.85630072071446,
+     "hi": 63.588143723729985,
+     "n": 3
+    },
+    "distinct_endwords_pct": {
+     "mean": 91.19047619047616,
+     "halfwidth": 3.2931174818680042,
+     "lo": 87.89735870860815,
+     "hi": 94.48359367234417,
+     "n": 3
+    }
+   }
+  }
+ ]
+}

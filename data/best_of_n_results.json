@@ -1,0 +1,502 @@
+{
+ "n_per_seed": 30,
+ "seeds": [
+  102,
+  202,
+  302
+ ],
+ "selection": "oracle-by-rhyme",
+ "n_forward_matched": 6,
+ "n_wallclock_matched": 168,
+ "N_values": [
+  1,
+  2,
+  6,
+  43,
+  168
+ ],
+ "budget_source": {
+  "wall_clock_budget_from": "k_sweep_results.json (batch 30)",
+  "ratio_forward_calls": 5.5,
+  "measured_seconds_per_sonnet_controlled": 70.252,
+  "measured_seconds_per_sonnet_uncontrolled": 0.4122,
+  "measured_ratio_walltime": 170.4,
+  "note": "costs recomputed from this run's timings; the previous values came from audit_measurements.json, which timed batches of 8"
+ },
+ "pool_timing": [
+  {
+   "wall_s": 2077.2,
+   "forward_calls": 16800,
+   "pool_size": 5040
+  },
+  {
+   "wall_s": 2077.7,
+   "forward_calls": 16800,
+   "pool_size": 5040
+  },
+  {
+   "wall_s": 2077.1,
+   "forward_calls": 16800,
+   "pool_size": 5040
+  }
+ ],
+ "controlled": {
+  "per_seed": [
+   {
+    "format_pct": 100.0,
+    "rhyme_full_pct": 88.0,
+    "rhyme_quartet_pct": 88.61,
+    "syll_mean": 10.13,
+    "syll_in_range_pct": 60.71,
+    "distinct_endwords_pct": 84.29
+   },
+   {
+    "format_pct": 100.0,
+    "rhyme_full_pct": 90.0,
+    "rhyme_quartet_pct": 89.72,
+    "syll_mean": 10.1,
+    "syll_in_range_pct": 65.71,
+    "distinct_endwords_pct": 79.05
+   },
+   {
+    "format_pct": 100.0,
+    "rhyme_full_pct": 92.44,
+    "rhyme_quartet_pct": 92.78,
+    "syll_mean": 10.12,
+    "syll_in_range_pct": 64.29,
+    "distinct_endwords_pct": 85.71
+   }
+  ],
+  "aggregate": {
+   "format_pct": {
+    "mean": 100.0,
+    "halfwidth": 0.0,
+    "lo": 100.0,
+    "hi": 100.0,
+    "n": 3
+   },
+   "rhyme_full_pct": {
+    "mean": 90.14814814814815,
+    "halfwidth": 5.529498881815585,
+    "lo": 84.61864926633257,
+    "hi": 95.67764702996374,
+    "n": 3
+   },
+   "rhyme_quartet_pct": {
+    "mean": 90.37037037037038,
+    "halfwidth": 5.359840021404144,
+    "lo": 85.01053034896624,
+    "hi": 95.73021039177452,
+    "n": 3
+   },
+   "syll_mean": {
+    "mean": 10.112698412698412,
+    "halfwidth": 0.03938143803886365,
+    "lo": 10.073316974659548,
+    "hi": 10.152079850737277,
+    "n": 3
+   },
+   "syll_in_range_pct": {
+    "mean": 63.57142857142858,
+    "halfwidth": 6.3976327821640036,
+    "lo": 57.173795789264574,
+    "hi": 69.96906135359258,
+    "n": 3
+   },
+   "distinct_endwords_pct": {
+    "mean": 83.01587301587301,
+    "halfwidth": 8.719459162841451,
+    "lo": 74.29641385303157,
+    "hi": 91.73533217871446,
+    "n": 3
+   }
+  },
+  "timing": [
+   {
+    "wall_s": 2112.2,
+    "forward_calls": 550
+   },
+   {
+    "wall_s": 2117.9,
+    "forward_calls": 550
+   },
+   {
+    "wall_s": 2092.6,
+    "forward_calls": 550
+   }
+  ],
+  "seconds_per_sonnet": 70.25
+ },
+ "best_of_n": {
+  "1": {
+   "N": 1,
+   "per_seed": [
+    {
+     "format_pct": 96.67,
+     "rhyme_full_pct": 7.56,
+     "rhyme_quartet_pct": 8.61,
+     "syll_mean": 10.36,
+     "syll_in_range_pct": 50.71,
+     "distinct_endwords_pct": 99.05
+    },
+    {
+     "format_pct": 96.67,
+     "rhyme_full_pct": 1.33,
+     "rhyme_quartet_pct": 0.83,
+     "syll_mean": 10.3,
+     "syll_in_range_pct": 55.95,
+     "distinct_endwords_pct": 99.05
+    },
+    {
+     "format_pct": 100.0,
+     "rhyme_full_pct": 6.67,
+     "rhyme_quartet_pct": 6.94,
+     "syll_mean": 10.4,
+     "syll_in_range_pct": 53.57,
+     "distinct_endwords_pct": 99.05
+    }
+   ],
+   "aggregate": {
+    "format_pct": {
+     "mean": 97.77777777777779,
+     "halfwidth": 4.780725255277174,
+     "lo": 92.99705252250061,
+     "hi": 102.55850303305496,
+     "n": 3
+    },
+    "rhyme_full_pct": {
+     "mean": 5.185185185185186,
+     "halfwidth": 8.35981652348216,
+     "lo": -3.1746313382969733,
+     "hi": 13.545001708667346,
+     "n": 3
+    },
+    "rhyme_quartet_pct": {
+     "mean": 5.462962962962963,
+     "halfwidth": 10.172702356648383,
+     "lo": -4.70973939368542,
+     "hi": 15.635665319611345,
+     "n": 3
+    },
+    "syll_mean": {
+     "mean": 10.356349206349206,
+     "halfwidth": 0.12183721185874279,
+     "lo": 10.234511994490463,
+     "hi": 10.47818641820795,
+     "n": 3
+    },
+    "syll_in_range_pct": {
+     "mean": 53.41269841269841,
+     "halfwidth": 6.5150303317327785,
+     "lo": 46.89766808096563,
+     "hi": 59.92772874443119,
+     "n": 3
+    },
+    "distinct_endwords_pct": {
+     "mean": 99.04761904761904,
+     "halfwidth": 0.0,
+     "lo": 99.04761904761904,
+     "hi": 99.04761904761904,
+     "n": 3
+    }
+   },
+   "seconds_per_sonnet": 0.41
+  },
+  "2": {
+   "N": 2,
+   "per_seed": [
+    {
+     "format_pct": 100.0,
+     "rhyme_full_pct": 11.56,
+     "rhyme_quartet_pct": 12.5,
+     "syll_mean": 10.28,
+     "syll_in_range_pct": 47.62,
+     "distinct_endwords_pct": 97.62
+    },
+    {
+     "format_pct": 100.0,
+     "rhyme_full_pct": 5.11,
+     "rhyme_quartet_pct": 4.72,
+     "syll_mean": 10.21,
+     "syll_in_range_pct": 54.05,
+     "distinct_endwords_pct": 98.33
+    },
+    {
+     "format_pct": 100.0,
+     "rhyme_full_pct": 11.56,
+     "rhyme_quartet_pct": 13.33,
+     "syll_mean": 10.43,
+     "syll_in_range_pct": 50.0,
+     "distinct_endwords_pct": 98.33
+    }
+   ],
+   "aggregate": {
+    "format_pct": {
+     "mean": 100.0,
+     "halfwidth": 0.0,
+     "lo": 100.0,
+     "hi": 100.0,
+     "n": 3
+    },
+    "rhyme_full_pct": {
+     "mean": 9.407407407407407,
+     "halfwidth": 9.24273549353588,
+     "lo": 0.16467191387152624,
+     "hi": 18.650142900943287,
+     "n": 3
+    },
+    "rhyme_quartet_pct": {
+     "mean": 10.185185185185185,
+     "halfwidth": 11.798107160029105,
+     "lo": -1.6129219748439194,
+     "hi": 21.983292345214288,
+     "n": 3
+    },
+    "syll_mean": {
+     "mean": 10.306349206349205,
+     "halfwidth": 0.2775040223227553,
+     "lo": 10.02884518402645,
+     "hi": 10.58385322867196,
+     "n": 3
+    },
+    "syll_in_range_pct": {
+     "mean": 50.55555555555555,
+     "halfwidth": 8.073682266665903,
+     "lo": 42.481873288889645,
+     "hi": 58.629237822221455,
+     "n": 3
+    },
+    "distinct_endwords_pct": {
+     "mean": 98.09523809523807,
+     "halfwidth": 1.0244411261308257,
+     "lo": 97.07079696910725,
+     "hi": 99.1196792213689,
+     "n": 3
+    }
+   },
+   "seconds_per_sonnet": 0.82
+  },
+  "6": {
+   "N": 6,
+   "per_seed": [
+    {
+     "format_pct": 100.0,
+     "rhyme_full_pct": 18.89,
+     "rhyme_quartet_pct": 21.94,
+     "syll_mean": 10.5,
+     "syll_in_range_pct": 55.95,
+     "distinct_endwords_pct": 97.38
+    },
+    {
+     "format_pct": 100.0,
+     "rhyme_full_pct": 15.56,
+     "rhyme_quartet_pct": 17.5,
+     "syll_mean": 10.13,
+     "syll_in_range_pct": 51.9,
+     "distinct_endwords_pct": 97.14
+    },
+    {
+     "format_pct": 100.0,
+     "rhyme_full_pct": 23.56,
+     "rhyme_quartet_pct": 25.83,
+     "syll_mean": 10.58,
+     "syll_in_range_pct": 52.14,
+     "distinct_endwords_pct": 96.43
+    }
+   ],
+   "aggregate": {
+    "format_pct": {
+     "mean": 100.0,
+     "halfwidth": 0.0,
+     "lo": 100.0,
+     "hi": 100.0,
+     "n": 3
+    },
+    "rhyme_full_pct": {
+     "mean": 19.333333333333332,
+     "halfwidth": 9.982447399996678,
+     "lo": 9.350885933336654,
+     "hi": 29.31578073333001,
+     "n": 3
+    },
+    "rhyme_quartet_pct": {
+     "mean": 21.759259259259256,
+     "halfwidth": 10.35823805310056,
+     "lo": 11.401021206158696,
+     "hi": 32.117497312359816,
+     "n": 3
+    },
+    "syll_mean": {
+     "mean": 10.405555555555557,
+     "halfwidth": 0.6038218952540425,
+     "lo": 9.801733660301513,
+     "hi": 11.0093774508096,
+     "n": 3
+    },
+    "syll_in_range_pct": {
+     "mean": 53.333333333333336,
+     "halfwidth": 5.642181773706733,
+     "lo": 47.691151559626604,
+     "hi": 58.97551510704007,
+     "n": 3
+    },
+    "distinct_endwords_pct": {
+     "mean": 96.98412698412697,
+     "halfwidth": 1.2312250029862868,
+     "lo": 95.75290198114068,
+     "hi": 98.21535198711327,
+     "n": 3
+    }
+   },
+   "seconds_per_sonnet": 2.47
+  },
+  "43": {
+   "N": 43,
+   "per_seed": [
+    {
+     "format_pct": 100.0,
+     "rhyme_full_pct": 41.11,
+     "rhyme_quartet_pct": 50.0,
+     "syll_mean": 10.53,
+     "syll_in_range_pct": 56.9,
+     "distinct_endwords_pct": 93.33
+    },
+    {
+     "format_pct": 100.0,
+     "rhyme_full_pct": 40.44,
+     "rhyme_quartet_pct": 46.39,
+     "syll_mean": 10.44,
+     "syll_in_range_pct": 61.43,
+     "distinct_endwords_pct": 92.86
+    },
+    {
+     "format_pct": 100.0,
+     "rhyme_full_pct": 42.0,
+     "rhyme_quartet_pct": 49.44,
+     "syll_mean": 10.57,
+     "syll_in_range_pct": 61.19,
+     "distinct_endwords_pct": 94.29
+    }
+   ],
+   "aggregate": {
+    "format_pct": {
+     "mean": 100.0,
+     "halfwidth": 0.0,
+     "lo": 100.0,
+     "hi": 100.0,
+     "n": 3
+    },
+    "rhyme_full_pct": {
+     "mean": 41.18518518518518,
+     "halfwidth": 1.9386677633633638,
+     "lo": 39.24651742182182,
+     "hi": 43.123852948548546,
+     "n": 3
+    },
+    "rhyme_quartet_pct": {
+     "mean": 48.61111111111111,
+     "halfwidth": 4.830267772847858,
+     "lo": 43.78084333826325,
+     "hi": 53.44137888395896,
+     "n": 3
+    },
+    "syll_mean": {
+     "mean": 10.512698412698413,
+     "halfwidth": 0.16330475576585435,
+     "lo": 10.349393656932559,
+     "hi": 10.676003168464266,
+     "n": 3
+    },
+    "syll_in_range_pct": {
+     "mean": 59.84126984126985,
+     "halfwidth": 6.324305055994605,
+     "lo": 53.51696478527524,
+     "hi": 66.16557489726445,
+     "n": 3
+    },
+    "distinct_endwords_pct": {
+     "mean": 93.49206349206348,
+     "halfwidth": 1.8069443017126938,
+     "lo": 91.68511919035079,
+     "hi": 95.29900779377617,
+     "n": 3
+    }
+   },
+   "seconds_per_sonnet": 17.72
+  },
+  "168": {
+   "N": 168,
+   "per_seed": [
+    {
+     "format_pct": 100.0,
+     "rhyme_full_pct": 50.67,
+     "rhyme_quartet_pct": 59.72,
+     "syll_mean": 10.55,
+     "syll_in_range_pct": 59.52,
+     "distinct_endwords_pct": 93.1
+    },
+    {
+     "format_pct": 100.0,
+     "rhyme_full_pct": 53.78,
+     "rhyme_quartet_pct": 62.78,
+     "syll_mean": 10.56,
+     "syll_in_range_pct": 60.71,
+     "distinct_endwords_pct": 91.19
+    },
+    {
+     "format_pct": 100.0,
+     "rhyme_full_pct": 52.0,
+     "rhyme_quartet_pct": 59.72,
+     "syll_mean": 10.43,
+     "syll_in_range_pct": 58.81,
+     "distinct_endwords_pct": 93.57
+    }
+   ],
+   "aggregate": {
+    "format_pct": {
+     "mean": 100.0,
+     "halfwidth": 0.0,
+     "lo": 100.0,
+     "hi": 100.0,
+     "n": 3
+    },
+    "rhyme_full_pct": {
+     "mean": 52.14814814814815,
+     "halfwidth": 3.8773355267267187,
+     "lo": 48.270812621421435,
+     "hi": 56.02548367487487,
+     "n": 3
+    },
+    "rhyme_quartet_pct": {
+     "mean": 60.74074074074074,
+     "halfwidth": 4.382331484004085,
+     "lo": 56.35840925673666,
+     "hi": 65.12307222474483,
+     "n": 3
+    },
+    "syll_mean": {
+     "mean": 10.512698412698413,
+     "halfwidth": 0.1818523272968607,
+     "lo": 10.330846085401552,
+     "hi": 10.694550739995274,
+     "n": 3
+    },
+    "syll_in_range_pct": {
+     "mean": 59.68253968253968,
+     "halfwidth": 2.3903626276385808,
+     "lo": 57.292177054901096,
+     "hi": 62.07290231017826,
+     "n": 3
+    },
+    "distinct_endwords_pct": {
+     "mean": 92.61904761904759,
+     "halfwidth": 3.1297193370135328,
+     "lo": 89.48932828203407,
+     "hi": 95.74876695606112,
+     "n": 3
+    }
+   },
+   "seconds_per_sonnet": 69.24
+  }
+ }
+}

@@ -1,0 +1,72 @@
+{
+ "n": 8,
+ "repeats": 3,
+ "params_total": 87510192,
+ "params_trainable": 87510192,
+ "params_millions": 87.51,
+ "uncontrolled": {
+  "wall_s": {
+   "mean": 3.8507965405782065,
+   "halfwidth": 0.44137856736612235,
+   "lo": 3.409417973212084,
+   "hi": 4.292175107944329,
+   "n": 3
+  },
+  "forward_calls": {
+   "mean": 100.0,
+   "halfwidth": 0.0,
+   "lo": 100.0,
+   "hi": 100.0,
+   "n": 3
+  },
+  "raw": [
+   {
+    "wall_s": 3.951082944869995,
+    "forward_calls": 100
+   },
+   {
+    "wall_s": 3.9556589126586914,
+    "forward_calls": 100
+   },
+   {
+    "wall_s": 3.6456477642059326,
+    "forward_calls": 100
+   }
+  ]
+ },
+ "controlled": {
+  "wall_s": {
+   "mean": 263.873252471288,
+   "halfwidth": 5.57747900138095,
+   "lo": 258.2957734699071,
+   "hi": 269.45073147266896,
+   "n": 3
+  },
+  "forward_calls": {
+   "mean": 550.0,
+   "halfwidth": 0.0,
+   "lo": 550.0,
+   "hi": 550.0,
+   "n": 3
+  },
+  "raw": [
+   {
+    "wall_s": 265.59416794776917,
+    "forward_calls": 550
+   },
+   {
+    "wall_s": 261.3335304260254,
+    "forward_calls": 550
+   },
+   {
+    "wall_s": 264.6920590400696,
+    "forward_calls": 550
+   }
+  ]
+ },
+ "ratio_walltime": 68.524,
+ "ratio_forward_calls": 5.5,
+ "best_of_n_budget": 69,
+ "seconds_per_sonnet_controlled": 32.98,
+ "seconds_per_sonnet_uncontrolled": 0.48
+}

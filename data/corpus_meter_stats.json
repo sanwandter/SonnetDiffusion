@@ -1,0 +1,11 @@
+{
+ "source": "muestra aleatoria de 250 sonetos (semilla 102)",
+ "n": 250,
+ "format_pct": 100.0,
+ "syll_mean": 10.8,
+ "syll_in_range_pct": 91.14,
+ "distinct_endwords_pct": 99.17,
+ "rhyme_full_pct": 100.0,
+ "rhyme_quartet_pct": 100.0,
+ "rhyme_note": "100% by construction, validated separately; not computed here because RHYME_GROUPS only accepts CDE CDE tercets"
+}

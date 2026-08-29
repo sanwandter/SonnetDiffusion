@@ -1,0 +1,626 @@
+[
+ {
+  "config": "full",
+  "per_seed": [
+   {
+    "format_pct": 100.0,
+    "rhyme_full_pct": 88.0,
+    "rhyme_quartet_pct": 88.61,
+    "syll_mean": 10.13,
+    "syll_in_range_pct": 60.71,
+    "distinct_endwords_pct": 84.29
+   },
+   {
+    "format_pct": 100.0,
+    "rhyme_full_pct": 90.0,
+    "rhyme_quartet_pct": 89.72,
+    "syll_mean": 10.1,
+    "syll_in_range_pct": 65.71,
+    "distinct_endwords_pct": 79.05
+   },
+   {
+    "format_pct": 100.0,
+    "rhyme_full_pct": 92.44,
+    "rhyme_quartet_pct": 92.78,
+    "syll_mean": 10.12,
+    "syll_in_range_pct": 64.29,
+    "distinct_endwords_pct": 85.71
+   }
+  ],
+  "aggregate": {
+   "format_pct": {
+    "mean": 100.0,
+    "halfwidth": 0.0,
+    "lo": 100.0,
+    "hi": 100.0,
+    "n": 3
+   },
+   "rhyme_full_pct": {
+    "mean": 90.14814814814815,
+    "halfwidth": 5.529498881815585,
+    "lo": 84.61864926633257,
+    "hi": 95.67764702996374,
+    "n": 3
+   },
+   "rhyme_quartet_pct": {
+    "mean": 90.37037037037038,
+    "halfwidth": 5.359840021404144,
+    "lo": 85.01053034896624,
+    "hi": 95.73021039177452,
+    "n": 3
+   },
+   "syll_mean": {
+    "mean": 10.112698412698412,
+    "halfwidth": 0.03938143803886365,
+    "lo": 10.073316974659548,
+    "hi": 10.152079850737277,
+    "n": 3
+   },
+   "syll_in_range_pct": {
+    "mean": 63.57142857142858,
+    "halfwidth": 6.3976327821640036,
+    "lo": 57.173795789264574,
+    "hi": 69.96906135359258,
+    "n": 3
+   },
+   "distinct_endwords_pct": {
+    "mean": 83.01587301587301,
+    "halfwidth": 8.719459162841451,
+    "lo": 74.29641385303157,
+    "hi": 91.73533217871446,
+    "n": 3
+   }
+  },
+  "wall_s": [
+   2111.9,
+   2118.0,
+   2091.8
+  ]
+ },
+ {
+  "config": "-formato",
+  "per_seed": [
+   {
+    "format_pct": 100.0,
+    "rhyme_full_pct": 90.0,
+    "rhyme_quartet_pct": 91.67,
+    "syll_mean": 10.17,
+    "syll_in_range_pct": 63.81,
+    "distinct_endwords_pct": 76.19
+   },
+   {
+    "format_pct": 100.0,
+    "rhyme_full_pct": 92.22,
+    "rhyme_quartet_pct": 94.44,
+    "syll_mean": 10.1,
+    "syll_in_range_pct": 64.29,
+    "distinct_endwords_pct": 81.9
+   },
+   {
+    "format_pct": 100.0,
+    "rhyme_full_pct": 90.0,
+    "rhyme_quartet_pct": 90.56,
+    "syll_mean": 10.26,
+    "syll_in_range_pct": 64.76,
+    "distinct_endwords_pct": 83.81
+   }
+  ],
+  "aggregate": {
+   "format_pct": {
+    "mean": 100.0,
+    "halfwidth": 0.0,
+    "lo": 100.0,
+    "hi": 100.0,
+    "n": 3
+   },
+   "rhyme_full_pct": {
+    "mean": 90.74074074074075,
+    "halfwidth": 3.1871501701847964,
+    "lo": 87.55359057055595,
+    "hi": 93.92789091092554,
+    "n": 3
+   },
+   "rhyme_quartet_pct": {
+    "mean": 92.22222222222221,
+    "halfwidth": 4.975936608349777,
+    "lo": 87.24628561387243,
+    "hi": 97.198158830572,
+    "n": 3
+   },
+   "syll_mean": {
+    "mean": 10.176984126984129,
+    "halfwidth": 0.1925961426321057,
+    "lo": 9.984387984352024,
+    "hi": 10.369580269616234,
+    "n": 3
+   },
+   "syll_in_range_pct": {
+    "mean": 64.28571428571429,
+    "halfwidth": 1.182922719881114,
+    "lo": 63.10279156583318,
+    "hi": 65.46863700559541,
+    "n": 3
+   },
+   "distinct_endwords_pct": {
+    "mean": 80.63492063492065,
+    "halfwidth": 9.84980002389001,
+    "lo": 70.78512061103064,
+    "hi": 90.48472065881066,
+    "n": 3
+   }
+  },
+  "wall_s": [
+   2122.5,
+   2103.6,
+   2078.6
+  ]
+ },
+ {
+  "config": "-rima",
+  "per_seed": [
+   {
+    "format_pct": 100.0,
+    "rhyme_full_pct": 10.22,
+    "rhyme_quartet_pct": 11.11,
+    "syll_mean": 10.14,
+    "syll_in_range_pct": 55.71,
+    "distinct_endwords_pct": 98.57
+   },
+   {
+    "format_pct": 100.0,
+    "rhyme_full_pct": 6.67,
+    "rhyme_quartet_pct": 7.22,
+    "syll_mean": 10.21,
+    "syll_in_range_pct": 55.24,
+    "distinct_endwords_pct": 99.52
+   },
+   {
+    "format_pct": 100.0,
+    "rhyme_full_pct": 8.67,
+    "rhyme_quartet_pct": 8.61,
+    "syll_mean": 10.17,
+    "syll_in_range_pct": 58.57,
+    "distinct_endwords_pct": 99.52
+   }
+  ],
+  "aggregate": {
+   "format_pct": {
+    "mean": 100.0,
+    "halfwidth": 0.0,
+    "lo": 100.0,
+    "hi": 100.0,
+    "n": 3
+   },
+   "rhyme_full_pct": {
+    "mean": 8.518518518518519,
+    "halfwidth": 4.427730522525757,
+    "lo": 4.090787995992762,
+    "hi": 12.946249041044275,
+    "n": 3
+   },
+   "rhyme_quartet_pct": {
+    "mean": 8.981481481481481,
+    "halfwidth": 4.895544621936305,
+    "lo": 4.085936859545176,
+    "hi": 13.877026103417787,
+    "n": 3
+   },
+   "syll_mean": {
+    "mean": 10.17142857142857,
+    "halfwidth": 0.08930870684822505,
+    "lo": 10.082119864580346,
+    "hi": 10.260737278276796,
+    "n": 3
+   },
+   "syll_in_range_pct": {
+    "mean": 56.50793650793651,
+    "halfwidth": 4.478473137579733,
+    "lo": 52.02946337035678,
+    "hi": 60.98640964551625,
+    "n": 3
+   },
+   "distinct_endwords_pct": {
+    "mean": 99.2063492063492,
+    "halfwidth": 1.365921501507761,
+    "lo": 97.84042770484145,
+    "hi": 100.57227070785696,
+    "n": 3
+   }
+  },
+  "wall_s": [
+   2094.4,
+   2062.7,
+   2060.8
+  ]
+ },
+ {
+  "config": "-repeticion",
+  "per_seed": [
+   {
+    "format_pct": 100.0,
+    "rhyme_full_pct": 91.33,
+    "rhyme_quartet_pct": 92.78,
+    "syll_mean": 10.16,
+    "syll_in_range_pct": 63.81,
+    "distinct_endwords_pct": 79.05
+   },
+   {
+    "format_pct": 100.0,
+    "rhyme_full_pct": 92.22,
+    "rhyme_quartet_pct": 93.61,
+    "syll_mean": 10.2,
+    "syll_in_range_pct": 65.24,
+    "distinct_endwords_pct": 80.24
+   },
+   {
+    "format_pct": 100.0,
+    "rhyme_full_pct": 86.89,
+    "rhyme_quartet_pct": 86.67,
+    "syll_mean": 10.24,
+    "syll_in_range_pct": 65.71,
+    "distinct_endwords_pct": 83.81
+   }
+  ],
+  "aggregate": {
+   "format_pct": {
+    "mean": 100.0,
+    "halfwidth": 0.0,
+    "lo": 100.0,
+    "hi": 100.0,
+    "n": 3
+   },
+   "rhyme_full_pct": {
+    "mean": 90.14814814814815,
+    "halfwidth": 7.098120454616986,
+    "lo": 83.05002769353116,
+    "hi": 97.24626860276514,
+    "n": 3
+   },
+   "rhyme_quartet_pct": {
+    "mean": 91.01851851851853,
+    "halfwidth": 9.419295977776885,
+    "lo": 81.59922254074165,
+    "hi": 100.43781449629542,
+    "n": 3
+   },
+   "syll_mean": {
+    "mean": 10.2015873015873,
+    "halfwidth": 0.09169240891121812,
+    "lo": 10.109894892676083,
+    "hi": 10.293279710498519,
+    "n": 3
+   },
+   "syll_in_range_pct": {
+    "mean": 64.92063492063492,
+    "halfwidth": 2.46245000597251,
+    "lo": 62.45818491466241,
+    "hi": 67.38308492660744,
+    "n": 3
+   },
+   "distinct_endwords_pct": {
+    "mean": 81.03174603174602,
+    "halfwidth": 6.156125014931261,
+    "lo": 74.87562101681476,
+    "hi": 87.18787104667729,
+    "n": 3
+   }
+  },
+  "wall_s": [
+   2116.4,
+   2117.8,
+   2088.5
+  ]
+ },
+ {
+  "config": "-silaba",
+  "per_seed": [
+   {
+    "format_pct": 100.0,
+    "rhyme_full_pct": 89.56,
+    "rhyme_quartet_pct": 90.28,
+    "syll_mean": 9.75,
+    "syll_in_range_pct": 47.38,
+    "distinct_endwords_pct": 79.29
+   },
+   {
+    "format_pct": 100.0,
+    "rhyme_full_pct": 82.44,
+    "rhyme_quartet_pct": 84.44,
+    "syll_mean": 9.92,
+    "syll_in_range_pct": 52.38,
+    "distinct_endwords_pct": 85.71
+   },
+   {
+    "format_pct": 100.0,
+    "rhyme_full_pct": 86.44,
+    "rhyme_quartet_pct": 87.5,
+    "syll_mean": 9.75,
+    "syll_in_range_pct": 47.38,
+    "distinct_endwords_pct": 83.33
+   }
+  ],
+  "aggregate": {
+   "format_pct": {
+    "mean": 100.0,
+    "halfwidth": 0.0,
+    "lo": 100.0,
+    "hi": 100.0,
+    "n": 3
+   },
+   "rhyme_full_pct": {
+    "mean": 86.14814814814815,
+    "halfwidth": 8.855461045051516,
+    "lo": 77.29268710309664,
+    "hi": 95.00360919319967,
+    "n": 3
+   },
+   "rhyme_quartet_pct": {
+    "mean": 87.4074074074074,
+    "halfwidth": 7.248139389072616,
+    "lo": 80.15926801833479,
+    "hi": 94.65554679648002,
+    "n": 3
+   },
+   "syll_mean": {
+    "mean": 9.806349206349205,
+    "halfwidth": 0.2475909342963006,
+    "lo": 9.558758272052904,
+    "hi": 10.053940140645507,
+    "n": 3
+   },
+   "syll_in_range_pct": {
+    "mean": 49.047619047619044,
+    "halfwidth": 7.1710878829157805,
+    "lo": 41.876531164703266,
+    "hi": 56.21870693053482,
+    "n": 3
+   },
+   "distinct_endwords_pct": {
+    "mean": 82.77777777777779,
+    "halfwidth": 8.073682266665942,
+    "lo": 74.70409551111184,
+    "hi": 90.85146004444373,
+    "n": 3
+   }
+  },
+  "wall_s": [
+   2052.7,
+   2047.4,
+   2002.0
+  ]
+ },
+ {
+  "config": "-concepto",
+  "per_seed": [
+   {
+    "format_pct": 100.0,
+    "rhyme_full_pct": 87.78,
+    "rhyme_quartet_pct": 88.61,
+    "syll_mean": 10.16,
+    "syll_in_range_pct": 61.67,
+    "distinct_endwords_pct": 84.29
+   },
+   {
+    "format_pct": 100.0,
+    "rhyme_full_pct": 95.11,
+    "rhyme_quartet_pct": 97.22,
+    "syll_mean": 10.25,
+    "syll_in_range_pct": 64.76,
+    "distinct_endwords_pct": 79.76
+   },
+   {
+    "format_pct": 100.0,
+    "rhyme_full_pct": 92.22,
+    "rhyme_quartet_pct": 93.61,
+    "syll_mean": 10.22,
+    "syll_in_range_pct": 66.9,
+    "distinct_endwords_pct": 86.43
+   }
+  ],
+  "aggregate": {
+   "format_pct": {
+    "mean": 100.0,
+    "halfwidth": 0.0,
+    "lo": 100.0,
+    "hi": 100.0,
+    "n": 3
+   },
+   "rhyme_full_pct": {
+    "mean": 91.7037037037037,
+    "halfwidth": 9.176557538564838,
+    "lo": 82.52714616513886,
+    "hi": 100.88026124226853,
+    "n": 3
+   },
+   "rhyme_quartet_pct": {
+    "mean": 93.14814814814815,
+    "halfwidth": 10.741866365355204,
+    "lo": 82.40628178279295,
+    "hi": 103.89001451350336,
+    "n": 3
+   },
+   "syll_mean": {
+    "mean": 10.21031746031746,
+    "halfwidth": 0.1110205165873993,
+    "lo": 10.099296943730062,
+    "hi": 10.321337976904859,
+    "n": 3
+   },
+   "syll_in_range_pct": {
+    "mean": 64.44444444444444,
+    "halfwidth": 6.541822893024582,
+    "lo": 57.90262155141986,
+    "hi": 70.98626733746903,
+    "n": 3
+   },
+   "distinct_endwords_pct": {
+    "mean": 83.49206349206348,
+    "halfwidth": 8.454656886504885,
+    "lo": 75.0374066055586,
+    "hi": 91.94672037856836,
+    "n": 3
+   }
+  },
+  "wall_s": [
+   2101.8,
+   2098.9,
+   2081.3
+  ]
+ },
+ {
+  "config": "-emocion",
+  "per_seed": [
+   {
+    "format_pct": 100.0,
+    "rhyme_full_pct": 92.22,
+    "rhyme_quartet_pct": 93.89,
+    "syll_mean": 10.16,
+    "syll_in_range_pct": 57.62,
+    "distinct_endwords_pct": 82.62
+   },
+   {
+    "format_pct": 100.0,
+    "rhyme_full_pct": 93.33,
+    "rhyme_quartet_pct": 96.67,
+    "syll_mean": 10.09,
+    "syll_in_range_pct": 58.33,
+    "distinct_endwords_pct": 82.14
+   },
+   {
+    "format_pct": 100.0,
+    "rhyme_full_pct": 91.56,
+    "rhyme_quartet_pct": 91.39,
+    "syll_mean": 10.17,
+    "syll_in_range_pct": 60.95,
+    "distinct_endwords_pct": 86.43
+   }
+  ],
+  "aggregate": {
+   "format_pct": {
+    "mean": 100.0,
+    "halfwidth": 0.0,
+    "lo": 100.0,
+    "hi": 100.0,
+    "n": 3
+   },
+   "rhyme_full_pct": {
+    "mean": 92.37037037037037,
+    "halfwidth": 2.231005119129341,
+    "lo": 90.13936525124103,
+    "hi": 94.6013754894997,
+    "n": 3
+   },
+   "rhyme_quartet_pct": {
+    "mean": 93.98148148148148,
+    "halfwidth": 6.558389191262883,
+    "lo": 87.42309229021859,
+    "hi": 100.53987067274437,
+    "n": 3
+   },
+   "syll_mean": {
+    "mean": 10.14126984126984,
+    "halfwidth": 0.10452869913149096,
+    "lo": 10.03674114213835,
+    "hi": 10.245798540401331,
+    "n": 3
+   },
+   "syll_in_range_pct": {
+    "mean": 58.96825396825397,
+    "halfwidth": 4.359729581420745,
+    "lo": 54.608524386833224,
+    "hi": 63.32798354967471,
+    "n": 3
+   },
+   "distinct_endwords_pct": {
+    "mean": 83.73015873015872,
+    "halfwidth": 5.8352192123460345,
+    "lo": 77.89493951781269,
+    "hi": 89.56537794250475,
+    "n": 3
+   }
+  },
+  "wall_s": [
+   2078.1,
+   2069.6,
+   2055.3
+  ]
+ },
+ {
+  "config": "sin-control",
+  "per_seed": [
+   {
+    "format_pct": 96.67,
+    "rhyme_full_pct": 7.56,
+    "rhyme_quartet_pct": 8.61,
+    "syll_mean": 10.36,
+    "syll_in_range_pct": 50.71,
+    "distinct_endwords_pct": 99.05
+   },
+   {
+    "format_pct": 96.67,
+    "rhyme_full_pct": 1.33,
+    "rhyme_quartet_pct": 0.83,
+    "syll_mean": 10.3,
+    "syll_in_range_pct": 55.95,
+    "distinct_endwords_pct": 99.05
+   },
+   {
+    "format_pct": 100.0,
+    "rhyme_full_pct": 6.67,
+    "rhyme_quartet_pct": 6.94,
+    "syll_mean": 10.4,
+    "syll_in_range_pct": 53.57,
+    "distinct_endwords_pct": 99.05
+   }
+  ],
+  "aggregate": {
+   "format_pct": {
+    "mean": 97.77777777777779,
+    "halfwidth": 4.780725255277174,
+    "lo": 92.99705252250061,
+    "hi": 102.55850303305496,
+    "n": 3
+   },
+   "rhyme_full_pct": {
+    "mean": 5.185185185185186,
+    "halfwidth": 8.35981652348216,
+    "lo": -3.1746313382969733,
+    "hi": 13.545001708667346,
+    "n": 3
+   },
+   "rhyme_quartet_pct": {
+    "mean": 5.462962962962963,
+    "halfwidth": 10.172702356648383,
+    "lo": -4.70973939368542,
+    "hi": 15.635665319611345,
+    "n": 3
+   },
+   "syll_mean": {
+    "mean": 10.356349206349206,
+    "halfwidth": 0.12183721185874279,
+    "lo": 10.234511994490463,
+    "hi": 10.47818641820795,
+    "n": 3
+   },
+   "syll_in_range_pct": {
+    "mean": 53.41269841269841,
+    "halfwidth": 6.5150303317327785,
+    "lo": 46.89766808096563,
+    "hi": 59.92772874443119,
+    "n": 3
+   },
+   "distinct_endwords_pct": {
+    "mean": 99.04761904761904,
+    "halfwidth": 0.0,
+    "lo": 99.04761904761904,
+    "hi": 99.04761904761904,
+    "n": 3
+   }
+  },
+  "wall_s": [
+   12.3,
+   12.3,
+   12.3
+  ]
+ }
+]
