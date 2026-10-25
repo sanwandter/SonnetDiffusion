@@ -18,9 +18,9 @@ the OS. Percentages are computed only once every slice is present. Run it
 with --chunk to sweep the whole corpus in a loop of subprocesses.
 
 Uso:
-  conda run -n gpu python resultados/experimentos/corpus_meter_stats.py --chunk 500
-  conda run -n gpu python resultados/experimentos/corpus_meter_stats.py --start 0 --count 500
-Salida: resultados/datos/corpus_meter_stats.json
+  conda run -n gpu python experiments/corpus_meter_stats.py --chunk 500
+  conda run -n gpu python experiments/corpus_meter_stats.py --start 0 --count 500
+Salida: results/corpus_meter_stats.json
 """
 import argparse
 import json
@@ -30,8 +30,8 @@ import sys
 from functools import lru_cache
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-ROOT = os.path.dirname(os.path.dirname(HERE))
-sys.path.insert(0, os.path.join(ROOT, 'vision2sonnet'))
+ROOT = os.path.dirname(HERE)
+sys.path.insert(0, os.path.join(ROOT, 'sonnetdiffusion'))
 
 import rhyme_es
 import eval_sonnets_es
@@ -43,7 +43,7 @@ eval_sonnets_es.rhyme_suffix = rhyme_es.rhyme_suffix
 from eval_sonnets_es import parse_sample
 from rhyme_es import last_rhyme_word, count_syllables_verse
 
-DEFAULT_SRC = os.path.join(ROOT, 'datasets', 'sonnet_es')
+DEFAULT_SRC = os.path.join(ROOT, 'data', 'sonnet_es')
 
 
 def iter_corpus(path):
@@ -60,8 +60,8 @@ def iter_corpus(path):
                     yield line
 
 
-PARTIAL = os.path.join(ROOT, 'resultados', 'datos', 'corpus_meter_partial.json')
-OUTP = os.path.join(ROOT, 'resultados', 'datos', 'corpus_meter_stats.json')
+PARTIAL = os.path.join(ROOT, 'results', 'corpus_meter_partial.json')
+OUTP = os.path.join(ROOT, 'results', 'corpus_meter_stats.json')
 
 # Raw additive counters, so slices combine by summing.
 FIELDS = ['n', 'n_fmt', 'syll_sum', 'syll_count', 'syll_in_range',

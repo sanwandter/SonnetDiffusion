@@ -1,8 +1,15 @@
 numpy
+scipy
 Pillow
 torch
 transformers
+accelerate
+bitsandbytes
 sentencepiece
 datasets
 syltippy
 pysentimiento
+wandb        # training only
+blobfile     # training only
+# Rantanplan needs spaCy 2.2 and runs in its own environment; see experiments/rantanplan_score.py
+# The LLM judge runs behind llama.cpp's llama-server; see experiments/llm_judge.py

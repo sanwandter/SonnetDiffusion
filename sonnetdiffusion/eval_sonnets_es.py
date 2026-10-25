@@ -2,9 +2,9 @@
 y conteo aproximado de sílabas.
 
 Uso:
-  conda run -n gpu python vision2sonnet/eval_sonnets_es.py <muestras.txt>
-  conda run -n gpu python vision2sonnet/eval_sonnets_es.py train
-  conda run -n gpu python vision2sonnet/eval_sonnets_es.py <ckpt.pt> --sample 8
+  conda run -n gpu python sonnetdiffusion/eval_sonnets_es.py <muestras.txt>
+  conda run -n gpu python sonnetdiffusion/eval_sonnets_es.py train
+  conda run -n gpu python sonnetdiffusion/eval_sonnets_es.py <ckpt.pt> --sample 8
 """
 import argparse
 import itertools
@@ -128,13 +128,10 @@ def evaluate(lines, show=4):
 
 
 def load_lines(arg):
-    corpus = {"train": "datasets/sonnet_es/sonnet_train.txt",
-              "valid": "datasets/sonnet_es/sonnet_valid.txt",
-              "test": "datasets/sonnet_es/sonnet_test.txt"}
-    if arg in corpus:
-        path = os.path.join(os.path.dirname(HERE), corpus[arg])
-    else:
-        path = arg
+    root = os.path.dirname(HERE)
+    corpus = {k: os.path.join(root, "data", "sonnet_es", f"sonnet_{k}.txt")
+              for k in ("train", "valid", "test")}
+    path = corpus[arg] if arg in corpus else arg
     with open(path, encoding="utf-8") as f:
         for line in f:
             if line.strip():

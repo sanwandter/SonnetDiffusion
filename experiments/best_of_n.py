@@ -28,8 +28,8 @@ n*N_fwd elements, the N_wall arm over disjoint groups of 69 across the whole
 pool. The samples are i.i.d., so reusing the pool is sound and saves an
 entire generation pass.
 
-Uso: conda run -n gpu python resultados/experimentos/best_of_n.py [--n 30] [--chunk 30]
-Salida: resultados/datos/best_of_n_results.json
+Uso: conda run -n gpu python experiments/best_of_n.py [--n 30] [--chunk 30]
+Salida: results/best_of_n_results.json
 """
 import argparse
 import json
@@ -38,7 +38,7 @@ import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
-ROOT = os.path.dirname(os.path.dirname(HERE))
+ROOT = os.path.dirname(HERE)
 
 import harness
 
@@ -112,7 +112,7 @@ def main():
     ap.add_argument('--chunk', type=int, default=30, help='max batch size')
     a = ap.parse_args()
 
-    auditp = os.path.join(ROOT, 'resultados', 'datos', 'audit_measurements.json')
+    auditp = os.path.join(ROOT, 'results', 'audit_measurements.json')
     with open(auditp) as f:
         audit = json.load(f)
 
@@ -130,7 +130,7 @@ def main():
     n_fwd = int(round(audit['ratio_forward_calls']))
     n_wall = audit['best_of_n_budget']
     budget_src = 'audit_measurements.json (batch 8)'
-    kpath = os.path.join(ROOT, 'resultados', 'datos', 'k_sweep_results.json')
+    kpath = os.path.join(ROOT, 'results', 'k_sweep_results.json')
     if os.path.exists(kpath):
         with open(kpath) as f:
             ks = {r['K']: r for r in json.load(f)}
@@ -147,7 +147,7 @@ def main():
     print(f"forward-call-matched N={n_fwd}, wall-clock-matched N={n_wall}")
     print(f"sweeping N over {N_VALUES} from one pool of {a.n * n_max} per seed")
 
-    partialp = os.path.join(ROOT, 'resultados', 'datos', 'best_of_n_partial.json')
+    partialp = os.path.join(ROOT, 'results', 'best_of_n_partial.json')
     seeds_done = load_partial(partialp, a.n, N_VALUES)
     if seeds_done:
         print(f"resuming -- seeds already complete: "
@@ -239,7 +239,7 @@ def main():
                 seconds_per_sonnet=round(N * per_sonnet_uncontrolled, 2))
             for N in N_VALUES})
 
-    outp = os.path.join(ROOT, 'resultados', 'datos', 'best_of_n_results.json')
+    outp = os.path.join(ROOT, 'results', 'best_of_n_results.json')
     with open(outp, 'w') as f:
         json.dump(out, f, ensure_ascii=False, indent=1)
     if os.path.exists(partialp):

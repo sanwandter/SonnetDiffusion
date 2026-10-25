@@ -1,6 +1,6 @@
 """Consolidate all experiment JSONs into the tables the paper needs.
 
-Plan B (the LaTeX rewrite) reads resultados/tablas_paper.md and nothing else,
+Plan B (the LaTeX rewrite) reads results/tablas_paper.md and nothing else,
 so there is exactly one place where a number can be wrong.
 
 Two deviations from the plan's sketch, both forced by the data as it actually
@@ -19,15 +19,15 @@ came out:
 Missing inputs are reported and skipped, so this is safe to run before every
 experiment has finished.
 
-Uso: conda run -n gpu python resultados/experimentos/build_tables.py
-Salida: resultados/datos/paper_tables.json + resultados/tablas_paper.md
+Uso: conda run -n gpu python experiments/build_tables.py
+Salida: results/paper_tables.json + results/tablas_paper.md
 """
 import json
 import os
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-ROOT = os.path.dirname(os.path.dirname(HERE))
-DATOS = os.path.join(ROOT, 'resultados', 'datos')
+ROOT = os.path.dirname(HERE)
+DATOS = os.path.join(ROOT, 'results')
 
 MISSING = []
 
@@ -238,7 +238,7 @@ def main():
         L.append("")
 
     md = '\n'.join(L)
-    with open(os.path.join(ROOT, 'resultados', 'tablas_paper.md'), 'w') as f:
+    with open(os.path.join(ROOT, 'results', 'tablas_paper.md'), 'w') as f:
         f.write(md)
     with open(os.path.join(DATOS, 'paper_tables.json'), 'w') as f:
         json.dump(dict(audit=audit, best_of_n=bon, ablation=abl,

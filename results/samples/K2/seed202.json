@@ -1,0 +1,19 @@
+{
+ "config": "K2",
+ "overrides": {
+  "K": 2
+ },
+ "seed": 202,
+ "n": 30,
+ "wall_s": 868.36,
+ "forward_calls": 280,
+ "seconds_per_sonnet": 28.9454,
+ "old_metrics": {
+  "format_pct": 100.0,
+  "rhyme_full_pct": 70.67,
+  "rhyme_quartet_pct": 75.28,
+  "syll_mean": 10.28,
+  "syll_in_range_pct": 60.95,
+  "distinct_endwords_pct": 93.33
+ }
+}

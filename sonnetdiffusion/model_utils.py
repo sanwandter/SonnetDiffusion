@@ -11,10 +11,9 @@ import torch
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
-DIFF = os.path.join(ROOT, "improved-diffusion")
 
-CKPT_DIR = os.path.join(DIFF, "diffusion_models",
-                         "diff_e2e-tgt_pad_2000steps_16dim_sonnet_es")
+CKPT_DIR = os.path.join(ROOT, "models", "diffusion",
+                        "diff_e2e-tgt_pad_2000steps_16dim_sonnet_es")
 
 
 def find_ckpt(step_k):

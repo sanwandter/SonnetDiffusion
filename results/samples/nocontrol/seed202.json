@@ -1,0 +1,19 @@
+{
+ "config": "nocontrol",
+ "overrides": {
+  "K": 0
+ },
+ "seed": 202,
+ "n": 30,
+ "wall_s": 11.38,
+ "forward_calls": 100,
+ "seconds_per_sonnet": 0.3794,
+ "old_metrics": {
+  "format_pct": 96.67,
+  "rhyme_full_pct": 1.33,
+  "rhyme_quartet_pct": 0.83,
+  "syll_mean": 10.3,
+  "syll_in_range_pct": 55.95,
+  "distinct_endwords_pct": 99.05
+ }
+}

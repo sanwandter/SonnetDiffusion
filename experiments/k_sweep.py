@@ -12,8 +12,8 @@ rhyme accuracy against wall clock, gradient control versus buying more samples.
 Cost is roughly linear in K, so the sweep totals ~7 h at n=30. It checkpoints
 after every (K, seed) pair and restarts from where it stopped.
 
-Uso: conda run -n gpu python resultados/experimentos/k_sweep.py [--n 30]
-Salida: resultados/datos/k_sweep_results.json
+Uso: conda run -n gpu python experiments/k_sweep.py [--n 30]
+Salida: results/k_sweep_results.json
 """
 import argparse
 import json
@@ -22,7 +22,7 @@ import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
-ROOT = os.path.dirname(os.path.dirname(HERE))
+ROOT = os.path.dirname(HERE)
 
 import harness
 
@@ -37,7 +37,7 @@ def main():
                          'file so a tiny-n sweep cannot be read as the result')
     a = ap.parse_args()
 
-    outp = a.out or os.path.join(ROOT, 'resultados', 'datos', 'k_sweep_results.json')
+    outp = a.out or os.path.join(ROOT, 'results', 'k_sweep_results.json')
     partialp = outp.replace('.json', '_partial.json')
     config = dict(n=a.n, seeds=harness.SEEDS, K_values=K_VALUES)
     done = harness.load_partial(partialp, config)

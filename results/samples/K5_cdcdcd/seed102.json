@@ -1,0 +1,44 @@
+{
+ "config": "K5_cdcdcd",
+ "overrides": {
+  "K": 5,
+  "groups": {
+   "A": [
+    1,
+    4,
+    5,
+    8
+   ],
+   "B": [
+    2,
+    3,
+    6,
+    7
+   ],
+   "C": [
+    9,
+    11,
+    13
+   ],
+   "D": [
+    10,
+    12,
+    14
+   ]
+  }
+ },
+ "seed": 102,
+ "n": 30,
+ "checkpoint": "ema_0.9999_050000.pt",
+ "wall_s": 2222.03,
+ "forward_calls": 550,
+ "seconds_per_sonnet": 74.0677,
+ "old_metrics": {
+  "format_pct": 100.0,
+  "rhyme_full_pct": 84.89,
+  "rhyme_quartet_pct": 91.39,
+  "syll_mean": 10.18,
+  "syll_in_range_pct": 63.81,
+  "distinct_endwords_pct": 75.71
+ }
+}

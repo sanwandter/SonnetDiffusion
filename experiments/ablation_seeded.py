@@ -11,8 +11,8 @@ n=30. The whole sweep is therefore ~12 h, not the "several hours" first
 estimated. It checkpoints after every (arm, seed) pair, so it can be killed and
 restarted freely; only the pair in flight is lost.
 
-Uso: conda run -n gpu python resultados/experimentos/ablation_seeded.py [--n 30]
-Salida: resultados/datos/ablation_seeded.json
+Uso: conda run -n gpu python experiments/ablation_seeded.py [--n 30]
+Salida: results/ablation_seeded.json
 """
 import argparse
 import json
@@ -21,7 +21,7 @@ import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
-ROOT = os.path.dirname(os.path.dirname(HERE))
+ROOT = os.path.dirname(HERE)
 
 import harness
 
@@ -46,7 +46,7 @@ def main():
                          'picked up by build_tables.py as if it were the result')
     a = ap.parse_args()
 
-    outp = a.out or os.path.join(ROOT, 'resultados', 'datos', 'ablation_seeded.json')
+    outp = a.out or os.path.join(ROOT, 'results', 'ablation_seeded.json')
     partialp = outp.replace('.json', '_partial.json')
     config = dict(n=a.n, arms=[name for name, _ in ABLATIONS], seeds=harness.SEEDS)
     done = harness.load_partial(partialp, config)

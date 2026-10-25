@@ -1,0 +1,20 @@
+{
+ "config": "K5_repel",
+ "overrides": {
+  "K": 5,
+  "lambda_repel": 0.2
+ },
+ "seed": 202,
+ "n": 30,
+ "wall_s": 2878.25,
+ "forward_calls": 550,
+ "seconds_per_sonnet": 95.9418,
+ "old_metrics": {
+  "format_pct": 100.0,
+  "rhyme_full_pct": 86.44,
+  "rhyme_quartet_pct": 88.33,
+  "syll_mean": 10.23,
+  "syll_in_range_pct": 66.9,
+  "distinct_endwords_pct": 89.52
+ }
+}

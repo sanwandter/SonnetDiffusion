@@ -12,7 +12,7 @@ import torch.nn.functional as F
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
-from rhyme_es import build_suffix_matrix, RHYME_GROUPS, count_syllables_word
+from rhyme_es import build_suffix_matrix, RHYME_GROUPS, count_syllables_word, VOWELS
 
 EPS = 1e-8
 
@@ -69,8 +69,24 @@ def _build_syll_vec(vocab, V_model, device):
     return _SYLL_VEC
 
 
-def syllable_penalty(probs, logits, eos_id, syll_vec, target=11):
-    """Penaliza versos cuyo conteo soft de silabas se aleja del endecasilabo."""
+def _build_vowel_vecs(vocab, V_model, device):
+    """Indicadores por palabra: termina en vocal / empieza con vocal.
+    Misma regla de sinalefa que rhyme_es.count_syllables_verse."""
+    end_v = torch.zeros(V_model, device=device)
+    start_v = torch.zeros(V_model, device=device)
+    for word, wid in vocab.items():
+        if wid >= V_model or count_syllables_word(word) == 0:
+            continue
+        w = word.lower()
+        end_v[wid] = float(w[-1] in VOWELS)
+        start_v[wid] = float(w[0] in VOWELS)
+    return end_v, start_v
+
+
+def syllable_penalty(probs, logits, eos_id, syll_vec, target=11,
+                     vowel_vecs=None):
+    """Penaliza versos cuyo conteo soft de silabas se aleja del endecasilabo.
+    Con vowel_vecs, resta la sinalefa esperada entre palabras contiguas."""
     B, L, V = probs.shape
     sv = syll_vec[:V]
     hard = logits.argmax(dim=-1).detach()
@@ -85,6 +101,10 @@ def syllable_penalty(probs, logits, eos_id, syll_vec, target=11):
                 continue
             verse_probs = probs[b, prev:pe]
             soft_count = (verse_probs @ sv).sum()
+            if vowel_vecs is not None and pe - prev > 1:
+                end_v, start_v = vowel_vecs
+                soft_count = soft_count - ((verse_probs[:-1] @ end_v[:V])
+                                           * (verse_probs[1:] @ start_v[:V])).sum()
             total = total + ((soft_count - target) / target) ** 2
             n += 1
             prev = pe + 1
@@ -163,6 +183,43 @@ def repetition_penalty(probs, logits, S, eos_id, groups=RHYME_GROUPS, window=6,
                     overlap = (present[i] * present[j]).sum()
                     total = total + overlap ** 2
                     n += 1
+    return total / max(1, n)
+
+
+# =============================================================================
+# ALGORITMO 6d: GroupRepulsionPenalty
+# La rima solo atrae posiciones DENTRO de un grupo; nada separa grupos
+# distintos, y el muestreo colapsa varios grupos sobre el mismo sufijo
+# (p.ej. B y E ambos en -ía). Penaliza ⟨q̄_g, q̄_h⟩ entre los centroides de
+# sufijo de cada par de grupos: el mismo producto interno de RhymePenalty,
+# con signo opuesto y aplicado entre grupos.
+# =============================================================================
+def group_repulsion_penalty(probs, logits, S, eos_id, groups=RHYME_GROUPS,
+                            window=6, stopword_ids=None):
+    B = probs.shape[0]
+    hard = logits.argmax(dim=-1).detach()
+    is_rhyme = (S.sum(dim=1) > 0)
+    total = probs.new_zeros(())
+    n = 0
+    for b in range(B):
+        pos_map = _verse_positions(hard[b], is_rhyme, eos_id, window,
+                                   stopword_ids=stopword_ids)
+        centroids = []
+        for lines in groups.values():
+            qs = []
+            for l in lines:
+                if l not in pos_map:
+                    continue
+                qd = probs[b, pos_map[l]] @ S
+                s = qd.sum()
+                if s > EPS:
+                    qs.append(qd / (s + EPS))
+            if qs:
+                centroids.append(torch.stack(qs).mean(dim=0))
+        for i in range(len(centroids)):
+            for j in range(i + 1, len(centroids)):
+                total = total + (centroids[i] * centroids[j]).sum()
+                n += 1
     return total / max(1, n)
 
 
@@ -274,11 +331,13 @@ def make_langevin_fn(diffusion, model, S, eos_id, *, lambda_fmt=0.05,
                      groups=RHYME_GROUPS, debug=False, vocab=None,
                      concept_word_ids=None, lambda_concept=0.15,
                      concept_weights=None,
-                     emotion_word_ids=None, lambda_emotion=0.15):
+                     emotion_word_ids=None, lambda_emotion=0.15,
+                     lambda_repel=0.0, syll_synalepha=False):
     dev = next(model.parameters()).device
     S = S.to(dev)
     stop_ids = _build_stopword_ids(vocab) if vocab else frozenset()
     _syll_built = [False]
+    _vowel_vecs = [None]
 
     def langevin_fn(sample, mean, sigma, alpha, t, prev_sample):
         if t[0].item() < t_stop:
@@ -303,11 +362,22 @@ def make_langevin_fn(diffusion, model, S, eos_id, *, lambda_fmt=0.05,
                     if not _syll_built[0]:
                         _syll_built[0] = True
                         _build_syll_vec(vocab, probs.shape[-1], dev)
-                    syl = syllable_penalty(probs, logits, eos_id, _SYLL_VEC)
+                        if syll_synalepha:
+                            _vowel_vecs[0] = _build_vowel_vecs(
+                                vocab, probs.shape[-1], dev)
+                    syl = syllable_penalty(probs, logits, eos_id, _SYLL_VEC,
+                                           vowel_vecs=_vowel_vecs[0])
                 sigma_safe = sigma.clamp(min=0.1)
                 logp = coef * ((mean - input_embs) ** 2 / sigma_safe).mean(dim=0).sum()
                 loss = (lambda_fmt * fmt + lambda_rhyme * rhy
                         + lambda_rep * rep + lambda_syll * syl + logp)
+                # Solo se evalua con peso > 0, para que la configuracion por
+                # defecto ejecute exactamente las mismas operaciones que antes.
+                if lambda_repel > 0:
+                    rpl = group_repulsion_penalty(probs, logits, S, eos_id,
+                                                  groups, window,
+                                                  stopword_ids=stop_ids)
+                    loss = loss + lambda_repel * rpl
                 cpt_val = 0.0
                 if concept_word_ids is not None:
                     cpt = concept_presence_penalty(probs, concept_word_ids, eos_id,

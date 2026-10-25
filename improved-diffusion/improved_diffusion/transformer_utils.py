@@ -46,12 +46,27 @@ from transformers.modeling_outputs import (
     SequenceClassifierOutput,
     TokenClassifierOutput,
 )
-from transformers.modeling_utils import (
-    PreTrainedModel,
-    apply_chunking_to_forward,
-    find_pruneable_heads_and_indices,
-    prune_linear_layer,
-)
+from transformers.modeling_utils import PreTrainedModel
+try:
+    from transformers.pytorch_utils import (
+        apply_chunking_to_forward,
+        find_pruneable_heads_and_indices,
+        prune_linear_layer,
+    )
+except ImportError:
+    # transformers>=5 dropped these helpers. Sampling never prunes heads, and
+    # the BERT layers run with chunk_size_feed_forward=0, where chunking is a
+    # plain call -- so the fallbacks only need to cover that path.
+    def apply_chunking_to_forward(forward_fn, chunk_size, chunk_dim, *input_tensors):
+        if chunk_size > 0:
+            raise NotImplementedError("chunked feed-forward needs transformers<5")
+        return forward_fn(*input_tensors)
+
+    def find_pruneable_heads_and_indices(*args, **kwargs):
+        raise NotImplementedError("head pruning needs transformers<5")
+
+    def prune_linear_layer(*args, **kwargs):
+        raise NotImplementedError("head pruning needs transformers<5")
 from transformers.utils import logging
 from transformers.models.bert.configuration_bert import BertConfig
 

@@ -24,11 +24,11 @@ arm -- same weights, same n, same seeds -- so it is read from
 ablation_seeded.json instead of being generated a second time.
 
 Uso:
-  conda run -n gpu python resultados/experimentos/lambda_sweep.py \
+  conda run -n gpu python experiments/lambda_sweep.py \
       --param lambda_rhyme --values 0.1 0.25 0.5 1.0 2.0
-  conda run -n gpu python resultados/experimentos/lambda_sweep.py \
+  conda run -n gpu python experiments/lambda_sweep.py \
       --param lambda_rep --values 0.2 1.0 5.0
-Salida: resultados/datos/sweep_<param>.json
+Salida: results/sweep_<param>.json
 """
 import argparse
 import json
@@ -37,14 +37,14 @@ import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
-ROOT = os.path.dirname(os.path.dirname(HERE))
+ROOT = os.path.dirname(HERE)
 
 import harness
 
 
 def load_full_arm():
     """The ablation's `full` arm, or None. Same config as the default point."""
-    path = os.path.join(ROOT, 'resultados', 'datos', 'ablation_seeded.json')
+    path = os.path.join(ROOT, 'results', 'ablation_seeded.json')
     if not os.path.exists(path):
         return None
     with open(path) as f:
@@ -64,7 +64,7 @@ def main():
     a = ap.parse_args()
 
     default = harness.FULL[a.param]
-    outp = a.out or os.path.join(ROOT, 'resultados', 'datos',
+    outp = a.out or os.path.join(ROOT, 'results',
                                  f'sweep_{a.param}.json')
     partialp = outp.replace('.json', '_partial.json')
     config = dict(param=a.param, values=a.values, n=a.n, seeds=harness.SEEDS)

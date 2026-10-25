@@ -2,7 +2,7 @@
 
 Every experiment script in this directory is a thin driver over this module.
 Nothing here re-implements sampling or metrics -- metrics always come from
-vision2sonnet/eval_sonnets_es.py::compute_metrics.
+sonnetdiffusion/eval_sonnets_es.py::compute_metrics.
 """
 import json
 import os
@@ -13,22 +13,22 @@ from functools import partial
 
 import numpy as np
 
-ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, ROOT)
-sys.path.insert(0, os.path.join(ROOT, 'vision2sonnet'))
+sys.path.insert(0, os.path.join(ROOT, 'sonnetdiffusion'))
 sys.path.insert(0, os.path.join(ROOT, 'improved-diffusion'))
 
 from eval_sonnets_es import compute_metrics, parse_sample, group_rhyme_counts
 from rhyme_es import RHYME_GROUPS, count_syllables_verse
 
-CKPT = os.path.join(ROOT, 'improved-diffusion', 'diffusion_models',
+CKPT = os.path.join(ROOT, 'models', 'diffusion',
                     'diff_e2e-tgt_pad_2000steps_16dim_sonnet_es',
                     'ema_0.9999_050000.pt')
 
 SEEDS = [102, 202, 302]
 
 FULL = dict(lambda_fmt=0.05, lambda_rhyme=0.5, lambda_rep=0.2, lambda_syll=0.05,
-            lambda_concept=0.15, lambda_emotion=0.15, K=5)
+            lambda_concept=0.15, lambda_emotion=0.15, lambda_repel=0.0, K=5)
 
 CONCEPTS = ['pájaro', 'ave', 'ruiseñor', 'azul', 'pecado']
 EMOTION = 'alegria'
@@ -115,6 +115,37 @@ def save_partial(path, config, done):
     os.replace(tmp, path)
 
 
+def save_samples(path, lines, meta=None):
+    """Write generated sample lines, one sonnet per line, atomically.
+
+    The earlier experiments kept only aggregate metrics, so nothing could be
+    rescored under a new metric without regenerating. Every new driver dumps
+    its raw samples through this, with an optional JSON sidecar for timing.
+    A .gz path is written compressed (the best-of-N pool is ~5k lines/seed).
+    """
+    import gzip
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    opener = gzip.open if path.endswith('.gz') else open
+    tmp = path + '.tmp'
+    with opener(tmp, 'wt', encoding='utf-8') as f:
+        for line in lines:
+            f.write(line.replace('\n', ' ') + '\n')
+    os.replace(tmp, path)
+    if meta is not None:
+        side = path[:-3] if path.endswith('.gz') else path
+        side = os.path.splitext(side)[0] + '.json'
+        with open(side, 'w') as f:
+            json.dump(meta, f, ensure_ascii=False, indent=1)
+
+
+def load_samples(path):
+    """Read a file written by save_samples."""
+    import gzip
+    opener = gzip.open if path.endswith('.gz') else open
+    with opener(path, 'rt', encoding='utf-8') as f:
+        return [l.rstrip('\n') for l in f if l.strip()]
+
+
 def clear_partial(path):
     """Drop resume state once the real output file has been written."""
     if os.path.exists(path):
@@ -173,6 +204,8 @@ def make_full_langevin(ctx, **overrides):
     from vocab_es import EMOTION_VOCAB
 
     cfg = dict(FULL)
+    groups = overrides.pop('groups', None)   # rhyme scheme; default ABBA ABBA CDE CDE
+    synalepha = overrides.pop('syll_synalepha', False)   # synalepha in the syllable penalty
     cfg.update(overrides)
     vocab = ctx['vocab']
     concept_ids = [vocab[w] for w in CONCEPTS if w in vocab]
@@ -185,7 +218,9 @@ def make_full_langevin(ctx, **overrides):
         K=cfg['K'], vocab=vocab,
         concept_word_ids=concept_ids if cfg['lambda_concept'] > 0 else None,
         concept_weights={wid: 2.0 for wid in concept_ids},
-        emotion_word_ids=emotion_ids if cfg['lambda_emotion'] > 0 else None)
+        emotion_word_ids=emotion_ids if cfg['lambda_emotion'] > 0 else None,
+        lambda_repel=cfg['lambda_repel'], syll_synalepha=synalepha,
+        **({'groups': groups} if groups is not None else {}))
 
 
 def generate(ctx, n, seed, langevin_fn):

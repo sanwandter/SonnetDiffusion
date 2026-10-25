@@ -1,0 +1,5759 @@
+{
+ "phon_key": {
+  "seseo": false,
+  "yeismo": false
+ },
+ "systems": {
+  "human": {
+   "replicates": 1,
+   "n_per_replicate": [
+    250
+   ],
+   "per_replicate": [
+    {
+     "n": 250,
+     "format_pct": 100.0,
+     "rhyme_orth_pct": 73.95,
+     "rhyme_orth_quatr_pct": 82.27,
+     "rhyme_phon_pct": 75.04,
+     "rhyme_phon_noident_pct": 74.59,
+     "rhyme_phon_noident_quatr_pct": 83.13,
+     "rhyme_phon_noident_detected_pct": 85.07,
+     "meter_in_range_pct": 91.14,
+     "meter_exact_pct": 72.63,
+     "distinct_groups_pct": 34.4,
+     "distinct_groups_detected_pct": 71.2,
+     "rr_coverage_pct": 100.0,
+     "rr_rhyme_consonant_pct": 74.37,
+     "rr_rhyme_assonant_pct": 75.17,
+     "rr_rhyme_letters_pct": 70.85,
+     "rr_meter_exact_pct": 92.37,
+     "rr_sonnet_pct": 67.2,
+     "ladder/14 verses": 100.0,
+     "ladder/+ every scheme pair rhymes": 32.4,
+     "ladder/+ no repeated end word": 29.6,
+     "ladder/+ groups use distinct sounds": 28.8,
+     "ladder/+ >=12/14 verses 11 syll. (Rantanplan)": 28.8,
+     "ladder/+ 14/14 verses 11 syll. (Rantanplan)": 26.4,
+     "ladder_own_meter/14 verses": 100.0,
+     "ladder_own_meter/+ every scheme pair rhymes": 32.4,
+     "ladder_own_meter/+ no repeated end word": 29.6,
+     "ladder_own_meter/+ groups use distinct sounds": 28.8,
+     "ladder_own_meter/+ >=12/14 verses 10-12 syll. (own counter)": 28.8,
+     "ladder_own_meter/+ 14/14 verses 10-12 syll. (own counter)": 26.8,
+     "ladder_detected/14 verses": 100.0,
+     "ladder_detected/+ every pair rhymes (detected scheme)": 67.2,
+     "ladder_detected/+ no repeated end word": 60.4,
+     "ladder_detected/+ groups distinct (detected scheme)": 58.8
+    }
+   ],
+   "aggregate": {
+    "format_pct": {
+     "mean": 100.0,
+     "halfwidth": 0.0,
+     "lo": 100.0,
+     "hi": 100.0,
+     "n": 1
+    },
+    "rhyme_orth_pct": {
+     "mean": 73.94666666666667,
+     "halfwidth": 0.0,
+     "lo": 73.94666666666667,
+     "hi": 73.94666666666667,
+     "n": 1
+    },
+    "rhyme_orth_quatr_pct": {
+     "mean": 82.26666666666667,
+     "halfwidth": 0.0,
+     "lo": 82.26666666666667,
+     "hi": 82.26666666666667,
+     "n": 1
+    },
+    "rhyme_phon_pct": {
+     "mean": 75.04,
+     "halfwidth": 0.0,
+     "lo": 75.04,
+     "hi": 75.04,
+     "n": 1
+    },
+    "rhyme_phon_noident_pct": {
+     "mean": 74.58666666666667,
+     "halfwidth": 0.0,
+     "lo": 74.58666666666667,
+     "hi": 74.58666666666667,
+     "n": 1
+    },
+    "rhyme_phon_noident_quatr_pct": {
+     "mean": 83.13333333333334,
+     "halfwidth": 0.0,
+     "lo": 83.13333333333334,
+     "hi": 83.13333333333334,
+     "n": 1
+    },
+    "rhyme_phon_noident_detected_pct": {
+     "mean": 85.07462686567165,
+     "halfwidth": 0.0,
+     "lo": 85.07462686567165,
+     "hi": 85.07462686567165,
+     "n": 1
+    },
+    "meter_in_range_pct": {
+     "mean": 91.14285714285714,
+     "halfwidth": 0.0,
+     "lo": 91.14285714285714,
+     "hi": 91.14285714285714,
+     "n": 1
+    },
+    "meter_exact_pct": {
+     "mean": 72.62857142857143,
+     "halfwidth": 0.0,
+     "lo": 72.62857142857143,
+     "hi": 72.62857142857143,
+     "n": 1
+    },
+    "distinct_groups_pct": {
+     "mean": 34.4,
+     "halfwidth": 0.0,
+     "lo": 34.4,
+     "hi": 34.4,
+     "n": 1
+    },
+    "distinct_groups_detected_pct": {
+     "mean": 71.2,
+     "halfwidth": 0.0,
+     "lo": 71.2,
+     "hi": 71.2,
+     "n": 1
+    },
+    "rr_coverage_pct": {
+     "mean": 100.0,
+     "halfwidth": 0.0,
+     "lo": 100.0,
+     "hi": 100.0,
+     "n": 1
+    },
+    "rr_rhyme_consonant_pct": {
+     "mean": 74.37333333333333,
+     "halfwidth": 0.0,
+     "lo": 74.37333333333333,
+     "hi": 74.37333333333333,
+     "n": 1
+    },
+    "rr_rhyme_assonant_pct": {
+     "mean": 75.17333333333333,
+     "halfwidth": 0.0,
+     "lo": 75.17333333333333,
+     "hi": 75.17333333333333,
+     "n": 1
+    },
+    "rr_rhyme_letters_pct": {
+     "mean": 70.85333333333334,
+     "halfwidth": 0.0,
+     "lo": 70.85333333333334,
+     "hi": 70.85333333333334,
+     "n": 1
+    },
+    "rr_meter_exact_pct": {
+     "mean": 92.37142857142857,
+     "halfwidth": 0.0,
+     "lo": 92.37142857142857,
+     "hi": 92.37142857142857,
+     "n": 1
+    },
+    "rr_sonnet_pct": {
+     "mean": 67.2,
+     "halfwidth": 0.0,
+     "lo": 67.2,
+     "hi": 67.2,
+     "n": 1
+    },
+    "ladder/14 verses": {
+     "mean": 100.0,
+     "halfwidth": 0.0,
+     "lo": 100.0,
+     "hi": 100.0,
+     "n": 1
+    },
+    "ladder/+ every scheme pair rhymes": {
+     "mean": 32.4,
+     "halfwidth": 0.0,
+     "lo": 32.4,
+     "hi": 32.4,
+     "n": 1
+    },
+    "ladder/+ no repeated end word": {
+     "mean": 29.6,
+     "halfwidth": 0.0,
+     "lo": 29.6,
+     "hi": 29.6,
+     "n": 1
+    },
+    "ladder/+ groups use distinct sounds": {
+     "mean": 28.8,
+     "halfwidth": 0.0,
+     "lo": 28.8,
+     "hi": 28.8,
+     "n": 1
+    },
+    "ladder/+ >=12/14 verses 11 syll. (Rantanplan)": {
+     "mean": 28.8,
+     "halfwidth": 0.0,
+     "lo": 28.8,
+     "hi": 28.8,
+     "n": 1
+    },
+    "ladder/+ 14/14 verses 11 syll. (Rantanplan)": {
+     "mean": 26.4,
+     "halfwidth": 0.0,
+     "lo": 26.4,
+     "hi": 26.4,
+     "n": 1
+    },
+    "ladder_own_meter/14 verses": {
+     "mean": 100.0,
+     "halfwidth": 0.0,
+     "lo": 100.0,
+     "hi": 100.0,
+     "n": 1
+    },
+    "ladder_own_meter/+ every scheme pair rhymes": {
+     "mean": 32.4,
+     "halfwidth": 0.0,
+     "lo": 32.4,
+     "hi": 32.4,
+     "n": 1
+    },
+    "ladder_own_meter/+ no repeated end word": {
+     "mean": 29.6,
+     "halfwidth": 0.0,
+     "lo": 29.6,
+     "hi": 29.6,
+     "n": 1
+    },
+    "ladder_own_meter/+ groups use distinct sounds": {
+     "mean": 28.8,
+     "halfwidth": 0.0,
+     "lo": 28.8,
+     "hi": 28.8,
+     "n": 1
+    },
+    "ladder_own_meter/+ >=12/14 verses 10-12 syll. (own counter)": {
+     "mean": 28.8,
+     "halfwidth": 0.0,
+     "lo": 28.8,
+     "hi": 28.8,
+     "n": 1
+    },
+    "ladder_own_meter/+ 14/14 verses 10-12 syll. (own counter)": {
+     "mean": 26.8,
+     "halfwidth": 0.0,
+     "lo": 26.8,
+     "hi": 26.8,
+     "n": 1
+    },
+    "ladder_detected/14 verses": {
+     "mean": 100.0,
+     "halfwidth": 0.0,
+     "lo": 100.0,
+     "hi": 100.0,
+     "n": 1
+    },
+    "ladder_detected/+ every pair rhymes (detected scheme)": {
+     "mean": 67.2,
+     "halfwidth": 0.0,
+     "lo": 67.2,
+     "hi": 67.2,
+     "n": 1
+    },
+    "ladder_detected/+ no repeated end word": {
+     "mean": 60.4,
+     "halfwidth": 0.0,
+     "lo": 60.4,
+     "hi": 60.4,
+     "n": 1
+    },
+    "ladder_detected/+ groups distinct (detected scheme)": {
+     "mean": 58.8,
+     "halfwidth": 0.0,
+     "lo": 58.8,
+     "hi": 58.8,
+     "n": 1
+    }
+   },
+   "detected_schemes": {
+    "ABBA ABBA CDE CDE": 119,
+    "ABBA ABBA CDC DCD": 84,
+    "ABBA ABBA CDE DCE": 16,
+    "ABBA ABBA CDE DEC": 8,
+    "ABAB ABAB CDE CDE": 7,
+    "ABAB ABAB CDC DCD": 6,
+    "ABBA ABBA CDE CED": 5,
+    "ABAB ABAB CDE DEC": 2,
+    "ABAB ABAB CDE DCE": 2,
+    "ABAB ABAB CDE CED": 1
+   }
+  },
+  "human_clean": {
+   "replicates": 1,
+   "n_per_replicate": [
+    194
+   ],
+   "per_replicate": [
+    {
+     "n": 194,
+     "format_pct": 100.0,
+     "rhyme_orth_pct": 84.47,
+     "rhyme_orth_quatr_pct": 93.9,
+     "rhyme_phon_pct": 85.88,
+     "rhyme_phon_noident_pct": 85.36,
+     "rhyme_phon_noident_quatr_pct": 95.06,
+     "rhyme_phon_noident_detected_pct": 96.28,
+     "meter_in_range_pct": 97.75,
+     "meter_exact_pct": 78.17,
+     "distinct_groups_pct": 42.27,
+     "distinct_groups_detected_pct": 88.66,
+     "rr_coverage_pct": 100.0,
+     "rr_rhyme_consonant_pct": 85.05,
+     "rr_rhyme_assonant_pct": 85.74,
+     "rr_rhyme_letters_pct": 81.31,
+     "rr_meter_exact_pct": 98.2,
+     "rr_sonnet_pct": 86.6,
+     "ladder/14 verses": 100.0,
+     "ladder/+ every scheme pair rhymes": 41.75,
+     "ladder/+ no repeated end word": 38.14,
+     "ladder/+ groups use distinct sounds": 37.11,
+     "ladder/+ >=12/14 verses 11 syll. (Rantanplan)": 37.11,
+     "ladder/+ 14/14 verses 11 syll. (Rantanplan)": 34.02,
+     "ladder_own_meter/14 verses": 100.0,
+     "ladder_own_meter/+ every scheme pair rhymes": 41.75,
+     "ladder_own_meter/+ no repeated end word": 38.14,
+     "ladder_own_meter/+ groups use distinct sounds": 37.11,
+     "ladder_own_meter/+ >=12/14 verses 10-12 syll. (own counter)": 37.11,
+     "ladder_own_meter/+ 14/14 verses 10-12 syll. (own counter)": 34.54,
+     "ladder_detected/14 verses": 100.0,
+     "ladder_detected/+ every pair rhymes (detected scheme)": 86.6,
+     "ladder_detected/+ no repeated end word": 77.84,
+     "ladder_detected/+ groups distinct (detected scheme)": 75.77
+    }
+   ],
+   "aggregate": {
+    "format_pct": {
+     "mean": 100.0,
+     "halfwidth": 0.0,
+     "lo": 100.0,
+     "hi": 100.0,
+     "n": 1
+    },
+    "rhyme_orth_pct": {
+     "mean": 84.46735395189003,
+     "halfwidth": 0.0,
+     "lo": 84.46735395189003,
+     "hi": 84.46735395189003,
+     "n": 1
+    },
+    "rhyme_orth_quatr_pct": {
+     "mean": 93.90034364261169,
+     "halfwidth": 0.0,
+     "lo": 93.90034364261169,
+     "hi": 93.90034364261169,
+     "n": 1
+    },
+    "rhyme_phon_pct": {
+     "mean": 85.87628865979381,
+     "halfwidth": 0.0,
+     "lo": 85.87628865979381,
+     "hi": 85.87628865979381,
+     "n": 1
+    },
+    "rhyme_phon_noident_pct": {
+     "mean": 85.36082474226804,
+     "halfwidth": 0.0,
+     "lo": 85.36082474226804,
+     "hi": 85.36082474226804,
+     "n": 1
+    },
+    "rhyme_phon_noident_quatr_pct": {
+     "mean": 95.06013745704468,
+     "halfwidth": 0.0,
+     "lo": 95.06013745704468,
+     "hi": 95.06013745704468,
+     "n": 1
+    },
+    "rhyme_phon_noident_detected_pct": {
+     "mean": 96.28217349857006,
+     "halfwidth": 0.0,
+     "lo": 96.28217349857006,
+     "hi": 96.28217349857006,
+     "n": 1
+    },
+    "meter_in_range_pct": {
+     "mean": 97.7540500736377,
+     "halfwidth": 0.0,
+     "lo": 97.7540500736377,
+     "hi": 97.7540500736377,
+     "n": 1
+    },
+    "meter_exact_pct": {
+     "mean": 78.16642120765832,
+     "halfwidth": 0.0,
+     "lo": 78.16642120765832,
+     "hi": 78.16642120765832,
+     "n": 1
+    },
+    "distinct_groups_pct": {
+     "mean": 42.2680412371134,
+     "halfwidth": 0.0,
+     "lo": 42.2680412371134,
+     "hi": 42.2680412371134,
+     "n": 1
+    },
+    "distinct_groups_detected_pct": {
+     "mean": 88.65979381443299,
+     "halfwidth": 0.0,
+     "lo": 88.65979381443299,
+     "hi": 88.65979381443299,
+     "n": 1
+    },
+    "rr_coverage_pct": {
+     "mean": 100.0,
+     "halfwidth": 0.0,
+     "lo": 100.0,
+     "hi": 100.0,
+     "n": 1
+    },
+    "rr_rhyme_consonant_pct": {
+     "mean": 85.05154639175258,
+     "halfwidth": 0.0,
+     "lo": 85.05154639175258,
+     "hi": 85.05154639175258,
+     "n": 1
+    },
+    "rr_rhyme_assonant_pct": {
+     "mean": 85.73883161512028,
+     "halfwidth": 0.0,
+     "lo": 85.73883161512028,
+     "hi": 85.73883161512028,
+     "n": 1
+    },
+    "rr_rhyme_letters_pct": {
+     "mean": 81.30584192439862,
+     "halfwidth": 0.0,
+     "lo": 81.30584192439862,
+     "hi": 81.30584192439862,
+     "n": 1
+    },
+    "rr_meter_exact_pct": {
+     "mean": 98.19587628865979,
+     "halfwidth": 0.0,
+     "lo": 98.19587628865979,
+     "hi": 98.19587628865979,
+     "n": 1
+    },
+    "rr_sonnet_pct": {
+     "mean": 86.5979381443299,
+     "halfwidth": 0.0,
+     "lo": 86.5979381443299,
+     "hi": 86.5979381443299,
+     "n": 1
+    },
+    "ladder/14 verses": {
+     "mean": 100.0,
+     "halfwidth": 0.0,
+     "lo": 100.0,
+     "hi": 100.0,
+     "n": 1
+    },
+    "ladder/+ every scheme pair rhymes": {
+     "mean": 41.75257731958763,
+     "halfwidth": 0.0,
+     "lo": 41.75257731958763,
+     "hi": 41.75257731958763,
+     "n": 1
+    },
+    "ladder/+ no repeated end word": {
+     "mean": 38.144329896907216,
+     "halfwidth": 0.0,
+     "lo": 38.144329896907216,
+     "hi": 38.144329896907216,
+     "n": 1
+    },
+    "ladder/+ groups use distinct sounds": {
+     "mean": 37.11340206185567,
+     "halfwidth": 0.0,
+     "lo": 37.11340206185567,
+     "hi": 37.11340206185567,
+     "n": 1
+    },
+    "ladder/+ >=12/14 verses 11 syll. (Rantanplan)": {
+     "mean": 37.11340206185567,
+     "halfwidth": 0.0,
+     "lo": 37.11340206185567,
+     "hi": 37.11340206185567,
+     "n": 1
+    },
+    "ladder/+ 14/14 verses 11 syll. (Rantanplan)": {
+     "mean": 34.02061855670103,
+     "halfwidth": 0.0,
+     "lo": 34.02061855670103,
+     "hi": 34.02061855670103,
+     "n": 1
+    },
+    "ladder_own_meter/14 verses": {
+     "mean": 100.0,
+     "halfwidth": 0.0,
+     "lo": 100.0,
+     "hi": 100.0,
+     "n": 1
+    },
+    "ladder_own_meter/+ every scheme pair rhymes": {
+     "mean": 41.75257731958763,
+     "halfwidth": 0.0,
+     "lo": 41.75257731958763,
+     "hi": 41.75257731958763,
+     "n": 1
+    },
+    "ladder_own_meter/+ no repeated end word": {
+     "mean": 38.144329896907216,
+     "halfwidth": 0.0,
+     "lo": 38.144329896907216,
+     "hi": 38.144329896907216,
+     "n": 1
+    },
+    "ladder_own_meter/+ groups use distinct sounds": {
+     "mean": 37.11340206185567,
+     "halfwidth": 0.0,
+     "lo": 37.11340206185567,
+     "hi": 37.11340206185567,
+     "n": 1
+    },
+    "ladder_own_meter/+ >=12/14 verses 10-12 syll. (own counter)": {
+     "mean": 37.11340206185567,
+     "halfwidth": 0.0,
+     "lo": 37.11340206185567,
+     "hi": 37.11340206185567,
+     "n": 1
+    },
+    "ladder_own_meter/+ 14/14 verses 10-12 syll. (own counter)": {
+     "mean": 34.5360824742268,
+     "halfwidth": 0.0,
+     "lo": 34.5360824742268,
+     "hi": 34.5360824742268,
+     "n": 1
+    },
+    "ladder_detected/14 verses": {
+     "mean": 100.0,
+     "halfwidth": 0.0,
+     "lo": 100.0,
+     "hi": 100.0,
+     "n": 1
+    },
+    "ladder_detected/+ every pair rhymes (detected scheme)": {
+     "mean": 86.5979381443299,
+     "halfwidth": 0.0,
+     "lo": 86.5979381443299,
+     "hi": 86.5979381443299,
+     "n": 1
+    },
+    "ladder_detected/+ no repeated end word": {
+     "mean": 77.83505154639175,
+     "halfwidth": 0.0,
+     "lo": 77.83505154639175,
+     "hi": 77.83505154639175,
+     "n": 1
+    },
+    "ladder_detected/+ groups distinct (detected scheme)": {
+     "mean": 75.77319587628865,
+     "halfwidth": 0.0,
+     "lo": 75.77319587628865,
+     "hi": 75.77319587628865,
+     "n": 1
+    }
+   },
+   "detected_schemes": {
+    "ABBA ABBA CDE CDE": 93,
+    "ABBA ABBA CDC DCD": 76,
+    "ABBA ABBA CDE DCE": 11,
+    "ABAB ABAB CDE CDE": 4,
+    "ABBA ABBA CDE DEC": 4,
+    "ABBA ABBA CDE CED": 3,
+    "ABAB ABAB CDC DCD": 3
+   }
+  },
+  "haiku_single": {
+   "replicates": 1,
+   "n_per_replicate": [
+    30
+   ],
+   "per_replicate": [
+    {
+     "n": 30,
+     "format_pct": 100.0,
+     "rhyme_orth_pct": 48.0,
+     "rhyme_orth_quatr_pct": 57.78,
+     "rhyme_phon_pct": 48.0,
+     "rhyme_phon_noident_pct": 46.22,
+     "rhyme_phon_noident_quatr_pct": 55.56,
+     "rhyme_phon_noident_detected_pct": 65.31,
+     "meter_in_range_pct": 72.14,
+     "meter_exact_pct": 35.24,
+     "distinct_groups_pct": 6.67,
+     "distinct_groups_detected_pct": 60.0,
+     "rr_coverage_pct": 100.0,
+     "rr_rhyme_consonant_pct": 46.44,
+     "rr_rhyme_assonant_pct": 60.67,
+     "rr_rhyme_letters_pct": 29.56,
+     "rr_meter_exact_pct": 58.1,
+     "rr_sonnet_pct": 33.33,
+     "ladder/14 verses": 100.0,
+     "ladder/+ every scheme pair rhymes": 0.0,
+     "ladder/+ no repeated end word": 0.0,
+     "ladder/+ groups use distinct sounds": 0.0,
+     "ladder/+ >=12/14 verses 11 syll. (Rantanplan)": 0.0,
+     "ladder/+ 14/14 verses 11 syll. (Rantanplan)": 0.0,
+     "ladder_own_meter/14 verses": 100.0,
+     "ladder_own_meter/+ every scheme pair rhymes": 0.0,
+     "ladder_own_meter/+ no repeated end word": 0.0,
+     "ladder_own_meter/+ groups use distinct sounds": 0.0,
+     "ladder_own_meter/+ >=12/14 verses 10-12 syll. (own counter)": 0.0,
+     "ladder_own_meter/+ 14/14 verses 10-12 syll. (own counter)": 0.0,
+     "ladder_detected/14 verses": 100.0,
+     "ladder_detected/+ every pair rhymes (detected scheme)": 20.0,
+     "ladder_detected/+ no repeated end word": 6.67,
+     "ladder_detected/+ groups distinct (detected scheme)": 6.67
+    }
+   ],
+   "aggregate": {
+    "format_pct": {
+     "mean": 100.0,
+     "halfwidth": 0.0,
+     "lo": 100.0,
+     "hi": 100.0,
+     "n": 1
+    },
+    "rhyme_orth_pct": {
+     "mean": 48.0,
+     "halfwidth": 0.0,
+     "lo": 48.0,
+     "hi": 48.0,
+     "n": 1
+    },
+    "rhyme_orth_quatr_pct": {
+     "mean": 57.77777777777778,
+     "halfwidth": 0.0,
+     "lo": 57.77777777777778,
+     "hi": 57.77777777777778,
+     "n": 1
+    },
+    "rhyme_phon_pct": {
+     "mean": 48.0,
+     "halfwidth": 0.0,
+     "lo": 48.0,
+     "hi": 48.0,
+     "n": 1
+    },
+    "rhyme_phon_noident_pct": {
+     "mean": 46.22222222222222,
+     "halfwidth": 0.0,
+     "lo": 46.22222222222222,
+     "hi": 46.22222222222222,
+     "n": 1
+    },
+    "rhyme_phon_noident_quatr_pct": {
+     "mean": 55.55555555555556,
+     "halfwidth": 0.0,
+     "lo": 55.55555555555556,
+     "hi": 55.55555555555556,
+     "n": 1
+    },
+    "rhyme_phon_noident_detected_pct": {
+     "mean": 65.31007751937985,
+     "halfwidth": 0.0,
+     "lo": 65.31007751937985,
+     "hi": 65.31007751937985,
+     "n": 1
+    },
+    "meter_in_range_pct": {
+     "mean": 72.14285714285714,
+     "halfwidth": 0.0,
+     "lo": 72.14285714285714,
+     "hi": 72.14285714285714,
+     "n": 1
+    },
+    "meter_exact_pct": {
+     "mean": 35.23809523809524,
+     "halfwidth": 0.0,
+     "lo": 35.23809523809524,
+     "hi": 35.23809523809524,
+     "n": 1
+    },
+    "distinct_groups_pct": {
+     "mean": 6.666666666666667,
+     "halfwidth": 0.0,
+     "lo": 6.666666666666667,
+     "hi": 6.666666666666667,
+     "n": 1
+    },
+    "distinct_groups_detected_pct": {
+     "mean": 60.0,
+     "halfwidth": 0.0,
+     "lo": 60.0,
+     "hi": 60.0,
+     "n": 1
+    },
+    "rr_coverage_pct": {
+     "mean": 100.0,
+     "halfwidth": 0.0,
+     "lo": 100.0,
+     "hi": 100.0,
+     "n": 1
+    },
+    "rr_rhyme_consonant_pct": {
+     "mean": 46.44444444444444,
+     "halfwidth": 0.0,
+     "lo": 46.44444444444444,
+     "hi": 46.44444444444444,
+     "n": 1
+    },
+    "rr_rhyme_assonant_pct": {
+     "mean": 60.666666666666664,
+     "halfwidth": 0.0,
+     "lo": 60.666666666666664,
+     "hi": 60.666666666666664,
+     "n": 1
+    },
+    "rr_rhyme_letters_pct": {
+     "mean": 29.555555555555557,
+     "halfwidth": 0.0,
+     "lo": 29.555555555555557,
+     "hi": 29.555555555555557,
+     "n": 1
+    },
+    "rr_meter_exact_pct": {
+     "mean": 58.095238095238095,
+     "halfwidth": 0.0,
+     "lo": 58.095238095238095,
+     "hi": 58.095238095238095,
+     "n": 1
+    },
+    "rr_sonnet_pct": {
+     "mean": 33.333333333333336,
+     "halfwidth": 0.0,
+     "lo": 33.333333333333336,
+     "hi": 33.333333333333336,
+     "n": 1
+    },
+    "ladder/14 verses": {
+     "mean": 100.0,
+     "halfwidth": 0.0,
+     "lo": 100.0,
+     "hi": 100.0,
+     "n": 1
+    },
+    "ladder/+ every scheme pair rhymes": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 1
+    },
+    "ladder/+ no repeated end word": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 1
+    },
+    "ladder/+ groups use distinct sounds": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 1
+    },
+    "ladder/+ >=12/14 verses 11 syll. (Rantanplan)": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 1
+    },
+    "ladder/+ 14/14 verses 11 syll. (Rantanplan)": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 1
+    },
+    "ladder_own_meter/14 verses": {
+     "mean": 100.0,
+     "halfwidth": 0.0,
+     "lo": 100.0,
+     "hi": 100.0,
+     "n": 1
+    },
+    "ladder_own_meter/+ every scheme pair rhymes": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 1
+    },
+    "ladder_own_meter/+ no repeated end word": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 1
+    },
+    "ladder_own_meter/+ groups use distinct sounds": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 1
+    },
+    "ladder_own_meter/+ >=12/14 verses 10-12 syll. (own counter)": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 1
+    },
+    "ladder_own_meter/+ 14/14 verses 10-12 syll. (own counter)": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 1
+    },
+    "ladder_detected/14 verses": {
+     "mean": 100.0,
+     "halfwidth": 0.0,
+     "lo": 100.0,
+     "hi": 100.0,
+     "n": 1
+    },
+    "ladder_detected/+ every pair rhymes (detected scheme)": {
+     "mean": 20.0,
+     "halfwidth": 0.0,
+     "lo": 20.0,
+     "hi": 20.0,
+     "n": 1
+    },
+    "ladder_detected/+ no repeated end word": {
+     "mean": 6.666666666666667,
+     "halfwidth": 0.0,
+     "lo": 6.666666666666667,
+     "hi": 6.666666666666667,
+     "n": 1
+    },
+    "ladder_detected/+ groups distinct (detected scheme)": {
+     "mean": 6.666666666666667,
+     "halfwidth": 0.0,
+     "lo": 6.666666666666667,
+     "hi": 6.666666666666667,
+     "n": 1
+    }
+   },
+   "detected_schemes": {
+    "ABBA ABBA CDC DCD": 21,
+    "ABBA ABBA CDE DCE": 4,
+    "ABBA ABBA CDE CDE": 3,
+    "ABBA ABBA CDE DEC": 1,
+    "ABAB ABAB CDC DCD": 1
+   }
+  },
+  "haiku": {
+   "replicates": 3,
+   "n_per_replicate": [
+    30,
+    30,
+    30
+   ],
+   "per_replicate": [
+    {
+     "n": 30,
+     "format_pct": 100.0,
+     "rhyme_orth_pct": 71.11,
+     "rhyme_orth_quatr_pct": 68.33,
+     "rhyme_phon_pct": 71.11,
+     "rhyme_phon_noident_pct": 70.0,
+     "rhyme_phon_noident_quatr_pct": 66.94,
+     "rhyme_phon_noident_detected_pct": 70.0,
+     "meter_in_range_pct": 93.57,
+     "meter_exact_pct": 52.62,
+     "distinct_groups_pct": 56.67,
+     "distinct_groups_detected_pct": 56.67,
+     "rr_coverage_pct": 100.0,
+     "rr_rhyme_consonant_pct": 68.0,
+     "rr_rhyme_assonant_pct": 81.56,
+     "rr_rhyme_letters_pct": 38.22,
+     "rr_meter_exact_pct": 80.71,
+     "rr_sonnet_pct": 23.33,
+     "ladder/14 verses": 100.0,
+     "ladder/+ every scheme pair rhymes": 20.0,
+     "ladder/+ no repeated end word": 10.0,
+     "ladder/+ groups use distinct sounds": 10.0,
+     "ladder/+ >=12/14 verses 11 syll. (Rantanplan)": 6.67,
+     "ladder/+ 14/14 verses 11 syll. (Rantanplan)": 3.33,
+     "ladder_own_meter/14 verses": 100.0,
+     "ladder_own_meter/+ every scheme pair rhymes": 20.0,
+     "ladder_own_meter/+ no repeated end word": 10.0,
+     "ladder_own_meter/+ groups use distinct sounds": 10.0,
+     "ladder_own_meter/+ >=12/14 verses 10-12 syll. (own counter)": 10.0,
+     "ladder_own_meter/+ 14/14 verses 10-12 syll. (own counter)": 6.67,
+     "ladder_detected/14 verses": 100.0,
+     "ladder_detected/+ every pair rhymes (detected scheme)": 20.0,
+     "ladder_detected/+ no repeated end word": 10.0,
+     "ladder_detected/+ groups distinct (detected scheme)": 10.0
+    },
+    {
+     "n": 30,
+     "format_pct": 100.0,
+     "rhyme_orth_pct": 73.78,
+     "rhyme_orth_quatr_pct": 75.0,
+     "rhyme_phon_pct": 74.0,
+     "rhyme_phon_noident_pct": 71.33,
+     "rhyme_phon_noident_quatr_pct": 73.06,
+     "rhyme_phon_noident_detected_pct": 74.15,
+     "meter_in_range_pct": 78.33,
+     "meter_exact_pct": 34.29,
+     "distinct_groups_pct": 13.33,
+     "distinct_groups_detected_pct": 23.33,
+     "rr_coverage_pct": 100.0,
+     "rr_rhyme_consonant_pct": 71.56,
+     "rr_rhyme_assonant_pct": 79.11,
+     "rr_rhyme_letters_pct": 35.11,
+     "rr_meter_exact_pct": 60.95,
+     "rr_sonnet_pct": 20.0,
+     "ladder/14 verses": 100.0,
+     "ladder/+ every scheme pair rhymes": 10.0,
+     "ladder/+ no repeated end word": 6.67,
+     "ladder/+ groups use distinct sounds": 0.0,
+     "ladder/+ >=12/14 verses 11 syll. (Rantanplan)": 0.0,
+     "ladder/+ 14/14 verses 11 syll. (Rantanplan)": 0.0,
+     "ladder_own_meter/14 verses": 100.0,
+     "ladder_own_meter/+ every scheme pair rhymes": 10.0,
+     "ladder_own_meter/+ no repeated end word": 6.67,
+     "ladder_own_meter/+ groups use distinct sounds": 0.0,
+     "ladder_own_meter/+ >=12/14 verses 10-12 syll. (own counter)": 0.0,
+     "ladder_own_meter/+ 14/14 verses 10-12 syll. (own counter)": 0.0,
+     "ladder_detected/14 verses": 100.0,
+     "ladder_detected/+ every pair rhymes (detected scheme)": 16.67,
+     "ladder_detected/+ no repeated end word": 13.33,
+     "ladder_detected/+ groups distinct (detected scheme)": 6.67
+    },
+    {
+     "n": 30,
+     "format_pct": 100.0,
+     "rhyme_orth_pct": 74.0,
+     "rhyme_orth_quatr_pct": 83.89,
+     "rhyme_phon_pct": 74.0,
+     "rhyme_phon_noident_pct": 67.33,
+     "rhyme_phon_noident_quatr_pct": 75.56,
+     "rhyme_phon_noident_detected_pct": 73.11,
+     "meter_in_range_pct": 89.29,
+     "meter_exact_pct": 41.43,
+     "distinct_groups_pct": 0.0,
+     "distinct_groups_detected_pct": 0.0,
+     "rr_coverage_pct": 100.0,
+     "rr_rhyme_consonant_pct": 67.11,
+     "rr_rhyme_assonant_pct": 79.11,
+     "rr_rhyme_letters_pct": 50.22,
+     "rr_meter_exact_pct": 61.43,
+     "rr_sonnet_pct": 0.0,
+     "ladder/14 verses": 100.0,
+     "ladder/+ every scheme pair rhymes": 0.0,
+     "ladder/+ no repeated end word": 0.0,
+     "ladder/+ groups use distinct sounds": 0.0,
+     "ladder/+ >=12/14 verses 11 syll. (Rantanplan)": 0.0,
+     "ladder/+ 14/14 verses 11 syll. (Rantanplan)": 0.0,
+     "ladder_own_meter/14 verses": 100.0,
+     "ladder_own_meter/+ every scheme pair rhymes": 0.0,
+     "ladder_own_meter/+ no repeated end word": 0.0,
+     "ladder_own_meter/+ groups use distinct sounds": 0.0,
+     "ladder_own_meter/+ >=12/14 verses 10-12 syll. (own counter)": 0.0,
+     "ladder_own_meter/+ 14/14 verses 10-12 syll. (own counter)": 0.0,
+     "ladder_detected/14 verses": 100.0,
+     "ladder_detected/+ every pair rhymes (detected scheme)": 0.0,
+     "ladder_detected/+ no repeated end word": 0.0,
+     "ladder_detected/+ groups distinct (detected scheme)": 0.0
+    }
+   ],
+   "aggregate": {
+    "format_pct": {
+     "mean": 100.0,
+     "halfwidth": 0.0,
+     "lo": 100.0,
+     "hi": 100.0,
+     "n": 3
+    },
+    "rhyme_orth_pct": {
+     "mean": 72.96296296296296,
+     "halfwidth": 3.9934877169555603,
+     "lo": 68.9694752460074,
+     "hi": 76.95645067991852,
+     "n": 3
+    },
+    "rhyme_orth_quatr_pct": {
+     "mean": 75.74074074074073,
+     "halfwidth": 19.386677633633614,
+     "lo": 56.35406310710712,
+     "hi": 95.12741837437434,
+     "n": 3
+    },
+    "rhyme_phon_pct": {
+     "mean": 73.03703703703704,
+     "halfwidth": 4.143295221240218,
+     "lo": 68.89374181579682,
+     "hi": 77.18033225827726,
+     "n": 3
+    },
+    "rhyme_phon_noident_pct": {
+     "mean": 69.55555555555554,
+     "halfwidth": 5.059444044795682,
+     "lo": 64.49611151075986,
+     "hi": 74.61499960035123,
+     "n": 3
+    },
+    "rhyme_phon_noident_quatr_pct": {
+     "mean": 71.85185185185185,
+     "halfwidth": 11.004613873406058,
+     "lo": 60.84723797844579,
+     "hi": 82.8564657252579,
+     "n": 3
+    },
+    "rhyme_phon_noident_detected_pct": {
+     "mean": 72.41880341880342,
+     "halfwidth": 5.359836516979826,
+     "lo": 67.0589669018236,
+     "hi": 77.77863993578325,
+     "n": 3
+    },
+    "meter_in_range_pct": {
+     "mean": 87.06349206349206,
+     "halfwidth": 19.52121182807157,
+     "lo": 67.54228023542049,
+     "hi": 106.58470389156363,
+     "n": 3
+    },
+    "meter_exact_pct": {
+     "mean": 42.77777777777777,
+     "halfwidth": 22.955508675319738,
+     "lo": 19.822269102458034,
+     "hi": 65.7332864530975,
+     "n": 3
+    },
+    "distinct_groups_pct": {
+     "mean": 23.333333333333332,
+     "halfwidth": 73.59832980474134,
+     "lo": -50.26499647140801,
+     "hi": 96.93166313807467,
+     "n": 3
+    },
+    "distinct_groups_detected_pct": {
+     "mean": 26.666666666666668,
+     "halfwidth": 70.7482730435978,
+     "lo": -44.081606376931134,
+     "hi": 97.41493971026448,
+     "n": 3
+    },
+    "rr_coverage_pct": {
+     "mean": 100.0,
+     "halfwidth": 0.0,
+     "lo": 100.0,
+     "hi": 100.0,
+     "n": 3
+    },
+    "rr_rhyme_consonant_pct": {
+     "mean": 68.88888888888889,
+     "halfwidth": 5.842142762425268,
+     "lo": 63.04674612646362,
+     "hi": 74.73103165131415,
+     "n": 3
+    },
+    "rr_rhyme_assonant_pct": {
+     "mean": 79.92592592592594,
+     "halfwidth": 3.505865187203263,
+     "lo": 76.42006073872267,
+     "hi": 83.43179111312921,
+     "n": 3
+    },
+    "rr_rhyme_letters_pct": {
+     "mean": 41.18518518518519,
+     "halfwidth": 19.821921846751103,
+     "lo": 21.363263338434088,
+     "hi": 61.00710703193629,
+     "n": 3
+    },
+    "rr_meter_exact_pct": {
+     "mean": 67.6984126984127,
+     "halfwidth": 28.007636676547502,
+     "lo": 39.69077602186519,
+     "hi": 95.7060493749602,
+     "n": 3
+    },
+    "rr_sonnet_pct": {
+     "mean": 14.444444444444443,
+     "halfwidth": 31.349311963058092,
+     "lo": -16.90486751861365,
+     "hi": 45.793756407502535,
+     "n": 3
+    },
+    "ladder/14 verses": {
+     "mean": 100.0,
+     "halfwidth": 0.0,
+     "lo": 100.0,
+     "hi": 100.0,
+     "n": 3
+    },
+    "ladder/+ every scheme pair rhymes": {
+     "mean": 10.0,
+     "halfwidth": 24.8413771175033,
+     "lo": -14.8413771175033,
+     "hi": 34.8413771175033,
+     "n": 3
+    },
+    "ladder/+ no repeated end word": {
+     "mean": 5.555555555555556,
+     "halfwidth": 12.6486101119892,
+     "lo": -7.093054556433644,
+     "hi": 18.204165667544757,
+     "n": 3
+    },
+    "ladder/+ groups use distinct sounds": {
+     "mean": 3.3333333333333335,
+     "halfwidth": 14.34217576583154,
+     "lo": -11.008842432498206,
+     "hi": 17.675509099164874,
+     "n": 3
+    },
+    "ladder/+ >=12/14 verses 11 syll. (Rantanplan)": {
+     "mean": 2.2222222222222223,
+     "halfwidth": 9.56145051055436,
+     "lo": -7.339228288332138,
+     "hi": 11.783672732776584,
+     "n": 3
+    },
+    "ladder/+ 14/14 verses 11 syll. (Rantanplan)": {
+     "mean": 1.1111111111111112,
+     "halfwidth": 4.78072525527718,
+     "lo": -3.669614144166069,
+     "hi": 5.891836366388292,
+     "n": 3
+    },
+    "ladder_own_meter/14 verses": {
+     "mean": 100.0,
+     "halfwidth": 0.0,
+     "lo": 100.0,
+     "hi": 100.0,
+     "n": 3
+    },
+    "ladder_own_meter/+ every scheme pair rhymes": {
+     "mean": 10.0,
+     "halfwidth": 24.8413771175033,
+     "lo": -14.8413771175033,
+     "hi": 34.8413771175033,
+     "n": 3
+    },
+    "ladder_own_meter/+ no repeated end word": {
+     "mean": 5.555555555555556,
+     "halfwidth": 12.6486101119892,
+     "lo": -7.093054556433644,
+     "hi": 18.204165667544757,
+     "n": 3
+    },
+    "ladder_own_meter/+ groups use distinct sounds": {
+     "mean": 3.3333333333333335,
+     "halfwidth": 14.34217576583154,
+     "lo": -11.008842432498206,
+     "hi": 17.675509099164874,
+     "n": 3
+    },
+    "ladder_own_meter/+ >=12/14 verses 10-12 syll. (own counter)": {
+     "mean": 3.3333333333333335,
+     "halfwidth": 14.34217576583154,
+     "lo": -11.008842432498206,
+     "hi": 17.675509099164874,
+     "n": 3
+    },
+    "ladder_own_meter/+ 14/14 verses 10-12 syll. (own counter)": {
+     "mean": 2.2222222222222223,
+     "halfwidth": 9.56145051055436,
+     "lo": -7.339228288332138,
+     "hi": 11.783672732776584,
+     "n": 3
+    },
+    "ladder_detected/14 verses": {
+     "mean": 100.0,
+     "halfwidth": 0.0,
+     "lo": 100.0,
+     "hi": 100.0,
+     "n": 3
+    },
+    "ladder_detected/+ every pair rhymes (detected scheme)": {
+     "mean": 12.222222222222223,
+     "halfwidth": 26.61795170481374,
+     "lo": -14.395729482591518,
+     "hi": 38.84017392703596,
+     "n": 3
+    },
+    "ladder_detected/+ no repeated end word": {
+     "mean": 7.777777777777779,
+     "halfwidth": 17.237150041807542,
+     "lo": -9.459372264029763,
+     "hi": 25.01492781958532,
+     "n": 3
+    },
+    "ladder_detected/+ groups distinct (detected scheme)": {
+     "mean": 5.555555555555556,
+     "halfwidth": 12.6486101119892,
+     "lo": -7.093054556433644,
+     "hi": 18.204165667544757,
+     "n": 3
+    }
+   },
+   "detected_schemes": {
+    "ABBA ABBA CDE CDE": 56,
+    "ABBA ABBA CDE DEC": 26,
+    "ABBA ABBA CDC CDC": 3,
+    "ABBA ABBA CDE DCE": 2,
+    "ABBA ABBA CDC DCD": 2,
+    "ABBA ABBA CDE CED": 1
+   }
+  },
+  "haiku_v2": {
+   "replicates": 3,
+   "n_per_replicate": [
+    30,
+    30,
+    30
+   ],
+   "per_replicate": [
+    {
+     "n": 30,
+     "format_pct": 100.0,
+     "rhyme_orth_pct": 78.67,
+     "rhyme_orth_quatr_pct": 75.56,
+     "rhyme_phon_pct": 78.67,
+     "rhyme_phon_noident_pct": 60.44,
+     "rhyme_phon_noident_quatr_pct": 60.56,
+     "rhyme_phon_noident_detected_pct": 61.14,
+     "meter_in_range_pct": 87.62,
+     "meter_exact_pct": 42.62,
+     "distinct_groups_pct": 56.67,
+     "distinct_groups_detected_pct": 63.33,
+     "rr_coverage_pct": 100.0,
+     "rr_rhyme_consonant_pct": 60.22,
+     "rr_rhyme_assonant_pct": 66.0,
+     "rr_rhyme_letters_pct": 38.44,
+     "rr_meter_exact_pct": 81.43,
+     "rr_sonnet_pct": 36.67,
+     "ladder/14 verses": 100.0,
+     "ladder/+ every scheme pair rhymes": 33.33,
+     "ladder/+ no repeated end word": 6.67,
+     "ladder/+ groups use distinct sounds": 3.33,
+     "ladder/+ >=12/14 verses 11 syll. (Rantanplan)": 3.33,
+     "ladder/+ 14/14 verses 11 syll. (Rantanplan)": 0.0,
+     "ladder_own_meter/14 verses": 100.0,
+     "ladder_own_meter/+ every scheme pair rhymes": 33.33,
+     "ladder_own_meter/+ no repeated end word": 6.67,
+     "ladder_own_meter/+ groups use distinct sounds": 3.33,
+     "ladder_own_meter/+ >=12/14 verses 10-12 syll. (own counter)": 3.33,
+     "ladder_own_meter/+ 14/14 verses 10-12 syll. (own counter)": 0.0,
+     "ladder_detected/14 verses": 100.0,
+     "ladder_detected/+ every pair rhymes (detected scheme)": 33.33,
+     "ladder_detected/+ no repeated end word": 6.67,
+     "ladder_detected/+ groups distinct (detected scheme)": 3.33
+    },
+    {
+     "n": 30,
+     "format_pct": 100.0,
+     "rhyme_orth_pct": 78.44,
+     "rhyme_orth_quatr_pct": 75.28,
+     "rhyme_phon_pct": 78.44,
+     "rhyme_phon_noident_pct": 58.89,
+     "rhyme_phon_noident_quatr_pct": 56.67,
+     "rhyme_phon_noident_detected_pct": 61.45,
+     "meter_in_range_pct": 89.52,
+     "meter_exact_pct": 50.24,
+     "distinct_groups_pct": 76.67,
+     "distinct_groups_detected_pct": 76.67,
+     "rr_coverage_pct": 100.0,
+     "rr_rhyme_consonant_pct": 59.11,
+     "rr_rhyme_assonant_pct": 66.67,
+     "rr_rhyme_letters_pct": 42.22,
+     "rr_meter_exact_pct": 85.24,
+     "rr_sonnet_pct": 50.0,
+     "ladder/14 verses": 100.0,
+     "ladder/+ every scheme pair rhymes": 40.0,
+     "ladder/+ no repeated end word": 6.67,
+     "ladder/+ groups use distinct sounds": 6.67,
+     "ladder/+ >=12/14 verses 11 syll. (Rantanplan)": 3.33,
+     "ladder/+ 14/14 verses 11 syll. (Rantanplan)": 3.33,
+     "ladder_own_meter/14 verses": 100.0,
+     "ladder_own_meter/+ every scheme pair rhymes": 40.0,
+     "ladder_own_meter/+ no repeated end word": 6.67,
+     "ladder_own_meter/+ groups use distinct sounds": 6.67,
+     "ladder_own_meter/+ >=12/14 verses 10-12 syll. (own counter)": 6.67,
+     "ladder_own_meter/+ 14/14 verses 10-12 syll. (own counter)": 0.0,
+     "ladder_detected/14 verses": 100.0,
+     "ladder_detected/+ every pair rhymes (detected scheme)": 40.0,
+     "ladder_detected/+ no repeated end word": 6.67,
+     "ladder_detected/+ groups distinct (detected scheme)": 6.67
+    },
+    {
+     "n": 30,
+     "format_pct": 100.0,
+     "rhyme_orth_pct": 87.11,
+     "rhyme_orth_quatr_pct": 85.83,
+     "rhyme_phon_pct": 87.11,
+     "rhyme_phon_noident_pct": 72.0,
+     "rhyme_phon_noident_quatr_pct": 72.78,
+     "rhyme_phon_noident_detected_pct": 72.0,
+     "meter_in_range_pct": 90.24,
+     "meter_exact_pct": 48.57,
+     "distinct_groups_pct": 80.0,
+     "distinct_groups_detected_pct": 80.0,
+     "rr_coverage_pct": 100.0,
+     "rr_rhyme_consonant_pct": 71.78,
+     "rr_rhyme_assonant_pct": 76.67,
+     "rr_rhyme_letters_pct": 50.89,
+     "rr_meter_exact_pct": 86.19,
+     "rr_sonnet_pct": 43.33,
+     "ladder/14 verses": 100.0,
+     "ladder/+ every scheme pair rhymes": 46.67,
+     "ladder/+ no repeated end word": 6.67,
+     "ladder/+ groups use distinct sounds": 6.67,
+     "ladder/+ >=12/14 verses 11 syll. (Rantanplan)": 6.67,
+     "ladder/+ 14/14 verses 11 syll. (Rantanplan)": 0.0,
+     "ladder_own_meter/14 verses": 100.0,
+     "ladder_own_meter/+ every scheme pair rhymes": 46.67,
+     "ladder_own_meter/+ no repeated end word": 6.67,
+     "ladder_own_meter/+ groups use distinct sounds": 6.67,
+     "ladder_own_meter/+ >=12/14 verses 10-12 syll. (own counter)": 3.33,
+     "ladder_own_meter/+ 14/14 verses 10-12 syll. (own counter)": 3.33,
+     "ladder_detected/14 verses": 100.0,
+     "ladder_detected/+ every pair rhymes (detected scheme)": 46.67,
+     "ladder_detected/+ no repeated end word": 6.67,
+     "ladder_detected/+ groups distinct (detected scheme)": 6.67
+    }
+   ],
+   "aggregate": {
+    "format_pct": {
+     "mean": 100.0,
+     "halfwidth": 0.0,
+     "lo": 100.0,
+     "hi": 100.0,
+     "n": 3
+    },
+    "rhyme_orth_pct": {
+     "mean": 81.4074074074074,
+     "halfwidth": 12.273632129666884,
+     "lo": 69.13377527774053,
+     "hi": 93.68103953707428,
+     "n": 3
+    },
+    "rhyme_orth_quatr_pct": {
+     "mean": 78.88888888888887,
+     "halfwidth": 14.943749829403824,
+     "lo": 63.945139059485044,
+     "hi": 93.8326387182927,
+     "n": 3
+    },
+    "rhyme_phon_pct": {
+     "mean": 81.4074074074074,
+     "halfwidth": 12.273632129666884,
+     "lo": 69.13377527774053,
+     "hi": 93.68103953707428,
+     "n": 3
+    },
+    "rhyme_phon_noident_pct": {
+     "mean": 63.77777777777777,
+     "halfwidth": 17.79389108322907,
+     "lo": 45.9838866945487,
+     "hi": 81.57166886100684,
+     "n": 3
+    },
+    "rhyme_phon_noident_quatr_pct": {
+     "mean": 63.333333333333336,
+     "halfwidth": 20.884347165432928,
+     "lo": 42.44898616790041,
+     "hi": 84.21768049876627,
+     "n": 3
+    },
+    "rhyme_phon_noident_detected_pct": {
+     "mean": 64.86303855747713,
+     "halfwidth": 15.359024784344774,
+     "lo": 49.50401377313235,
+     "hi": 80.2220633418219,
+     "n": 3
+    },
+    "meter_in_range_pct": {
+     "mean": 89.12698412698414,
+     "halfwidth": 3.3631916591914512,
+     "lo": 85.76379246779268,
+     "hi": 92.4901757861756,
+     "n": 3
+    },
+    "meter_exact_pct": {
+     "mean": 47.142857142857146,
+     "halfwidth": 9.949920145693268,
+     "lo": 37.192936997163876,
+     "hi": 57.092777288550415,
+     "n": 3
+    },
+    "distinct_groups_pct": {
+     "mean": 71.11111111111111,
+     "halfwidth": 31.349311963058106,
+     "lo": 39.76179914805301,
+     "hi": 102.46042307416923,
+     "n": 3
+    },
+    "distinct_groups_detected_pct": {
+     "mean": 73.33333333333333,
+     "halfwidth": 21.908035359094757,
+     "lo": 51.425297974238575,
+     "hi": 95.24136869242808,
+     "n": 3
+    },
+    "rr_coverage_pct": {
+     "mean": 100.0,
+     "halfwidth": 0.0,
+     "lo": 100.0,
+     "hi": 100.0,
+     "n": 3
+    },
+    "rr_rhyme_consonant_pct": {
+     "mean": 63.7037037037037,
+     "halfwidth": 17.42470700862609,
+     "lo": 46.27899669507761,
+     "hi": 81.1284107123298,
+     "n": 3
+    },
+    "rr_rhyme_assonant_pct": {
+     "mean": 69.77777777777779,
+     "halfwidth": 14.843362807549052,
+     "lo": 54.93441497022873,
+     "hi": 84.62114058532684,
+     "n": 3
+    },
+    "rr_rhyme_letters_pct": {
+     "mean": 43.85185185185185,
+     "halfwidth": 15.849464189894542,
+     "lo": 28.002387661957307,
+     "hi": 59.70131604174639,
+     "n": 3
+    },
+    "rr_meter_exact_pct": {
+     "mean": 84.28571428571429,
+     "halfwidth": 6.259438674027072,
+     "lo": 78.02627561168723,
+     "hi": 90.54515295974136,
+     "n": 3
+    },
+    "rr_sonnet_pct": {
+     "mean": 43.333333333333336,
+     "halfwidth": 16.560918078335536,
+     "lo": 26.7724152549978,
+     "hi": 59.894251411668876,
+     "n": 3
+    },
+    "ladder/14 verses": {
+     "mean": 100.0,
+     "halfwidth": 0.0,
+     "lo": 100.0,
+     "hi": 100.0,
+     "n": 3
+    },
+    "ladder/+ every scheme pair rhymes": {
+     "mean": 40.0,
+     "halfwidth": 16.56091807833553,
+     "lo": 23.43908192166447,
+     "hi": 56.56091807833553,
+     "n": 3
+    },
+    "ladder/+ no repeated end word": {
+     "mean": 6.666666666666667,
+     "halfwidth": 0.0,
+     "lo": 6.666666666666667,
+     "hi": 6.666666666666667,
+     "n": 3
+    },
+    "ladder/+ groups use distinct sounds": {
+     "mean": 5.555555555555556,
+     "halfwidth": 4.78072525527718,
+     "lo": 0.7748303002783761,
+     "hi": 10.336280810832736,
+     "n": 3
+    },
+    "ladder/+ >=12/14 verses 11 syll. (Rantanplan)": {
+     "mean": 4.444444444444445,
+     "halfwidth": 4.78072525527718,
+     "lo": -0.33628081083273553,
+     "hi": 9.225169699721626,
+     "n": 3
+    },
+    "ladder/+ 14/14 verses 11 syll. (Rantanplan)": {
+     "mean": 1.1111111111111112,
+     "halfwidth": 4.78072525527718,
+     "lo": -3.669614144166069,
+     "hi": 5.891836366388292,
+     "n": 3
+    },
+    "ladder_own_meter/14 verses": {
+     "mean": 100.0,
+     "halfwidth": 0.0,
+     "lo": 100.0,
+     "hi": 100.0,
+     "n": 3
+    },
+    "ladder_own_meter/+ every scheme pair rhymes": {
+     "mean": 40.0,
+     "halfwidth": 16.56091807833553,
+     "lo": 23.43908192166447,
+     "hi": 56.56091807833553,
+     "n": 3
+    },
+    "ladder_own_meter/+ no repeated end word": {
+     "mean": 6.666666666666667,
+     "halfwidth": 0.0,
+     "lo": 6.666666666666667,
+     "hi": 6.666666666666667,
+     "n": 3
+    },
+    "ladder_own_meter/+ groups use distinct sounds": {
+     "mean": 5.555555555555556,
+     "halfwidth": 4.78072525527718,
+     "lo": 0.7748303002783761,
+     "hi": 10.336280810832736,
+     "n": 3
+    },
+    "ladder_own_meter/+ >=12/14 verses 10-12 syll. (own counter)": {
+     "mean": 4.444444444444445,
+     "halfwidth": 4.78072525527718,
+     "lo": -0.33628081083273553,
+     "hi": 9.225169699721626,
+     "n": 3
+    },
+    "ladder_own_meter/+ 14/14 verses 10-12 syll. (own counter)": {
+     "mean": 1.1111111111111112,
+     "halfwidth": 4.78072525527718,
+     "lo": -3.669614144166069,
+     "hi": 5.891836366388292,
+     "n": 3
+    },
+    "ladder_detected/14 verses": {
+     "mean": 100.0,
+     "halfwidth": 0.0,
+     "lo": 100.0,
+     "hi": 100.0,
+     "n": 3
+    },
+    "ladder_detected/+ every pair rhymes (detected scheme)": {
+     "mean": 40.0,
+     "halfwidth": 16.56091807833553,
+     "lo": 23.43908192166447,
+     "hi": 56.56091807833553,
+     "n": 3
+    },
+    "ladder_detected/+ no repeated end word": {
+     "mean": 6.666666666666667,
+     "halfwidth": 0.0,
+     "lo": 6.666666666666667,
+     "hi": 6.666666666666667,
+     "n": 3
+    },
+    "ladder_detected/+ groups distinct (detected scheme)": {
+     "mean": 5.555555555555556,
+     "halfwidth": 4.78072525527718,
+     "lo": 0.7748303002783761,
+     "hi": 10.336280810832736,
+     "n": 3
+    }
+   },
+   "detected_schemes": {
+    "ABBA ABBA CDE CDE": 85,
+    "ABBA ABBA CDC CDC": 2,
+    "ABBA ABBA CDE CED": 1,
+    "ABBA ABBA CDE DCE": 1,
+    "ABAB ABAB CDC CDC": 1
+   }
+  },
+  "dream": {
+   "replicates": 3,
+   "n_per_replicate": [
+    10,
+    10,
+    10
+   ],
+   "per_replicate": [
+    {
+     "n": 10,
+     "format_pct": 50.0,
+     "rhyme_orth_pct": 21.33,
+     "rhyme_orth_quatr_pct": 21.67,
+     "rhyme_phon_pct": 21.33,
+     "rhyme_phon_noident_pct": 0.0,
+     "rhyme_phon_noident_quatr_pct": 0.0,
+     "rhyme_phon_noident_detected_pct": 2.56,
+     "meter_in_range_pct": 0.0,
+     "meter_exact_pct": 0.0,
+     "distinct_groups_pct": 0.0,
+     "distinct_groups_detected_pct": 0.0,
+     "rr_coverage_pct": 100.0,
+     "rr_rhyme_consonant_pct": 0.0,
+     "rr_rhyme_assonant_pct": 6.67,
+     "rr_rhyme_letters_pct": 0.0,
+     "rr_meter_exact_pct": 0.0,
+     "rr_sonnet_pct": 0.0,
+     "ladder/14 verses": 50.0,
+     "ladder/+ every scheme pair rhymes": 0.0,
+     "ladder/+ no repeated end word": 0.0,
+     "ladder/+ groups use distinct sounds": 0.0,
+     "ladder/+ >=12/14 verses 11 syll. (Rantanplan)": 0.0,
+     "ladder/+ 14/14 verses 11 syll. (Rantanplan)": 0.0,
+     "ladder_own_meter/14 verses": 50.0,
+     "ladder_own_meter/+ every scheme pair rhymes": 0.0,
+     "ladder_own_meter/+ no repeated end word": 0.0,
+     "ladder_own_meter/+ groups use distinct sounds": 0.0,
+     "ladder_own_meter/+ >=12/14 verses 10-12 syll. (own counter)": 0.0,
+     "ladder_own_meter/+ 14/14 verses 10-12 syll. (own counter)": 0.0,
+     "ladder_detected/14 verses": 50.0,
+     "ladder_detected/+ every pair rhymes (detected scheme)": 0.0,
+     "ladder_detected/+ no repeated end word": 0.0,
+     "ladder_detected/+ groups distinct (detected scheme)": 0.0
+    },
+    {
+     "n": 10,
+     "format_pct": 20.0,
+     "rhyme_orth_pct": 10.0,
+     "rhyme_orth_quatr_pct": 12.5,
+     "rhyme_phon_pct": 10.0,
+     "rhyme_phon_noident_pct": 0.0,
+     "rhyme_phon_noident_quatr_pct": 0.0,
+     "rhyme_phon_noident_detected_pct": 9.09,
+     "meter_in_range_pct": 14.29,
+     "meter_exact_pct": 3.57,
+     "distinct_groups_pct": 0.0,
+     "distinct_groups_detected_pct": 0.0,
+     "rr_coverage_pct": 100.0,
+     "rr_rhyme_consonant_pct": 0.0,
+     "rr_rhyme_assonant_pct": 3.33,
+     "rr_rhyme_letters_pct": 0.0,
+     "rr_meter_exact_pct": 7.14,
+     "rr_sonnet_pct": 0.0,
+     "ladder/14 verses": 20.0,
+     "ladder/+ every scheme pair rhymes": 0.0,
+     "ladder/+ no repeated end word": 0.0,
+     "ladder/+ groups use distinct sounds": 0.0,
+     "ladder/+ >=12/14 verses 11 syll. (Rantanplan)": 0.0,
+     "ladder/+ 14/14 verses 11 syll. (Rantanplan)": 0.0,
+     "ladder_own_meter/14 verses": 20.0,
+     "ladder_own_meter/+ every scheme pair rhymes": 0.0,
+     "ladder_own_meter/+ no repeated end word": 0.0,
+     "ladder_own_meter/+ groups use distinct sounds": 0.0,
+     "ladder_own_meter/+ >=12/14 verses 10-12 syll. (own counter)": 0.0,
+     "ladder_own_meter/+ 14/14 verses 10-12 syll. (own counter)": 0.0,
+     "ladder_detected/14 verses": 20.0,
+     "ladder_detected/+ every pair rhymes (detected scheme)": 0.0,
+     "ladder_detected/+ no repeated end word": 0.0,
+     "ladder_detected/+ groups distinct (detected scheme)": 0.0
+    },
+    {
+     "n": 10,
+     "format_pct": 20.0,
+     "rhyme_orth_pct": 100.0,
+     "rhyme_orth_quatr_pct": 100.0,
+     "rhyme_phon_pct": 100.0,
+     "rhyme_phon_noident_pct": 0.0,
+     "rhyme_phon_noident_quatr_pct": 0.0,
+     "rhyme_phon_noident_detected_pct": 0.0,
+     "meter_in_range_pct": 14.29,
+     "meter_exact_pct": 0.0,
+     "distinct_groups_pct": 0.0,
+     "distinct_groups_detected_pct": 0.0,
+     "rr_coverage_pct": 100.0,
+     "rr_rhyme_consonant_pct": 0.0,
+     "rr_rhyme_assonant_pct": 0.0,
+     "rr_rhyme_letters_pct": 0.0,
+     "rr_meter_exact_pct": 0.0,
+     "rr_sonnet_pct": 0.0,
+     "ladder/14 verses": 20.0,
+     "ladder/+ every scheme pair rhymes": 20.0,
+     "ladder/+ no repeated end word": 0.0,
+     "ladder/+ groups use distinct sounds": 0.0,
+     "ladder/+ >=12/14 verses 11 syll. (Rantanplan)": 0.0,
+     "ladder/+ 14/14 verses 11 syll. (Rantanplan)": 0.0,
+     "ladder_own_meter/14 verses": 20.0,
+     "ladder_own_meter/+ every scheme pair rhymes": 20.0,
+     "ladder_own_meter/+ no repeated end word": 0.0,
+     "ladder_own_meter/+ groups use distinct sounds": 0.0,
+     "ladder_own_meter/+ >=12/14 verses 10-12 syll. (own counter)": 0.0,
+     "ladder_own_meter/+ 14/14 verses 10-12 syll. (own counter)": 0.0,
+     "ladder_detected/14 verses": 20.0,
+     "ladder_detected/+ every pair rhymes (detected scheme)": 20.0,
+     "ladder_detected/+ no repeated end word": 0.0,
+     "ladder_detected/+ groups distinct (detected scheme)": 0.0
+    }
+   ],
+   "aggregate": {
+    "format_pct": {
+     "mean": 30.0,
+     "halfwidth": 43.02652729749463,
+     "lo": -13.026527297494631,
+     "hi": 73.02652729749462,
+     "n": 3
+    },
+    "rhyme_orth_pct": {
+     "mean": 43.77777777777778,
+     "halfwidth": 121.76874173641976,
+     "lo": -77.99096395864197,
+     "hi": 165.54651951419754,
+     "n": 3
+    },
+    "rhyme_orth_quatr_pct": {
+     "mean": 44.72222222222223,
+     "halfwidth": 119.46433611614823,
+     "lo": -74.742113893926,
+     "hi": 164.18655833837045,
+     "n": 3
+    },
+    "rhyme_phon_pct": {
+     "mean": 43.77777777777778,
+     "halfwidth": 121.76874173641976,
+     "lo": -77.99096395864197,
+     "hi": 165.54651951419754,
+     "n": 3
+    },
+    "rhyme_phon_noident_pct": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "rhyme_phon_noident_quatr_pct": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "rhyme_phon_noident_detected_pct": {
+     "mean": 3.885003885003885,
+     "halfwidth": 11.64362336184101,
+     "lo": -7.758619476837126,
+     "hi": 15.528627246844895,
+     "n": 3
+    },
+    "meter_in_range_pct": {
+     "mean": 9.523809523809524,
+     "halfwidth": 20.488822522616484,
+     "lo": -10.96501299880696,
+     "hi": 30.012632046426006,
+     "n": 3
+    },
+    "meter_exact_pct": {
+     "mean": 1.1904761904761905,
+     "halfwidth": 5.122205630654123,
+     "lo": -3.931729440177932,
+     "hi": 6.3126818211303135,
+     "n": 3
+    },
+    "distinct_groups_pct": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "distinct_groups_detected_pct": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "rr_coverage_pct": {
+     "mean": 100.0,
+     "halfwidth": 0.0,
+     "lo": 100.0,
+     "hi": 100.0,
+     "n": 3
+    },
+    "rr_rhyme_consonant_pct": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "rr_rhyme_assonant_pct": {
+     "mean": 3.3333333333333335,
+     "halfwidth": 8.280459039167766,
+     "lo": -4.9471257058344325,
+     "hi": 11.6137923725011,
+     "n": 3
+    },
+    "rr_rhyme_letters_pct": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "rr_meter_exact_pct": {
+     "mean": 2.380952380952381,
+     "halfwidth": 10.244411261308246,
+     "lo": -7.863458880355864,
+     "hi": 12.625363642260627,
+     "n": 3
+    },
+    "rr_sonnet_pct": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder/14 verses": {
+     "mean": 30.0,
+     "halfwidth": 43.02652729749463,
+     "lo": -13.026527297494631,
+     "hi": 73.02652729749462,
+     "n": 3
+    },
+    "ladder/+ every scheme pair rhymes": {
+     "mean": 6.666666666666667,
+     "halfwidth": 28.68435153166308,
+     "lo": -22.01768486499641,
+     "hi": 35.35101819832975,
+     "n": 3
+    },
+    "ladder/+ no repeated end word": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder/+ groups use distinct sounds": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder/+ >=12/14 verses 11 syll. (Rantanplan)": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder/+ 14/14 verses 11 syll. (Rantanplan)": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder_own_meter/14 verses": {
+     "mean": 30.0,
+     "halfwidth": 43.02652729749463,
+     "lo": -13.026527297494631,
+     "hi": 73.02652729749462,
+     "n": 3
+    },
+    "ladder_own_meter/+ every scheme pair rhymes": {
+     "mean": 6.666666666666667,
+     "halfwidth": 28.68435153166308,
+     "lo": -22.01768486499641,
+     "hi": 35.35101819832975,
+     "n": 3
+    },
+    "ladder_own_meter/+ no repeated end word": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder_own_meter/+ groups use distinct sounds": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder_own_meter/+ >=12/14 verses 10-12 syll. (own counter)": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder_own_meter/+ 14/14 verses 10-12 syll. (own counter)": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder_detected/14 verses": {
+     "mean": 30.0,
+     "halfwidth": 43.02652729749463,
+     "lo": -13.026527297494631,
+     "hi": 73.02652729749462,
+     "n": 3
+    },
+    "ladder_detected/+ every pair rhymes (detected scheme)": {
+     "mean": 6.666666666666667,
+     "halfwidth": 28.68435153166308,
+     "lo": -22.01768486499641,
+     "hi": 35.35101819832975,
+     "n": 3
+    },
+    "ladder_detected/+ no repeated end word": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder_detected/+ groups distinct (detected scheme)": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    }
+   },
+   "detected_schemes": {
+    "ABBA ABBA CDE CDE": 7,
+    "ABBA ABBA CDC DCD": 1,
+    "ABAB ABAB CDC DCD": 1
+   }
+  },
+  "nocontrol": {
+   "replicates": 3,
+   "n_per_replicate": [
+    30,
+    30,
+    30
+   ],
+   "per_replicate": [
+    {
+     "n": 30,
+     "format_pct": 96.67,
+     "rhyme_orth_pct": 7.56,
+     "rhyme_orth_quatr_pct": 8.61,
+     "rhyme_phon_pct": 7.56,
+     "rhyme_phon_noident_pct": 7.56,
+     "rhyme_phon_noident_quatr_pct": 8.61,
+     "rhyme_phon_noident_detected_pct": 9.19,
+     "meter_in_range_pct": 50.71,
+     "meter_exact_pct": 16.67,
+     "distinct_groups_pct": 43.33,
+     "distinct_groups_detected_pct": 53.33,
+     "rr_coverage_pct": 100.0,
+     "rr_rhyme_consonant_pct": 7.78,
+     "rr_rhyme_assonant_pct": 12.67,
+     "rr_rhyme_letters_pct": 0.0,
+     "rr_meter_exact_pct": 18.57,
+     "rr_sonnet_pct": 0.0,
+     "ladder/14 verses": 96.67,
+     "ladder/+ every scheme pair rhymes": 0.0,
+     "ladder/+ no repeated end word": 0.0,
+     "ladder/+ groups use distinct sounds": 0.0,
+     "ladder/+ >=12/14 verses 11 syll. (Rantanplan)": 0.0,
+     "ladder/+ 14/14 verses 11 syll. (Rantanplan)": 0.0,
+     "ladder_own_meter/14 verses": 96.67,
+     "ladder_own_meter/+ every scheme pair rhymes": 0.0,
+     "ladder_own_meter/+ no repeated end word": 0.0,
+     "ladder_own_meter/+ groups use distinct sounds": 0.0,
+     "ladder_own_meter/+ >=12/14 verses 10-12 syll. (own counter)": 0.0,
+     "ladder_own_meter/+ 14/14 verses 10-12 syll. (own counter)": 0.0,
+     "ladder_detected/14 verses": 96.67,
+     "ladder_detected/+ every pair rhymes (detected scheme)": 0.0,
+     "ladder_detected/+ no repeated end word": 0.0,
+     "ladder_detected/+ groups distinct (detected scheme)": 0.0
+    },
+    {
+     "n": 30,
+     "format_pct": 96.67,
+     "rhyme_orth_pct": 1.33,
+     "rhyme_orth_quatr_pct": 0.83,
+     "rhyme_phon_pct": 1.33,
+     "rhyme_phon_noident_pct": 0.89,
+     "rhyme_phon_noident_quatr_pct": 0.28,
+     "rhyme_phon_noident_detected_pct": 3.33,
+     "meter_in_range_pct": 55.95,
+     "meter_exact_pct": 19.76,
+     "distinct_groups_pct": 46.67,
+     "distinct_groups_detected_pct": 66.67,
+     "rr_coverage_pct": 100.0,
+     "rr_rhyme_consonant_pct": 0.89,
+     "rr_rhyme_assonant_pct": 4.89,
+     "rr_rhyme_letters_pct": 0.0,
+     "rr_meter_exact_pct": 22.14,
+     "rr_sonnet_pct": 0.0,
+     "ladder/14 verses": 96.67,
+     "ladder/+ every scheme pair rhymes": 0.0,
+     "ladder/+ no repeated end word": 0.0,
+     "ladder/+ groups use distinct sounds": 0.0,
+     "ladder/+ >=12/14 verses 11 syll. (Rantanplan)": 0.0,
+     "ladder/+ 14/14 verses 11 syll. (Rantanplan)": 0.0,
+     "ladder_own_meter/14 verses": 96.67,
+     "ladder_own_meter/+ every scheme pair rhymes": 0.0,
+     "ladder_own_meter/+ no repeated end word": 0.0,
+     "ladder_own_meter/+ groups use distinct sounds": 0.0,
+     "ladder_own_meter/+ >=12/14 verses 10-12 syll. (own counter)": 0.0,
+     "ladder_own_meter/+ 14/14 verses 10-12 syll. (own counter)": 0.0,
+     "ladder_detected/14 verses": 96.67,
+     "ladder_detected/+ every pair rhymes (detected scheme)": 0.0,
+     "ladder_detected/+ no repeated end word": 0.0,
+     "ladder_detected/+ groups distinct (detected scheme)": 0.0
+    },
+    {
+     "n": 30,
+     "format_pct": 100.0,
+     "rhyme_orth_pct": 6.67,
+     "rhyme_orth_quatr_pct": 6.94,
+     "rhyme_phon_pct": 6.67,
+     "rhyme_phon_noident_pct": 6.22,
+     "rhyme_phon_noident_quatr_pct": 6.39,
+     "rhyme_phon_noident_detected_pct": 7.88,
+     "meter_in_range_pct": 53.57,
+     "meter_exact_pct": 20.24,
+     "distinct_groups_pct": 33.33,
+     "distinct_groups_detected_pct": 46.67,
+     "rr_coverage_pct": 100.0,
+     "rr_rhyme_consonant_pct": 6.22,
+     "rr_rhyme_assonant_pct": 13.11,
+     "rr_rhyme_letters_pct": 1.78,
+     "rr_meter_exact_pct": 26.67,
+     "rr_sonnet_pct": 0.0,
+     "ladder/14 verses": 100.0,
+     "ladder/+ every scheme pair rhymes": 0.0,
+     "ladder/+ no repeated end word": 0.0,
+     "ladder/+ groups use distinct sounds": 0.0,
+     "ladder/+ >=12/14 verses 11 syll. (Rantanplan)": 0.0,
+     "ladder/+ 14/14 verses 11 syll. (Rantanplan)": 0.0,
+     "ladder_own_meter/14 verses": 100.0,
+     "ladder_own_meter/+ every scheme pair rhymes": 0.0,
+     "ladder_own_meter/+ no repeated end word": 0.0,
+     "ladder_own_meter/+ groups use distinct sounds": 0.0,
+     "ladder_own_meter/+ >=12/14 verses 10-12 syll. (own counter)": 0.0,
+     "ladder_own_meter/+ 14/14 verses 10-12 syll. (own counter)": 0.0,
+     "ladder_detected/14 verses": 100.0,
+     "ladder_detected/+ every pair rhymes (detected scheme)": 0.0,
+     "ladder_detected/+ no repeated end word": 0.0,
+     "ladder_detected/+ groups distinct (detected scheme)": 0.0
+    }
+   ],
+   "aggregate": {
+    "format_pct": {
+     "mean": 97.77777777777779,
+     "halfwidth": 4.780725255277174,
+     "lo": 92.99705252250061,
+     "hi": 102.55850303305496,
+     "n": 3
+    },
+    "rhyme_orth_pct": {
+     "mean": 5.185185185185186,
+     "halfwidth": 8.35981652348216,
+     "lo": -3.1746313382969733,
+     "hi": 13.545001708667346,
+     "n": 3
+    },
+    "rhyme_orth_quatr_pct": {
+     "mean": 5.462962962962963,
+     "halfwidth": 10.172702356648383,
+     "lo": -4.70973939368542,
+     "hi": 15.635665319611345,
+     "n": 3
+    },
+    "rhyme_phon_pct": {
+     "mean": 5.185185185185186,
+     "halfwidth": 8.35981652348216,
+     "lo": -3.1746313382969733,
+     "hi": 13.545001708667346,
+     "n": 3
+    },
+    "rhyme_phon_noident_pct": {
+     "mean": 4.888888888888889,
+     "halfwidth": 8.763214143637903,
+     "lo": -3.8743252547490137,
+     "hi": 13.652103032526792,
+     "n": 3
+    },
+    "rhyme_phon_noident_quatr_pct": {
+     "mean": 5.092592592592593,
+     "halfwidth": 10.719680042808278,
+     "lo": -5.627087450215686,
+     "hi": 15.81227263540087,
+     "n": 3
+    },
+    "rhyme_phon_noident_detected_pct": {
+     "mean": 6.800389010454656,
+     "halfwidth": 7.634951754799219,
+     "lo": -0.8345627443445629,
+     "hi": 14.435340765253875,
+     "n": 3
+    },
+    "meter_in_range_pct": {
+     "mean": 53.41269841269841,
+     "halfwidth": 6.515030331732762,
+     "lo": 46.89766808096565,
+     "hi": 59.92772874443117,
+     "n": 3
+    },
+    "meter_exact_pct": {
+     "mean": 18.88888888888889,
+     "halfwidth": 4.81717349767971,
+     "lo": 14.071715391209178,
+     "hi": 23.7060623865686,
+     "n": 3
+    },
+    "distinct_groups_pct": {
+     "mean": 41.111111111111114,
+     "halfwidth": 17.23715004180754,
+     "lo": 23.873961069303576,
+     "hi": 58.34826115291865,
+     "n": 3
+    },
+    "distinct_groups_detected_pct": {
+     "mean": 55.55555555555555,
+     "halfwidth": 25.29722022397841,
+     "lo": 30.25833533157714,
+     "hi": 80.85277577953396,
+     "n": 3
+    },
+    "rr_coverage_pct": {
+     "mean": 100.0,
+     "halfwidth": 0.0,
+     "lo": 100.0,
+     "hi": 100.0,
+     "n": 3
+    },
+    "rr_rhyme_consonant_pct": {
+     "mean": 4.962962962962963,
+     "halfwidth": 8.97509636850545,
+     "lo": -4.012133405542488,
+     "hi": 13.938059331468413,
+     "n": 3
+    },
+    "rr_rhyme_assonant_pct": {
+     "mean": 10.222222222222223,
+     "halfwidth": 11.487012728857872,
+     "lo": -1.2647905066356486,
+     "hi": 21.709234951080095,
+     "n": 3
+    },
+    "rr_rhyme_letters_pct": {
+     "mean": 0.5925925925925926,
+     "halfwidth": 2.549720136147829,
+     "lo": -1.9571275435552367,
+     "hi": 3.142312728740422,
+     "n": 3
+    },
+    "rr_meter_exact_pct": {
+     "mean": 22.46031746031746,
+     "halfwidth": 10.07801099099219,
+     "lo": 12.382306469325268,
+     "hi": 32.53832845130965,
+     "n": 3
+    },
+    "rr_sonnet_pct": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder/14 verses": {
+     "mean": 97.77777777777779,
+     "halfwidth": 4.780725255277174,
+     "lo": 92.99705252250061,
+     "hi": 102.55850303305496,
+     "n": 3
+    },
+    "ladder/+ every scheme pair rhymes": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder/+ no repeated end word": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder/+ groups use distinct sounds": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder/+ >=12/14 verses 11 syll. (Rantanplan)": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder/+ 14/14 verses 11 syll. (Rantanplan)": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder_own_meter/14 verses": {
+     "mean": 97.77777777777779,
+     "halfwidth": 4.780725255277174,
+     "lo": 92.99705252250061,
+     "hi": 102.55850303305496,
+     "n": 3
+    },
+    "ladder_own_meter/+ every scheme pair rhymes": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder_own_meter/+ no repeated end word": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder_own_meter/+ groups use distinct sounds": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder_own_meter/+ >=12/14 verses 10-12 syll. (own counter)": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder_own_meter/+ 14/14 verses 10-12 syll. (own counter)": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder_detected/14 verses": {
+     "mean": 97.77777777777779,
+     "halfwidth": 4.780725255277174,
+     "lo": 92.99705252250061,
+     "hi": 102.55850303305496,
+     "n": 3
+    },
+    "ladder_detected/+ every pair rhymes (detected scheme)": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder_detected/+ no repeated end word": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder_detected/+ groups distinct (detected scheme)": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    }
+   },
+   "detected_schemes": {
+    "ABBA ABBA CDE CDE": 70,
+    "ABAB ABAB CDE CDE": 4,
+    "ABBA ABBA CDE DCE": 4,
+    "ABBA ABBA CDE CED": 3,
+    "ABBA ABBA CDC CDC": 2,
+    "ABBA ABBA CDC DCD": 2,
+    "ABBA ABBA CDE DEC": 2,
+    "ABBA ABBA CDE EDC": 2,
+    "ABAB ABAB CDE DEC": 1
+   }
+  },
+  "bon6": {
+   "replicates": 3,
+   "n_per_replicate": [
+    30,
+    30,
+    30
+   ],
+   "per_replicate": [
+    {
+     "n": 30,
+     "format_pct": 100.0,
+     "rhyme_orth_pct": 18.89,
+     "rhyme_orth_quatr_pct": 21.94,
+     "rhyme_phon_pct": 18.89,
+     "rhyme_phon_noident_pct": 17.56,
+     "rhyme_phon_noident_quatr_pct": 20.28,
+     "rhyme_phon_noident_detected_pct": 18.54,
+     "meter_in_range_pct": 55.95,
+     "meter_exact_pct": 20.71,
+     "distinct_groups_pct": 40.0,
+     "distinct_groups_detected_pct": 50.0,
+     "rr_coverage_pct": 100.0,
+     "rr_rhyme_consonant_pct": 17.33,
+     "rr_rhyme_assonant_pct": 23.78,
+     "rr_rhyme_letters_pct": 1.11,
+     "rr_meter_exact_pct": 21.19,
+     "rr_sonnet_pct": 0.0,
+     "ladder/14 verses": 100.0,
+     "ladder/+ every scheme pair rhymes": 0.0,
+     "ladder/+ no repeated end word": 0.0,
+     "ladder/+ groups use distinct sounds": 0.0,
+     "ladder/+ >=12/14 verses 11 syll. (Rantanplan)": 0.0,
+     "ladder/+ 14/14 verses 11 syll. (Rantanplan)": 0.0,
+     "ladder_own_meter/14 verses": 100.0,
+     "ladder_own_meter/+ every scheme pair rhymes": 0.0,
+     "ladder_own_meter/+ no repeated end word": 0.0,
+     "ladder_own_meter/+ groups use distinct sounds": 0.0,
+     "ladder_own_meter/+ >=12/14 verses 10-12 syll. (own counter)": 0.0,
+     "ladder_own_meter/+ 14/14 verses 10-12 syll. (own counter)": 0.0,
+     "ladder_detected/14 verses": 100.0,
+     "ladder_detected/+ every pair rhymes (detected scheme)": 0.0,
+     "ladder_detected/+ no repeated end word": 0.0,
+     "ladder_detected/+ groups distinct (detected scheme)": 0.0
+    },
+    {
+     "n": 30,
+     "format_pct": 100.0,
+     "rhyme_orth_pct": 15.56,
+     "rhyme_orth_quatr_pct": 17.5,
+     "rhyme_phon_pct": 15.56,
+     "rhyme_phon_noident_pct": 14.0,
+     "rhyme_phon_noident_quatr_pct": 15.56,
+     "rhyme_phon_noident_detected_pct": 16.3,
+     "meter_in_range_pct": 51.9,
+     "meter_exact_pct": 21.19,
+     "distinct_groups_pct": 46.67,
+     "distinct_groups_detected_pct": 60.0,
+     "rr_coverage_pct": 100.0,
+     "rr_rhyme_consonant_pct": 14.0,
+     "rr_rhyme_assonant_pct": 20.0,
+     "rr_rhyme_letters_pct": 2.22,
+     "rr_meter_exact_pct": 23.81,
+     "rr_sonnet_pct": 0.0,
+     "ladder/14 verses": 100.0,
+     "ladder/+ every scheme pair rhymes": 0.0,
+     "ladder/+ no repeated end word": 0.0,
+     "ladder/+ groups use distinct sounds": 0.0,
+     "ladder/+ >=12/14 verses 11 syll. (Rantanplan)": 0.0,
+     "ladder/+ 14/14 verses 11 syll. (Rantanplan)": 0.0,
+     "ladder_own_meter/14 verses": 100.0,
+     "ladder_own_meter/+ every scheme pair rhymes": 0.0,
+     "ladder_own_meter/+ no repeated end word": 0.0,
+     "ladder_own_meter/+ groups use distinct sounds": 0.0,
+     "ladder_own_meter/+ >=12/14 verses 10-12 syll. (own counter)": 0.0,
+     "ladder_own_meter/+ 14/14 verses 10-12 syll. (own counter)": 0.0,
+     "ladder_detected/14 verses": 100.0,
+     "ladder_detected/+ every pair rhymes (detected scheme)": 0.0,
+     "ladder_detected/+ no repeated end word": 0.0,
+     "ladder_detected/+ groups distinct (detected scheme)": 0.0
+    },
+    {
+     "n": 30,
+     "format_pct": 100.0,
+     "rhyme_orth_pct": 23.56,
+     "rhyme_orth_quatr_pct": 25.83,
+     "rhyme_phon_pct": 23.56,
+     "rhyme_phon_noident_pct": 22.44,
+     "rhyme_phon_noident_quatr_pct": 24.44,
+     "rhyme_phon_noident_detected_pct": 23.59,
+     "meter_in_range_pct": 52.14,
+     "meter_exact_pct": 21.19,
+     "distinct_groups_pct": 26.67,
+     "distinct_groups_detected_pct": 36.67,
+     "rr_coverage_pct": 100.0,
+     "rr_rhyme_consonant_pct": 22.44,
+     "rr_rhyme_assonant_pct": 28.44,
+     "rr_rhyme_letters_pct": 4.44,
+     "rr_meter_exact_pct": 23.81,
+     "rr_sonnet_pct": 0.0,
+     "ladder/14 verses": 100.0,
+     "ladder/+ every scheme pair rhymes": 0.0,
+     "ladder/+ no repeated end word": 0.0,
+     "ladder/+ groups use distinct sounds": 0.0,
+     "ladder/+ >=12/14 verses 11 syll. (Rantanplan)": 0.0,
+     "ladder/+ 14/14 verses 11 syll. (Rantanplan)": 0.0,
+     "ladder_own_meter/14 verses": 100.0,
+     "ladder_own_meter/+ every scheme pair rhymes": 0.0,
+     "ladder_own_meter/+ no repeated end word": 0.0,
+     "ladder_own_meter/+ groups use distinct sounds": 0.0,
+     "ladder_own_meter/+ >=12/14 verses 10-12 syll. (own counter)": 0.0,
+     "ladder_own_meter/+ 14/14 verses 10-12 syll. (own counter)": 0.0,
+     "ladder_detected/14 verses": 100.0,
+     "ladder_detected/+ every pair rhymes (detected scheme)": 0.0,
+     "ladder_detected/+ no repeated end word": 0.0,
+     "ladder_detected/+ groups distinct (detected scheme)": 0.0
+    }
+   ],
+   "aggregate": {
+    "format_pct": {
+     "mean": 100.0,
+     "halfwidth": 0.0,
+     "lo": 100.0,
+     "hi": 100.0,
+     "n": 3
+    },
+    "rhyme_orth_pct": {
+     "mean": 19.333333333333332,
+     "halfwidth": 9.982447399996683,
+     "lo": 9.350885933336649,
+     "hi": 29.315780733330016,
+     "n": 3
+    },
+    "rhyme_orth_quatr_pct": {
+     "mean": 21.759259259259256,
+     "halfwidth": 10.358238053100557,
+     "lo": 11.401021206158699,
+     "hi": 32.117497312359816,
+     "n": 3
+    },
+    "rhyme_phon_pct": {
+     "mean": 19.333333333333332,
+     "halfwidth": 9.982447399996683,
+     "lo": 9.350885933336649,
+     "hi": 29.315780733330016,
+     "n": 3
+    },
+    "rhyme_phon_noident_pct": {
+     "mean": 18.0,
+     "halfwidth": 10.532072644252569,
+     "lo": 7.467927355747431,
+     "hi": 28.53207264425257,
+     "n": 3
+    },
+    "rhyme_phon_noident_quatr_pct": {
+     "mean": 20.09259259259259,
+     "halfwidth": 11.047797612406564,
+     "lo": 9.044794980186028,
+     "hi": 31.140390204999157,
+     "n": 3
+    },
+    "rhyme_phon_noident_detected_pct": {
+     "mean": 19.480155925592147,
+     "halfwidth": 9.27485727454821,
+     "lo": 10.205298651043936,
+     "hi": 28.755013200140358,
+     "n": 3
+    },
+    "meter_in_range_pct": {
+     "mean": 53.333333333333336,
+     "halfwidth": 5.642181773706727,
+     "lo": 47.69115155962661,
+     "hi": 58.97551510704006,
+     "n": 3
+    },
+    "meter_exact_pct": {
+     "mean": 21.03174603174603,
+     "halfwidth": 0.6829607507538805,
+     "lo": 20.34878528099215,
+     "hi": 21.714706782499913,
+     "n": 3
+    },
+    "distinct_groups_pct": {
+     "mean": 37.77777777777778,
+     "halfwidth": 25.297220223978396,
+     "lo": 12.480557553799382,
+     "hi": 63.07499800175617,
+     "n": 3
+    },
+    "distinct_groups_detected_pct": {
+     "mean": 48.888888888888886,
+     "halfwidth": 29.080016450450422,
+     "lo": 19.808872438438463,
+     "hi": 77.9689053393393,
+     "n": 3
+    },
+    "rr_coverage_pct": {
+     "mean": 100.0,
+     "halfwidth": 0.0,
+     "lo": 100.0,
+     "hi": 100.0,
+     "n": 3
+    },
+    "rr_rhyme_consonant_pct": {
+     "mean": 17.925925925925924,
+     "halfwidth": 10.56577536285553,
+     "lo": 7.360150563070393,
+     "hi": 28.491701288781456,
+     "n": 3
+    },
+    "rr_rhyme_assonant_pct": {
+     "mean": 24.074074074074076,
+     "halfwidth": 10.507933092356835,
+     "lo": 13.566140981717242,
+     "hi": 34.58200716643091,
+     "n": 3
+    },
+    "rr_rhyme_letters_pct": {
+     "mean": 2.592592592592593,
+     "halfwidth": 4.216203370663067,
+     "lo": -1.6236107780704736,
+     "hi": 6.80879596325566,
+     "n": 3
+    },
+    "rr_meter_exact_pct": {
+     "mean": 22.936507936507937,
+     "halfwidth": 3.7562841291463585,
+     "lo": 19.18022380736158,
+     "hi": 26.692792065654295,
+     "n": 3
+    },
+    "rr_sonnet_pct": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder/14 verses": {
+     "mean": 100.0,
+     "halfwidth": 0.0,
+     "lo": 100.0,
+     "hi": 100.0,
+     "n": 3
+    },
+    "ladder/+ every scheme pair rhymes": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder/+ no repeated end word": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder/+ groups use distinct sounds": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder/+ >=12/14 verses 11 syll. (Rantanplan)": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder/+ 14/14 verses 11 syll. (Rantanplan)": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder_own_meter/14 verses": {
+     "mean": 100.0,
+     "halfwidth": 0.0,
+     "lo": 100.0,
+     "hi": 100.0,
+     "n": 3
+    },
+    "ladder_own_meter/+ every scheme pair rhymes": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder_own_meter/+ no repeated end word": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder_own_meter/+ groups use distinct sounds": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder_own_meter/+ >=12/14 verses 10-12 syll. (own counter)": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder_own_meter/+ 14/14 verses 10-12 syll. (own counter)": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder_detected/14 verses": {
+     "mean": 100.0,
+     "halfwidth": 0.0,
+     "lo": 100.0,
+     "hi": 100.0,
+     "n": 3
+    },
+    "ladder_detected/+ every pair rhymes (detected scheme)": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder_detected/+ no repeated end word": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder_detected/+ groups distinct (detected scheme)": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    }
+   },
+   "detected_schemes": {
+    "ABBA ABBA CDE CDE": 70,
+    "ABBA ABBA CDE DCE": 4,
+    "ABBA ABBA CDC CDC": 4,
+    "ABBA ABBA CDE CED": 3,
+    "ABBA ABBA CDC DCD": 3,
+    "ABAB ABAB CDE CDE": 3,
+    "ABBA ABBA CDE DEC": 2,
+    "ABBA ABBA CDE EDC": 1
+   }
+  },
+  "bon168": {
+   "replicates": 3,
+   "n_per_replicate": [
+    30,
+    30,
+    30
+   ],
+   "per_replicate": [
+    {
+     "n": 30,
+     "format_pct": 100.0,
+     "rhyme_orth_pct": 50.67,
+     "rhyme_orth_quatr_pct": 59.72,
+     "rhyme_phon_pct": 50.67,
+     "rhyme_phon_noident_pct": 46.89,
+     "rhyme_phon_noident_quatr_pct": 55.28,
+     "rhyme_phon_noident_detected_pct": 47.56,
+     "meter_in_range_pct": 59.52,
+     "meter_exact_pct": 21.67,
+     "distinct_groups_pct": 46.67,
+     "distinct_groups_detected_pct": 46.67,
+     "rr_coverage_pct": 100.0,
+     "rr_rhyme_consonant_pct": 46.89,
+     "rr_rhyme_assonant_pct": 51.11,
+     "rr_rhyme_letters_pct": 12.0,
+     "rr_meter_exact_pct": 26.19,
+     "rr_sonnet_pct": 0.0,
+     "ladder/14 verses": 100.0,
+     "ladder/+ every scheme pair rhymes": 0.0,
+     "ladder/+ no repeated end word": 0.0,
+     "ladder/+ groups use distinct sounds": 0.0,
+     "ladder/+ >=12/14 verses 11 syll. (Rantanplan)": 0.0,
+     "ladder/+ 14/14 verses 11 syll. (Rantanplan)": 0.0,
+     "ladder_own_meter/14 verses": 100.0,
+     "ladder_own_meter/+ every scheme pair rhymes": 0.0,
+     "ladder_own_meter/+ no repeated end word": 0.0,
+     "ladder_own_meter/+ groups use distinct sounds": 0.0,
+     "ladder_own_meter/+ >=12/14 verses 10-12 syll. (own counter)": 0.0,
+     "ladder_own_meter/+ 14/14 verses 10-12 syll. (own counter)": 0.0,
+     "ladder_detected/14 verses": 100.0,
+     "ladder_detected/+ every pair rhymes (detected scheme)": 0.0,
+     "ladder_detected/+ no repeated end word": 0.0,
+     "ladder_detected/+ groups distinct (detected scheme)": 0.0
+    },
+    {
+     "n": 30,
+     "format_pct": 100.0,
+     "rhyme_orth_pct": 53.78,
+     "rhyme_orth_quatr_pct": 62.78,
+     "rhyme_phon_pct": 53.78,
+     "rhyme_phon_noident_pct": 49.11,
+     "rhyme_phon_noident_quatr_pct": 57.22,
+     "rhyme_phon_noident_detected_pct": 50.67,
+     "meter_in_range_pct": 60.71,
+     "meter_exact_pct": 23.57,
+     "distinct_groups_pct": 33.33,
+     "distinct_groups_detected_pct": 33.33,
+     "rr_coverage_pct": 100.0,
+     "rr_rhyme_consonant_pct": 48.89,
+     "rr_rhyme_assonant_pct": 51.56,
+     "rr_rhyme_letters_pct": 8.44,
+     "rr_meter_exact_pct": 26.9,
+     "rr_sonnet_pct": 0.0,
+     "ladder/14 verses": 100.0,
+     "ladder/+ every scheme pair rhymes": 0.0,
+     "ladder/+ no repeated end word": 0.0,
+     "ladder/+ groups use distinct sounds": 0.0,
+     "ladder/+ >=12/14 verses 11 syll. (Rantanplan)": 0.0,
+     "ladder/+ 14/14 verses 11 syll. (Rantanplan)": 0.0,
+     "ladder_own_meter/14 verses": 100.0,
+     "ladder_own_meter/+ every scheme pair rhymes": 0.0,
+     "ladder_own_meter/+ no repeated end word": 0.0,
+     "ladder_own_meter/+ groups use distinct sounds": 0.0,
+     "ladder_own_meter/+ >=12/14 verses 10-12 syll. (own counter)": 0.0,
+     "ladder_own_meter/+ 14/14 verses 10-12 syll. (own counter)": 0.0,
+     "ladder_detected/14 verses": 100.0,
+     "ladder_detected/+ every pair rhymes (detected scheme)": 0.0,
+     "ladder_detected/+ no repeated end word": 0.0,
+     "ladder_detected/+ groups distinct (detected scheme)": 0.0
+    },
+    {
+     "n": 30,
+     "format_pct": 100.0,
+     "rhyme_orth_pct": 52.0,
+     "rhyme_orth_quatr_pct": 59.72,
+     "rhyme_phon_pct": 52.0,
+     "rhyme_phon_noident_pct": 49.11,
+     "rhyme_phon_noident_quatr_pct": 56.11,
+     "rhyme_phon_noident_detected_pct": 49.56,
+     "meter_in_range_pct": 58.81,
+     "meter_exact_pct": 23.33,
+     "distinct_groups_pct": 36.67,
+     "distinct_groups_detected_pct": 40.0,
+     "rr_coverage_pct": 100.0,
+     "rr_rhyme_consonant_pct": 49.11,
+     "rr_rhyme_assonant_pct": 52.67,
+     "rr_rhyme_letters_pct": 9.56,
+     "rr_meter_exact_pct": 25.24,
+     "rr_sonnet_pct": 0.0,
+     "ladder/14 verses": 100.0,
+     "ladder/+ every scheme pair rhymes": 0.0,
+     "ladder/+ no repeated end word": 0.0,
+     "ladder/+ groups use distinct sounds": 0.0,
+     "ladder/+ >=12/14 verses 11 syll. (Rantanplan)": 0.0,
+     "ladder/+ 14/14 verses 11 syll. (Rantanplan)": 0.0,
+     "ladder_own_meter/14 verses": 100.0,
+     "ladder_own_meter/+ every scheme pair rhymes": 0.0,
+     "ladder_own_meter/+ no repeated end word": 0.0,
+     "ladder_own_meter/+ groups use distinct sounds": 0.0,
+     "ladder_own_meter/+ >=12/14 verses 10-12 syll. (own counter)": 0.0,
+     "ladder_own_meter/+ 14/14 verses 10-12 syll. (own counter)": 0.0,
+     "ladder_detected/14 verses": 100.0,
+     "ladder_detected/+ every pair rhymes (detected scheme)": 0.0,
+     "ladder_detected/+ no repeated end word": 0.0,
+     "ladder_detected/+ groups distinct (detected scheme)": 0.0
+    }
+   ],
+   "aggregate": {
+    "format_pct": {
+     "mean": 100.0,
+     "halfwidth": 0.0,
+     "lo": 100.0,
+     "hi": 100.0,
+     "n": 3
+    },
+    "rhyme_orth_pct": {
+     "mean": 52.14814814814815,
+     "halfwidth": 3.8773355267267267,
+     "lo": 48.27081262142143,
+     "hi": 56.02548367487488,
+     "n": 3
+    },
+    "rhyme_orth_quatr_pct": {
+     "mean": 60.74074074074074,
+     "halfwidth": 4.382331484004085,
+     "lo": 56.35840925673666,
+     "hi": 65.12307222474483,
+     "n": 3
+    },
+    "rhyme_phon_pct": {
+     "mean": 52.14814814814815,
+     "halfwidth": 3.8773355267267267,
+     "lo": 48.27081262142143,
+     "hi": 56.02548367487488,
+     "n": 3
+    },
+    "rhyme_phon_noident_pct": {
+     "mean": 48.370370370370374,
+     "halfwidth": 3.1871501701847964,
+     "lo": 45.18322020018558,
+     "hi": 51.55752054055517,
+     "n": 3
+    },
+    "rhyme_phon_noident_quatr_pct": {
+     "mean": 56.2037037037037,
+     "halfwidth": 2.4233347042041995,
+     "lo": 53.7803689994995,
+     "hi": 58.627038407907904,
+     "n": 3
+    },
+    "rhyme_phon_noident_detected_pct": {
+     "mean": 49.260564529286995,
+     "halfwidth": 3.9173536840139067,
+     "lo": 45.34321084527309,
+     "hi": 53.1779182133009,
+     "n": 3
+    },
+    "meter_in_range_pct": {
+     "mean": 59.68253968253968,
+     "halfwidth": 2.39036262763859,
+     "lo": 57.29217705490109,
+     "hi": 62.072902310178264,
+     "n": 3
+    },
+    "meter_exact_pct": {
+     "mean": 22.857142857142858,
+     "halfwidth": 2.578120296990013,
+     "lo": 20.279022560152846,
+     "hi": 25.43526315413287,
+     "n": 3
+    },
+    "distinct_groups_pct": {
+     "mean": 38.888888888888886,
+     "halfwidth": 17.23715004180754,
+     "lo": 21.651738847081347,
+     "hi": 56.126038930696424,
+     "n": 3
+    },
+    "distinct_groups_detected_pct": {
+     "mean": 40.0,
+     "halfwidth": 16.56091807833553,
+     "lo": 23.43908192166447,
+     "hi": 56.56091807833553,
+     "n": 3
+    },
+    "rr_coverage_pct": {
+     "mean": 100.0,
+     "halfwidth": 0.0,
+     "lo": 100.0,
+     "hi": 100.0,
+     "n": 3
+    },
+    "rr_rhyme_consonant_pct": {
+     "mean": 48.2962962962963,
+     "halfwidth": 3.040347488141963,
+     "lo": 45.255948808154336,
+     "hi": 51.33664378443826,
+     "n": 3
+    },
+    "rr_rhyme_assonant_pct": {
+     "mean": 51.77777777777778,
+     "halfwidth": 1.9903746433399037,
+     "lo": 49.787403134437874,
+     "hi": 53.768152421117684,
+     "n": 3
+    },
+    "rr_rhyme_letters_pct": {
+     "mean": 10.0,
+     "halfwidth": 4.518565223241877,
+     "lo": 5.481434776758123,
+     "hi": 14.518565223241877,
+     "n": 3
+    },
+    "rr_meter_exact_pct": {
+     "mean": 26.11111111111111,
+     "halfwidth": 2.0771440321750316,
+     "lo": 24.03396707893608,
+     "hi": 28.188255143286142,
+     "n": 3
+    },
+    "rr_sonnet_pct": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder/14 verses": {
+     "mean": 100.0,
+     "halfwidth": 0.0,
+     "lo": 100.0,
+     "hi": 100.0,
+     "n": 3
+    },
+    "ladder/+ every scheme pair rhymes": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder/+ no repeated end word": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder/+ groups use distinct sounds": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder/+ >=12/14 verses 11 syll. (Rantanplan)": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder/+ 14/14 verses 11 syll. (Rantanplan)": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder_own_meter/14 verses": {
+     "mean": 100.0,
+     "halfwidth": 0.0,
+     "lo": 100.0,
+     "hi": 100.0,
+     "n": 3
+    },
+    "ladder_own_meter/+ every scheme pair rhymes": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder_own_meter/+ no repeated end word": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder_own_meter/+ groups use distinct sounds": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder_own_meter/+ >=12/14 verses 10-12 syll. (own counter)": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder_own_meter/+ 14/14 verses 10-12 syll. (own counter)": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder_detected/14 verses": {
+     "mean": 100.0,
+     "halfwidth": 0.0,
+     "lo": 100.0,
+     "hi": 100.0,
+     "n": 3
+    },
+    "ladder_detected/+ every pair rhymes (detected scheme)": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder_detected/+ no repeated end word": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder_detected/+ groups distinct (detected scheme)": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    }
+   },
+   "detected_schemes": {
+    "ABBA ABBA CDE CDE": 79,
+    "ABBA ABBA CDE DCE": 5,
+    "ABAB ABAB CDE CDE": 2,
+    "ABBA ABBA CDE EDC": 1,
+    "ABBA ABBA CDE CED": 1,
+    "ABBA ABBA CDE DEC": 1,
+    "ABBA ABBA CDC CDC": 1
+   }
+  },
+  "bon168_strict": {
+   "replicates": 3,
+   "n_per_replicate": [
+    30,
+    30,
+    30
+   ],
+   "per_replicate": [
+    {
+     "n": 30,
+     "format_pct": 100.0,
+     "rhyme_orth_pct": 49.78,
+     "rhyme_orth_quatr_pct": 59.44,
+     "rhyme_phon_pct": 49.78,
+     "rhyme_phon_noident_pct": 48.22,
+     "rhyme_phon_noident_quatr_pct": 57.78,
+     "rhyme_phon_noident_detected_pct": 48.67,
+     "meter_in_range_pct": 60.71,
+     "meter_exact_pct": 21.9,
+     "distinct_groups_pct": 60.0,
+     "distinct_groups_detected_pct": 60.0,
+     "rr_coverage_pct": 100.0,
+     "rr_rhyme_consonant_pct": 48.22,
+     "rr_rhyme_assonant_pct": 52.0,
+     "rr_rhyme_letters_pct": 15.11,
+     "rr_meter_exact_pct": 25.24,
+     "rr_sonnet_pct": 0.0,
+     "ladder/14 verses": 100.0,
+     "ladder/+ every scheme pair rhymes": 0.0,
+     "ladder/+ no repeated end word": 0.0,
+     "ladder/+ groups use distinct sounds": 0.0,
+     "ladder/+ >=12/14 verses 11 syll. (Rantanplan)": 0.0,
+     "ladder/+ 14/14 verses 11 syll. (Rantanplan)": 0.0,
+     "ladder_own_meter/14 verses": 100.0,
+     "ladder_own_meter/+ every scheme pair rhymes": 0.0,
+     "ladder_own_meter/+ no repeated end word": 0.0,
+     "ladder_own_meter/+ groups use distinct sounds": 0.0,
+     "ladder_own_meter/+ >=12/14 verses 10-12 syll. (own counter)": 0.0,
+     "ladder_own_meter/+ 14/14 verses 10-12 syll. (own counter)": 0.0,
+     "ladder_detected/14 verses": 100.0,
+     "ladder_detected/+ every pair rhymes (detected scheme)": 0.0,
+     "ladder_detected/+ no repeated end word": 0.0,
+     "ladder_detected/+ groups distinct (detected scheme)": 0.0
+    },
+    {
+     "n": 30,
+     "format_pct": 100.0,
+     "rhyme_orth_pct": 52.44,
+     "rhyme_orth_quatr_pct": 61.11,
+     "rhyme_phon_pct": 52.44,
+     "rhyme_phon_noident_pct": 50.0,
+     "rhyme_phon_noident_quatr_pct": 58.06,
+     "rhyme_phon_noident_detected_pct": 51.33,
+     "meter_in_range_pct": 57.38,
+     "meter_exact_pct": 20.71,
+     "distinct_groups_pct": 53.33,
+     "distinct_groups_detected_pct": 56.67,
+     "rr_coverage_pct": 100.0,
+     "rr_rhyme_consonant_pct": 49.78,
+     "rr_rhyme_assonant_pct": 53.56,
+     "rr_rhyme_letters_pct": 8.44,
+     "rr_meter_exact_pct": 25.0,
+     "rr_sonnet_pct": 0.0,
+     "ladder/14 verses": 100.0,
+     "ladder/+ every scheme pair rhymes": 0.0,
+     "ladder/+ no repeated end word": 0.0,
+     "ladder/+ groups use distinct sounds": 0.0,
+     "ladder/+ >=12/14 verses 11 syll. (Rantanplan)": 0.0,
+     "ladder/+ 14/14 verses 11 syll. (Rantanplan)": 0.0,
+     "ladder_own_meter/14 verses": 100.0,
+     "ladder_own_meter/+ every scheme pair rhymes": 0.0,
+     "ladder_own_meter/+ no repeated end word": 0.0,
+     "ladder_own_meter/+ groups use distinct sounds": 0.0,
+     "ladder_own_meter/+ >=12/14 verses 10-12 syll. (own counter)": 0.0,
+     "ladder_own_meter/+ 14/14 verses 10-12 syll. (own counter)": 0.0,
+     "ladder_detected/14 verses": 100.0,
+     "ladder_detected/+ every pair rhymes (detected scheme)": 0.0,
+     "ladder_detected/+ no repeated end word": 0.0,
+     "ladder_detected/+ groups distinct (detected scheme)": 0.0
+    },
+    {
+     "n": 30,
+     "format_pct": 96.67,
+     "rhyme_orth_pct": 52.67,
+     "rhyme_orth_quatr_pct": 61.67,
+     "rhyme_phon_pct": 52.67,
+     "rhyme_phon_noident_pct": 50.67,
+     "rhyme_phon_noident_quatr_pct": 59.17,
+     "rhyme_phon_noident_detected_pct": 50.89,
+     "meter_in_range_pct": 57.86,
+     "meter_exact_pct": 24.29,
+     "distinct_groups_pct": 50.0,
+     "distinct_groups_detected_pct": 53.33,
+     "rr_coverage_pct": 100.0,
+     "rr_rhyme_consonant_pct": 50.67,
+     "rr_rhyme_assonant_pct": 55.56,
+     "rr_rhyme_letters_pct": 10.67,
+     "rr_meter_exact_pct": 26.67,
+     "rr_sonnet_pct": 0.0,
+     "ladder/14 verses": 96.67,
+     "ladder/+ every scheme pair rhymes": 0.0,
+     "ladder/+ no repeated end word": 0.0,
+     "ladder/+ groups use distinct sounds": 0.0,
+     "ladder/+ >=12/14 verses 11 syll. (Rantanplan)": 0.0,
+     "ladder/+ 14/14 verses 11 syll. (Rantanplan)": 0.0,
+     "ladder_own_meter/14 verses": 96.67,
+     "ladder_own_meter/+ every scheme pair rhymes": 0.0,
+     "ladder_own_meter/+ no repeated end word": 0.0,
+     "ladder_own_meter/+ groups use distinct sounds": 0.0,
+     "ladder_own_meter/+ >=12/14 verses 10-12 syll. (own counter)": 0.0,
+     "ladder_own_meter/+ 14/14 verses 10-12 syll. (own counter)": 0.0,
+     "ladder_detected/14 verses": 96.67,
+     "ladder_detected/+ every pair rhymes (detected scheme)": 0.0,
+     "ladder_detected/+ no repeated end word": 0.0,
+     "ladder_detected/+ groups distinct (detected scheme)": 0.0
+    }
+   ],
+   "aggregate": {
+    "format_pct": {
+     "mean": 98.8888888888889,
+     "halfwidth": 4.780725255277174,
+     "lo": 94.10816363361172,
+     "hi": 103.66961414416608,
+     "n": 3
+    },
+    "rhyme_orth_pct": {
+     "mean": 51.629629629629626,
+     "halfwidth": 3.9934877169555643,
+     "lo": 47.63614191267406,
+     "hi": 55.62311734658519,
+     "n": 3
+    },
+    "rhyme_orth_quatr_pct": {
+     "mean": 60.74074074074074,
+     "halfwidth": 2.872858340301258,
+     "lo": 57.867882400439484,
+     "hi": 63.613599081042,
+     "n": 3
+    },
+    "rhyme_phon_pct": {
+     "mean": 51.629629629629626,
+     "halfwidth": 3.9934877169555643,
+     "lo": 47.63614191267406,
+     "hi": 55.62311734658519,
+     "n": 3
+    },
+    "rhyme_phon_noident_pct": {
+     "mean": 49.629629629629626,
+     "halfwidth": 3.13897888191202,
+     "lo": 46.49065074771761,
+     "hi": 52.76860851154164,
+     "n": 3
+    },
+    "rhyme_phon_noident_quatr_pct": {
+     "mean": 58.333333333333336,
+     "halfwidth": 1.8256696132578918,
+     "lo": 56.50766372007544,
+     "hi": 60.15900294659123,
+     "n": 3
+    },
+    "rhyme_phon_noident_detected_pct": {
+     "mean": 50.2962962962963,
+     "halfwidth": 3.549060227308503,
+     "lo": 46.747236068987796,
+     "hi": 53.8453565236048,
+     "n": 3
+    },
+    "meter_in_range_pct": {
+     "mean": 58.65079365079365,
+     "halfwidth": 4.478473137579733,
+     "lo": 54.17232051321392,
+     "hi": 63.129266788373386,
+     "n": 3
+    },
+    "meter_exact_pct": {
+     "mean": 22.3015873015873,
+     "halfwidth": 4.517360754281855,
+     "lo": 17.784226547305444,
+     "hi": 26.818948055869157,
+     "n": 3
+    },
+    "distinct_groups_pct": {
+     "mean": 54.44444444444445,
+     "halfwidth": 12.648610111989198,
+     "lo": 41.79583433245525,
+     "hi": 67.09305455643364,
+     "n": 3
+    },
+    "distinct_groups_detected_pct": {
+     "mean": 56.666666666666664,
+     "halfwidth": 8.280459039167765,
+     "lo": 48.3862076274989,
+     "hi": 64.94712570583442,
+     "n": 3
+    },
+    "rr_coverage_pct": {
+     "mean": 100.0,
+     "halfwidth": 0.0,
+     "lo": 100.0,
+     "hi": 100.0,
+     "n": 3
+    },
+    "rr_rhyme_consonant_pct": {
+     "mean": 49.55555555555555,
+     "halfwidth": 3.0735763164101333,
+     "lo": 46.48197923914542,
+     "hi": 52.62913187196568,
+     "n": 3
+    },
+    "rr_rhyme_assonant_pct": {
+     "mean": 53.7037037037037,
+     "halfwidth": 4.427730522525758,
+     "lo": 49.275973181177946,
+     "hi": 58.13143422622946,
+     "n": 3
+    },
+    "rr_rhyme_letters_pct": {
+     "mean": 11.407407407407407,
+     "halfwidth": 8.432406741326131,
+     "lo": 2.975000666081275,
+     "hi": 19.839814148733538,
+     "n": 3
+    },
+    "rr_meter_exact_pct": {
+     "mean": 25.634920634920636,
+     "halfwidth": 2.2392365687898663,
+     "lo": 23.39568406613077,
+     "hi": 27.874157203710503,
+     "n": 3
+    },
+    "rr_sonnet_pct": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder/14 verses": {
+     "mean": 98.8888888888889,
+     "halfwidth": 4.780725255277174,
+     "lo": 94.10816363361172,
+     "hi": 103.66961414416608,
+     "n": 3
+    },
+    "ladder/+ every scheme pair rhymes": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder/+ no repeated end word": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder/+ groups use distinct sounds": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder/+ >=12/14 verses 11 syll. (Rantanplan)": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder/+ 14/14 verses 11 syll. (Rantanplan)": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder_own_meter/14 verses": {
+     "mean": 98.8888888888889,
+     "halfwidth": 4.780725255277174,
+     "lo": 94.10816363361172,
+     "hi": 103.66961414416608,
+     "n": 3
+    },
+    "ladder_own_meter/+ every scheme pair rhymes": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder_own_meter/+ no repeated end word": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder_own_meter/+ groups use distinct sounds": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder_own_meter/+ >=12/14 verses 10-12 syll. (own counter)": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder_own_meter/+ 14/14 verses 10-12 syll. (own counter)": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder_detected/14 verses": {
+     "mean": 98.8888888888889,
+     "halfwidth": 4.780725255277174,
+     "lo": 94.10816363361172,
+     "hi": 103.66961414416608,
+     "n": 3
+    },
+    "ladder_detected/+ every pair rhymes (detected scheme)": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder_detected/+ no repeated end word": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder_detected/+ groups distinct (detected scheme)": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    }
+   },
+   "detected_schemes": {
+    "ABBA ABBA CDE CDE": 82,
+    "ABBA ABBA CDE DCE": 3,
+    "ABAB ABAB CDE CDE": 2,
+    "ABBA ABBA CDE EDC": 1,
+    "ABBA ABBA CDE DEC": 1,
+    "ABBA ABBA CDE CED": 1
+   }
+  },
+  "K2": {
+   "replicates": 3,
+   "n_per_replicate": [
+    30,
+    30,
+    30
+   ],
+   "per_replicate": [
+    {
+     "n": 30,
+     "format_pct": 100.0,
+     "rhyme_orth_pct": 79.56,
+     "rhyme_orth_quatr_pct": 83.61,
+     "rhyme_phon_pct": 79.56,
+     "rhyme_phon_noident_pct": 72.67,
+     "rhyme_phon_noident_quatr_pct": 76.39,
+     "rhyme_phon_noident_detected_pct": 74.24,
+     "meter_in_range_pct": 60.95,
+     "meter_exact_pct": 24.05,
+     "distinct_groups_pct": 36.67,
+     "distinct_groups_detected_pct": 40.0,
+     "rr_coverage_pct": 100.0,
+     "rr_rhyme_consonant_pct": 71.33,
+     "rr_rhyme_assonant_pct": 73.11,
+     "rr_rhyme_letters_pct": 47.78,
+     "rr_meter_exact_pct": 35.48,
+     "rr_sonnet_pct": 10.0,
+     "ladder/14 verses": 100.0,
+     "ladder/+ every scheme pair rhymes": 16.67,
+     "ladder/+ no repeated end word": 0.0,
+     "ladder/+ groups use distinct sounds": 0.0,
+     "ladder/+ >=12/14 verses 11 syll. (Rantanplan)": 0.0,
+     "ladder/+ 14/14 verses 11 syll. (Rantanplan)": 0.0,
+     "ladder_own_meter/14 verses": 100.0,
+     "ladder_own_meter/+ every scheme pair rhymes": 16.67,
+     "ladder_own_meter/+ no repeated end word": 0.0,
+     "ladder_own_meter/+ groups use distinct sounds": 0.0,
+     "ladder_own_meter/+ >=12/14 verses 10-12 syll. (own counter)": 0.0,
+     "ladder_own_meter/+ 14/14 verses 10-12 syll. (own counter)": 0.0,
+     "ladder_detected/14 verses": 100.0,
+     "ladder_detected/+ every pair rhymes (detected scheme)": 16.67,
+     "ladder_detected/+ no repeated end word": 0.0,
+     "ladder_detected/+ groups distinct (detected scheme)": 0.0
+    },
+    {
+     "n": 30,
+     "format_pct": 100.0,
+     "rhyme_orth_pct": 70.67,
+     "rhyme_orth_quatr_pct": 75.28,
+     "rhyme_phon_pct": 70.67,
+     "rhyme_phon_noident_pct": 67.33,
+     "rhyme_phon_noident_quatr_pct": 71.67,
+     "rhyme_phon_noident_detected_pct": 68.83,
+     "meter_in_range_pct": 60.95,
+     "meter_exact_pct": 22.62,
+     "distinct_groups_pct": 40.0,
+     "distinct_groups_detected_pct": 46.67,
+     "rr_coverage_pct": 100.0,
+     "rr_rhyme_consonant_pct": 66.89,
+     "rr_rhyme_assonant_pct": 69.11,
+     "rr_rhyme_letters_pct": 31.56,
+     "rr_meter_exact_pct": 28.57,
+     "rr_sonnet_pct": 3.33,
+     "ladder/14 verses": 100.0,
+     "ladder/+ every scheme pair rhymes": 13.33,
+     "ladder/+ no repeated end word": 0.0,
+     "ladder/+ groups use distinct sounds": 0.0,
+     "ladder/+ >=12/14 verses 11 syll. (Rantanplan)": 0.0,
+     "ladder/+ 14/14 verses 11 syll. (Rantanplan)": 0.0,
+     "ladder_own_meter/14 verses": 100.0,
+     "ladder_own_meter/+ every scheme pair rhymes": 13.33,
+     "ladder_own_meter/+ no repeated end word": 0.0,
+     "ladder_own_meter/+ groups use distinct sounds": 0.0,
+     "ladder_own_meter/+ >=12/14 verses 10-12 syll. (own counter)": 0.0,
+     "ladder_own_meter/+ 14/14 verses 10-12 syll. (own counter)": 0.0,
+     "ladder_detected/14 verses": 100.0,
+     "ladder_detected/+ every pair rhymes (detected scheme)": 13.33,
+     "ladder_detected/+ no repeated end word": 0.0,
+     "ladder_detected/+ groups distinct (detected scheme)": 0.0
+    },
+    {
+     "n": 30,
+     "format_pct": 100.0,
+     "rhyme_orth_pct": 74.0,
+     "rhyme_orth_quatr_pct": 77.5,
+     "rhyme_phon_pct": 74.0,
+     "rhyme_phon_noident_pct": 68.44,
+     "rhyme_phon_noident_quatr_pct": 73.33,
+     "rhyme_phon_noident_detected_pct": 70.28,
+     "meter_in_range_pct": 64.29,
+     "meter_exact_pct": 26.19,
+     "distinct_groups_pct": 33.33,
+     "distinct_groups_detected_pct": 36.67,
+     "rr_coverage_pct": 100.0,
+     "rr_rhyme_consonant_pct": 66.44,
+     "rr_rhyme_assonant_pct": 69.78,
+     "rr_rhyme_letters_pct": 36.67,
+     "rr_meter_exact_pct": 34.76,
+     "rr_sonnet_pct": 0.0,
+     "ladder/14 verses": 100.0,
+     "ladder/+ every scheme pair rhymes": 13.33,
+     "ladder/+ no repeated end word": 0.0,
+     "ladder/+ groups use distinct sounds": 0.0,
+     "ladder/+ >=12/14 verses 11 syll. (Rantanplan)": 0.0,
+     "ladder/+ 14/14 verses 11 syll. (Rantanplan)": 0.0,
+     "ladder_own_meter/14 verses": 100.0,
+     "ladder_own_meter/+ every scheme pair rhymes": 13.33,
+     "ladder_own_meter/+ no repeated end word": 0.0,
+     "ladder_own_meter/+ groups use distinct sounds": 0.0,
+     "ladder_own_meter/+ >=12/14 verses 10-12 syll. (own counter)": 0.0,
+     "ladder_own_meter/+ 14/14 verses 10-12 syll. (own counter)": 0.0,
+     "ladder_detected/14 verses": 100.0,
+     "ladder_detected/+ every pair rhymes (detected scheme)": 13.33,
+     "ladder_detected/+ no repeated end word": 0.0,
+     "ladder_detected/+ groups distinct (detected scheme)": 0.0
+    }
+   ],
+   "aggregate": {
+    "format_pct": {
+     "mean": 100.0,
+     "halfwidth": 0.0,
+     "lo": 100.0,
+     "hi": 100.0,
+     "n": 3
+    },
+    "rhyme_orth_pct": {
+     "mean": 74.74074074074075,
+     "halfwidth": 11.15502559564675,
+     "lo": 63.585715145094,
+     "hi": 85.8957663363875,
+     "n": 3
+    },
+    "rhyme_orth_quatr_pct": {
+     "mean": 78.79629629629629,
+     "halfwidth": 10.719680042808289,
+     "lo": 68.076616253488,
+     "hi": 89.51597633910458,
+     "n": 3
+    },
+    "rhyme_phon_pct": {
+     "mean": 74.74074074074075,
+     "halfwidth": 11.15502559564675,
+     "lo": 63.585715145094,
+     "hi": 85.8957663363875,
+     "n": 3
+    },
+    "rhyme_phon_noident_pct": {
+     "mean": 69.48148148148148,
+     "halfwidth": 6.9899660268957,
+     "lo": 62.49151545458578,
+     "hi": 76.47144750837718,
+     "n": 3
+    },
+    "rhyme_phon_noident_quatr_pct": {
+     "mean": 73.79629629629629,
+     "halfwidth": 5.949287699262148,
+     "lo": 67.84700859703415,
+     "hi": 79.74558399555843,
+     "n": 3
+    },
+    "rhyme_phon_noident_detected_pct": {
+     "mean": 71.11632411767869,
+     "halfwidth": 6.948754736224309,
+     "lo": 64.16756938145437,
+     "hi": 78.065078853903,
+     "n": 3
+    },
+    "meter_in_range_pct": {
+     "mean": 62.06349206349207,
+     "halfwidth": 4.7807252552771935,
+     "lo": 57.28276680821487,
+     "hi": 66.84421731876927,
+     "n": 3
+    },
+    "meter_exact_pct": {
+     "mean": 24.28571428571429,
+     "halfwidth": 4.465435342411266,
+     "lo": 19.820278943303023,
+     "hi": 28.751149628125553,
+     "n": 3
+    },
+    "distinct_groups_pct": {
+     "mean": 36.666666666666664,
+     "halfwidth": 8.280459039167765,
+     "lo": 28.386207627498898,
+     "hi": 44.94712570583443,
+     "n": 3
+    },
+    "distinct_groups_detected_pct": {
+     "mean": 41.11111111111111,
+     "halfwidth": 12.648610111989198,
+     "lo": 28.462500999121907,
+     "hi": 53.75972122310031,
+     "n": 3
+    },
+    "rr_coverage_pct": {
+     "mean": 100.0,
+     "halfwidth": 0.0,
+     "lo": 100.0,
+     "hi": 100.0,
+     "n": 3
+    },
+    "rr_rhyme_consonant_pct": {
+     "mean": 68.22222222222223,
+     "halfwidth": 6.715742130282515,
+     "lo": 61.506480091939714,
+     "hi": 74.93796435250475,
+     "n": 3
+    },
+    "rr_rhyme_assonant_pct": {
+     "mean": 70.66666666666667,
+     "halfwidth": 5.323590340962753,
+     "lo": 65.34307632570392,
+     "hi": 75.99025700762942,
+     "n": 3
+    },
+    "rr_rhyme_letters_pct": {
+     "mean": 38.666666666666664,
+     "halfwidth": 20.603391376262294,
+     "lo": 18.06327529040437,
+     "hi": 59.27005804292896,
+     "n": 3
+    },
+    "rr_meter_exact_pct": {
+     "mean": 32.93650793650794,
+     "halfwidth": 9.432526177205183,
+     "lo": 23.503981759302754,
+     "hi": 42.36903411371312,
+     "n": 3
+    },
+    "rr_sonnet_pct": {
+     "mean": 4.444444444444445,
+     "halfwidth": 12.6486101119892,
+     "lo": -8.204165667544755,
+     "hi": 17.093054556433643,
+     "n": 3
+    },
+    "ladder/14 verses": {
+     "mean": 100.0,
+     "halfwidth": 0.0,
+     "lo": 100.0,
+     "hi": 100.0,
+     "n": 3
+    },
+    "ladder/+ every scheme pair rhymes": {
+     "mean": 14.444444444444445,
+     "halfwidth": 4.780725255277181,
+     "lo": 9.663719189167264,
+     "hi": 19.225169699721626,
+     "n": 3
+    },
+    "ladder/+ no repeated end word": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder/+ groups use distinct sounds": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder/+ >=12/14 verses 11 syll. (Rantanplan)": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder/+ 14/14 verses 11 syll. (Rantanplan)": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder_own_meter/14 verses": {
+     "mean": 100.0,
+     "halfwidth": 0.0,
+     "lo": 100.0,
+     "hi": 100.0,
+     "n": 3
+    },
+    "ladder_own_meter/+ every scheme pair rhymes": {
+     "mean": 14.444444444444445,
+     "halfwidth": 4.780725255277181,
+     "lo": 9.663719189167264,
+     "hi": 19.225169699721626,
+     "n": 3
+    },
+    "ladder_own_meter/+ no repeated end word": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder_own_meter/+ groups use distinct sounds": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder_own_meter/+ >=12/14 verses 10-12 syll. (own counter)": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder_own_meter/+ 14/14 verses 10-12 syll. (own counter)": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder_detected/14 verses": {
+     "mean": 100.0,
+     "halfwidth": 0.0,
+     "lo": 100.0,
+     "hi": 100.0,
+     "n": 3
+    },
+    "ladder_detected/+ every pair rhymes (detected scheme)": {
+     "mean": 14.444444444444445,
+     "halfwidth": 4.780725255277181,
+     "lo": 9.663719189167264,
+     "hi": 19.225169699721626,
+     "n": 3
+    },
+    "ladder_detected/+ no repeated end word": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder_detected/+ groups distinct (detected scheme)": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    }
+   },
+   "detected_schemes": {
+    "ABBA ABBA CDE CDE": 70,
+    "ABBA ABBA CDC CDC": 7,
+    "ABBA ABBA CDE DCE": 4,
+    "ABBA ABBA CDE CED": 3,
+    "ABAB ABAB CDE CDE": 2,
+    "ABAB ABAB CDE EDC": 1,
+    "ABBA ABBA CDE DEC": 1,
+    "ABBA ABBA CDE EDC": 1,
+    "ABBA ABBA CDC DCD": 1
+   }
+  },
+  "K5": {
+   "replicates": 3,
+   "n_per_replicate": [
+    30,
+    30,
+    30
+   ],
+   "per_replicate": [
+    {
+     "n": 30,
+     "format_pct": 100.0,
+     "rhyme_orth_pct": 88.0,
+     "rhyme_orth_quatr_pct": 88.61,
+     "rhyme_phon_pct": 88.0,
+     "rhyme_phon_noident_pct": 81.33,
+     "rhyme_phon_noident_quatr_pct": 82.5,
+     "rhyme_phon_noident_detected_pct": 82.03,
+     "meter_in_range_pct": 61.19,
+     "meter_exact_pct": 21.67,
+     "distinct_groups_pct": 26.67,
+     "distinct_groups_detected_pct": 30.0,
+     "rr_coverage_pct": 100.0,
+     "rr_rhyme_consonant_pct": 80.22,
+     "rr_rhyme_assonant_pct": 81.33,
+     "rr_rhyme_letters_pct": 67.56,
+     "rr_meter_exact_pct": 30.48,
+     "rr_sonnet_pct": 6.67,
+     "ladder/14 verses": 100.0,
+     "ladder/+ every scheme pair rhymes": 43.33,
+     "ladder/+ no repeated end word": 6.67,
+     "ladder/+ groups use distinct sounds": 3.33,
+     "ladder/+ >=12/14 verses 11 syll. (Rantanplan)": 0.0,
+     "ladder/+ 14/14 verses 11 syll. (Rantanplan)": 0.0,
+     "ladder_own_meter/14 verses": 100.0,
+     "ladder_own_meter/+ every scheme pair rhymes": 43.33,
+     "ladder_own_meter/+ no repeated end word": 6.67,
+     "ladder_own_meter/+ groups use distinct sounds": 3.33,
+     "ladder_own_meter/+ >=12/14 verses 10-12 syll. (own counter)": 0.0,
+     "ladder_own_meter/+ 14/14 verses 10-12 syll. (own counter)": 0.0,
+     "ladder_detected/14 verses": 100.0,
+     "ladder_detected/+ every pair rhymes (detected scheme)": 43.33,
+     "ladder_detected/+ no repeated end word": 6.67,
+     "ladder_detected/+ groups distinct (detected scheme)": 3.33
+    },
+    {
+     "n": 30,
+     "format_pct": 100.0,
+     "rhyme_orth_pct": 90.0,
+     "rhyme_orth_quatr_pct": 90.0,
+     "rhyme_phon_pct": 90.0,
+     "rhyme_phon_noident_pct": 80.89,
+     "rhyme_phon_noident_quatr_pct": 81.39,
+     "rhyme_phon_noident_detected_pct": 82.53,
+     "meter_in_range_pct": 61.43,
+     "meter_exact_pct": 25.24,
+     "distinct_groups_pct": 20.0,
+     "distinct_groups_detected_pct": 20.0,
+     "rr_coverage_pct": 100.0,
+     "rr_rhyme_consonant_pct": 78.22,
+     "rr_rhyme_assonant_pct": 80.22,
+     "rr_rhyme_letters_pct": 72.0,
+     "rr_meter_exact_pct": 34.05,
+     "rr_sonnet_pct": 10.0,
+     "ladder/14 verses": 100.0,
+     "ladder/+ every scheme pair rhymes": 46.67,
+     "ladder/+ no repeated end word": 0.0,
+     "ladder/+ groups use distinct sounds": 0.0,
+     "ladder/+ >=12/14 verses 11 syll. (Rantanplan)": 0.0,
+     "ladder/+ 14/14 verses 11 syll. (Rantanplan)": 0.0,
+     "ladder_own_meter/14 verses": 100.0,
+     "ladder_own_meter/+ every scheme pair rhymes": 46.67,
+     "ladder_own_meter/+ no repeated end word": 0.0,
+     "ladder_own_meter/+ groups use distinct sounds": 0.0,
+     "ladder_own_meter/+ >=12/14 verses 10-12 syll. (own counter)": 0.0,
+     "ladder_own_meter/+ 14/14 verses 10-12 syll. (own counter)": 0.0,
+     "ladder_detected/14 verses": 100.0,
+     "ladder_detected/+ every pair rhymes (detected scheme)": 46.67,
+     "ladder_detected/+ no repeated end word": 0.0,
+     "ladder_detected/+ groups distinct (detected scheme)": 0.0
+    },
+    {
+     "n": 30,
+     "format_pct": 100.0,
+     "rhyme_orth_pct": 93.11,
+     "rhyme_orth_quatr_pct": 94.72,
+     "rhyme_phon_pct": 93.11,
+     "rhyme_phon_noident_pct": 83.78,
+     "rhyme_phon_noident_quatr_pct": 85.83,
+     "rhyme_phon_noident_detected_pct": 84.06,
+     "meter_in_range_pct": 65.71,
+     "meter_exact_pct": 24.29,
+     "distinct_groups_pct": 43.33,
+     "distinct_groups_detected_pct": 43.33,
+     "rr_coverage_pct": 100.0,
+     "rr_rhyme_consonant_pct": 83.33,
+     "rr_rhyme_assonant_pct": 83.78,
+     "rr_rhyme_letters_pct": 74.67,
+     "rr_meter_exact_pct": 44.76,
+     "rr_sonnet_pct": 23.33,
+     "ladder/14 verses": 100.0,
+     "ladder/+ every scheme pair rhymes": 53.33,
+     "ladder/+ no repeated end word": 13.33,
+     "ladder/+ groups use distinct sounds": 3.33,
+     "ladder/+ >=12/14 verses 11 syll. (Rantanplan)": 0.0,
+     "ladder/+ 14/14 verses 11 syll. (Rantanplan)": 0.0,
+     "ladder_own_meter/14 verses": 100.0,
+     "ladder_own_meter/+ every scheme pair rhymes": 53.33,
+     "ladder_own_meter/+ no repeated end word": 13.33,
+     "ladder_own_meter/+ groups use distinct sounds": 3.33,
+     "ladder_own_meter/+ >=12/14 verses 10-12 syll. (own counter)": 0.0,
+     "ladder_own_meter/+ 14/14 verses 10-12 syll. (own counter)": 0.0,
+     "ladder_detected/14 verses": 100.0,
+     "ladder_detected/+ every pair rhymes (detected scheme)": 53.33,
+     "ladder_detected/+ no repeated end word": 13.33,
+     "ladder_detected/+ groups distinct (detected scheme)": 3.33
+    }
+   ],
+   "aggregate": {
+    "format_pct": {
+     "mean": 100.0,
+     "halfwidth": 0.0,
+     "lo": 100.0,
+     "hi": 100.0,
+     "n": 3
+    },
+    "rhyme_orth_pct": {
+     "mean": 90.37037037037037,
+     "halfwidth": 6.398159314635342,
+     "lo": 83.97221105573503,
+     "hi": 96.7685296850057,
+     "n": 3
+    },
+    "rhyme_orth_quatr_pct": {
+     "mean": 91.11111111111113,
+     "halfwidth": 7.957909348484161,
+     "lo": 83.15320176262696,
+     "hi": 99.0690204595953,
+     "n": 3
+    },
+    "rhyme_phon_pct": {
+     "mean": 90.37037037037037,
+     "halfwidth": 6.398159314635342,
+     "lo": 83.97221105573503,
+     "hi": 96.7685296850057,
+     "n": 3
+    },
+    "rhyme_phon_noident_pct": {
+     "mean": 82.0,
+     "halfwidth": 3.864214218278288,
+     "lo": 78.13578578172171,
+     "hi": 85.86421421827829,
+     "n": 3
+    },
+    "rhyme_phon_noident_quatr_pct": {
+     "mean": 83.24074074074075,
+     "halfwidth": 5.74571668060251,
+     "lo": 77.49502406013823,
+     "hi": 88.98645742134326,
+     "n": 3
+    },
+    "rhyme_phon_noident_detected_pct": {
+     "mean": 82.87617283250471,
+     "halfwidth": 2.623245674228462,
+     "lo": 80.25292715827625,
+     "hi": 85.49941850673316,
+     "n": 3
+    },
+    "meter_in_range_pct": {
+     "mean": 62.77777777777777,
+     "halfwidth": 6.32430505599459,
+     "lo": 56.45347272178318,
+     "hi": 69.10208283377236,
+     "n": 3
+    },
+    "meter_exact_pct": {
+     "mean": 23.73015873015873,
+     "halfwidth": 4.594148589774973,
+     "lo": 19.136010140383757,
+     "hi": 28.324307319933705,
+     "n": 3
+    },
+    "distinct_groups_pct": {
+     "mean": 30.0,
+     "halfwidth": 29.85561965009866,
+     "lo": 0.14438034990133986,
+     "hi": 59.85561965009866,
+     "n": 3
+    },
+    "distinct_groups_detected_pct": {
+     "mean": 31.111111111111114,
+     "halfwidth": 29.080016450450422,
+     "lo": 2.031094660660692,
+     "hi": 60.19112756156154,
+     "n": 3
+    },
+    "rr_coverage_pct": {
+     "mean": 100.0,
+     "halfwidth": 0.0,
+     "lo": 100.0,
+     "hi": 100.0,
+     "n": 3
+    },
+    "rr_rhyme_consonant_pct": {
+     "mean": 80.5925925925926,
+     "halfwidth": 6.398159314635323,
+     "lo": 74.19443327795727,
+     "hi": 86.99075190722792,
+     "n": 3
+    },
+    "rr_rhyme_assonant_pct": {
+     "mean": 81.77777777777777,
+     "halfwidth": 4.518565223241864,
+     "lo": 77.2592125545359,
+     "hi": 86.29634300101964,
+     "n": 3
+    },
+    "rr_rhyme_letters_pct": {
+     "mean": 71.4074074074074,
+     "halfwidth": 8.924020476517406,
+     "lo": 62.48338693089,
+     "hi": 80.33142788392482,
+     "n": 3
+    },
+    "rr_meter_exact_pct": {
+     "mean": 36.42857142857142,
+     "halfwidth": 18.46837504479379,
+     "lo": 17.96019638377763,
+     "hi": 54.89694647336522,
+     "n": 3
+    },
+    "rr_sonnet_pct": {
+     "mean": 13.333333333333334,
+     "halfwidth": 21.908035359094757,
+     "lo": -8.574702025761423,
+     "hi": 35.24136869242809,
+     "n": 3
+    },
+    "ladder/14 verses": {
+     "mean": 100.0,
+     "halfwidth": 0.0,
+     "lo": 100.0,
+     "hi": 100.0,
+     "n": 3
+    },
+    "ladder/+ every scheme pair rhymes": {
+     "mean": 47.77777777777778,
+     "halfwidth": 12.6486101119892,
+     "lo": 35.12916766578858,
+     "hi": 60.42638788976698,
+     "n": 3
+    },
+    "ladder/+ no repeated end word": {
+     "mean": 6.666666666666667,
+     "halfwidth": 16.560918078335533,
+     "lo": -9.894251411668865,
+     "hi": 23.2275847450022,
+     "n": 3
+    },
+    "ladder/+ groups use distinct sounds": {
+     "mean": 2.2222222222222223,
+     "halfwidth": 4.78072525527718,
+     "lo": -2.558503033054958,
+     "hi": 7.0029474774994025,
+     "n": 3
+    },
+    "ladder/+ >=12/14 verses 11 syll. (Rantanplan)": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder/+ 14/14 verses 11 syll. (Rantanplan)": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder_own_meter/14 verses": {
+     "mean": 100.0,
+     "halfwidth": 0.0,
+     "lo": 100.0,
+     "hi": 100.0,
+     "n": 3
+    },
+    "ladder_own_meter/+ every scheme pair rhymes": {
+     "mean": 47.77777777777778,
+     "halfwidth": 12.6486101119892,
+     "lo": 35.12916766578858,
+     "hi": 60.42638788976698,
+     "n": 3
+    },
+    "ladder_own_meter/+ no repeated end word": {
+     "mean": 6.666666666666667,
+     "halfwidth": 16.560918078335533,
+     "lo": -9.894251411668865,
+     "hi": 23.2275847450022,
+     "n": 3
+    },
+    "ladder_own_meter/+ groups use distinct sounds": {
+     "mean": 2.2222222222222223,
+     "halfwidth": 4.78072525527718,
+     "lo": -2.558503033054958,
+     "hi": 7.0029474774994025,
+     "n": 3
+    },
+    "ladder_own_meter/+ >=12/14 verses 10-12 syll. (own counter)": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder_own_meter/+ 14/14 verses 10-12 syll. (own counter)": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder_detected/14 verses": {
+     "mean": 100.0,
+     "halfwidth": 0.0,
+     "lo": 100.0,
+     "hi": 100.0,
+     "n": 3
+    },
+    "ladder_detected/+ every pair rhymes (detected scheme)": {
+     "mean": 47.77777777777778,
+     "halfwidth": 12.6486101119892,
+     "lo": 35.12916766578858,
+     "hi": 60.42638788976698,
+     "n": 3
+    },
+    "ladder_detected/+ no repeated end word": {
+     "mean": 6.666666666666667,
+     "halfwidth": 16.560918078335533,
+     "lo": -9.894251411668865,
+     "hi": 23.2275847450022,
+     "n": 3
+    },
+    "ladder_detected/+ groups distinct (detected scheme)": {
+     "mean": 2.2222222222222223,
+     "halfwidth": 4.78072525527718,
+     "lo": -2.558503033054958,
+     "hi": 7.0029474774994025,
+     "n": 3
+    }
+   },
+   "detected_schemes": {
+    "ABBA ABBA CDE CDE": 74,
+    "ABBA ABBA CDC CDC": 7,
+    "ABAB ABAB CDE CDE": 3,
+    "ABBA ABBA CDE EDC": 3,
+    "ABBA ABBA CDE CED": 2,
+    "ABAB ABAB CDE EDC": 1
+   }
+  },
+  "K5_repel": {
+   "replicates": 3,
+   "n_per_replicate": [
+    30,
+    30,
+    30
+   ],
+   "per_replicate": [
+    {
+     "n": 30,
+     "format_pct": 100.0,
+     "rhyme_orth_pct": 84.22,
+     "rhyme_orth_quatr_pct": 85.28,
+     "rhyme_phon_pct": 84.22,
+     "rhyme_phon_noident_pct": 76.89,
+     "rhyme_phon_noident_quatr_pct": 78.89,
+     "rhyme_phon_noident_detected_pct": 77.53,
+     "meter_in_range_pct": 63.33,
+     "meter_exact_pct": 26.43,
+     "distinct_groups_pct": 76.67,
+     "distinct_groups_detected_pct": 80.0,
+     "rr_coverage_pct": 100.0,
+     "rr_rhyme_consonant_pct": 76.0,
+     "rr_rhyme_assonant_pct": 77.56,
+     "rr_rhyme_letters_pct": 36.44,
+     "rr_meter_exact_pct": 37.62,
+     "rr_sonnet_pct": 6.67,
+     "ladder/14 verses": 100.0,
+     "ladder/+ every scheme pair rhymes": 26.67,
+     "ladder/+ no repeated end word": 13.33,
+     "ladder/+ groups use distinct sounds": 10.0,
+     "ladder/+ >=12/14 verses 11 syll. (Rantanplan)": 0.0,
+     "ladder/+ 14/14 verses 11 syll. (Rantanplan)": 0.0,
+     "ladder_own_meter/14 verses": 100.0,
+     "ladder_own_meter/+ every scheme pair rhymes": 26.67,
+     "ladder_own_meter/+ no repeated end word": 13.33,
+     "ladder_own_meter/+ groups use distinct sounds": 10.0,
+     "ladder_own_meter/+ >=12/14 verses 10-12 syll. (own counter)": 3.33,
+     "ladder_own_meter/+ 14/14 verses 10-12 syll. (own counter)": 0.0,
+     "ladder_detected/14 verses": 100.0,
+     "ladder_detected/+ every pair rhymes (detected scheme)": 26.67,
+     "ladder_detected/+ no repeated end word": 13.33,
+     "ladder_detected/+ groups distinct (detected scheme)": 10.0
+    },
+    {
+     "n": 30,
+     "format_pct": 100.0,
+     "rhyme_orth_pct": 86.44,
+     "rhyme_orth_quatr_pct": 88.33,
+     "rhyme_phon_pct": 86.44,
+     "rhyme_phon_noident_pct": 78.44,
+     "rhyme_phon_noident_quatr_pct": 81.67,
+     "rhyme_phon_noident_detected_pct": 78.67,
+     "meter_in_range_pct": 66.9,
+     "meter_exact_pct": 23.33,
+     "distinct_groups_pct": 76.67,
+     "distinct_groups_detected_pct": 76.67,
+     "rr_coverage_pct": 100.0,
+     "rr_rhyme_consonant_pct": 78.22,
+     "rr_rhyme_assonant_pct": 78.89,
+     "rr_rhyme_letters_pct": 73.78,
+     "rr_meter_exact_pct": 33.57,
+     "rr_sonnet_pct": 16.67,
+     "ladder/14 verses": 100.0,
+     "ladder/+ every scheme pair rhymes": 33.33,
+     "ladder/+ no repeated end word": 10.0,
+     "ladder/+ groups use distinct sounds": 10.0,
+     "ladder/+ >=12/14 verses 11 syll. (Rantanplan)": 0.0,
+     "ladder/+ 14/14 verses 11 syll. (Rantanplan)": 0.0,
+     "ladder_own_meter/14 verses": 100.0,
+     "ladder_own_meter/+ every scheme pair rhymes": 33.33,
+     "ladder_own_meter/+ no repeated end word": 10.0,
+     "ladder_own_meter/+ groups use distinct sounds": 10.0,
+     "ladder_own_meter/+ >=12/14 verses 10-12 syll. (own counter)": 3.33,
+     "ladder_own_meter/+ 14/14 verses 10-12 syll. (own counter)": 0.0,
+     "ladder_detected/14 verses": 100.0,
+     "ladder_detected/+ every pair rhymes (detected scheme)": 33.33,
+     "ladder_detected/+ no repeated end word": 10.0,
+     "ladder_detected/+ groups distinct (detected scheme)": 10.0
+    },
+    {
+     "n": 30,
+     "format_pct": 100.0,
+     "rhyme_orth_pct": 90.0,
+     "rhyme_orth_quatr_pct": 92.5,
+     "rhyme_phon_pct": 90.0,
+     "rhyme_phon_noident_pct": 80.0,
+     "rhyme_phon_noident_quatr_pct": 83.89,
+     "rhyme_phon_noident_detected_pct": 80.67,
+     "meter_in_range_pct": 64.29,
+     "meter_exact_pct": 21.9,
+     "distinct_groups_pct": 73.33,
+     "distinct_groups_detected_pct": 73.33,
+     "rr_coverage_pct": 100.0,
+     "rr_rhyme_consonant_pct": 76.89,
+     "rr_rhyme_assonant_pct": 79.33,
+     "rr_rhyme_letters_pct": 53.11,
+     "rr_meter_exact_pct": 38.1,
+     "rr_sonnet_pct": 26.67,
+     "ladder/14 verses": 100.0,
+     "ladder/+ every scheme pair rhymes": 43.33,
+     "ladder/+ no repeated end word": 16.67,
+     "ladder/+ groups use distinct sounds": 16.67,
+     "ladder/+ >=12/14 verses 11 syll. (Rantanplan)": 0.0,
+     "ladder/+ 14/14 verses 11 syll. (Rantanplan)": 0.0,
+     "ladder_own_meter/14 verses": 100.0,
+     "ladder_own_meter/+ every scheme pair rhymes": 43.33,
+     "ladder_own_meter/+ no repeated end word": 16.67,
+     "ladder_own_meter/+ groups use distinct sounds": 16.67,
+     "ladder_own_meter/+ >=12/14 verses 10-12 syll. (own counter)": 0.0,
+     "ladder_own_meter/+ 14/14 verses 10-12 syll. (own counter)": 0.0,
+     "ladder_detected/14 verses": 100.0,
+     "ladder_detected/+ every pair rhymes (detected scheme)": 43.33,
+     "ladder_detected/+ no repeated end word": 16.67,
+     "ladder_detected/+ groups distinct (detected scheme)": 16.67
+    }
+   ],
+   "aggregate": {
+    "format_pct": {
+     "mean": 100.0,
+     "halfwidth": 0.0,
+     "lo": 100.0,
+     "hi": 100.0,
+     "n": 3
+    },
+    "rhyme_orth_pct": {
+     "mean": 86.8888888888889,
+     "halfwidth": 7.239813480312453,
+     "lo": 79.64907540857645,
+     "hi": 94.12870236920135,
+     "n": 3
+    },
+    "rhyme_orth_quatr_pct": {
+     "mean": 88.7037037037037,
+     "halfwidth": 9.005814347491418,
+     "lo": 79.69788935621227,
+     "hi": 97.70951805119512,
+     "n": 3
+    },
+    "rhyme_phon_pct": {
+     "mean": 86.8888888888889,
+     "halfwidth": 7.239813480312453,
+     "lo": 79.64907540857645,
+     "hi": 94.12870236920135,
+     "n": 3
+    },
+    "rhyme_phon_noident_pct": {
+     "mean": 78.44444444444444,
+     "halfwidth": 3.864214218278295,
+     "lo": 74.58023022616615,
+     "hi": 82.30865866272273,
+     "n": 3
+    },
+    "rhyme_phon_noident_quatr_pct": {
+     "mean": 81.48148148148148,
+     "halfwidth": 6.223109645937893,
+     "lo": 75.25837183554358,
+     "hi": 87.70459112741938,
+     "n": 3
+    },
+    "rhyme_phon_noident_detected_pct": {
+     "mean": 78.95545766030348,
+     "halfwidth": 3.941454383708213,
+     "lo": 75.01400327659526,
+     "hi": 82.8969120440117,
+     "n": 3
+    },
+    "meter_in_range_pct": {
+     "mean": 64.84126984126983,
+     "halfwidth": 4.594148589774963,
+     "lo": 60.247121251494875,
+     "hi": 69.4354184310448,
+     "n": 3
+    },
+    "meter_exact_pct": {
+     "mean": 23.888888888888886,
+     "halfwidth": 5.744589074531286,
+     "lo": 18.1442998143576,
+     "hi": 29.633477963420173,
+     "n": 3
+    },
+    "distinct_groups_pct": {
+     "mean": 75.55555555555556,
+     "halfwidth": 4.7807252552771935,
+     "lo": 70.77483030027837,
+     "hi": 80.33628081083275,
+     "n": 3
+    },
+    "distinct_groups_detected_pct": {
+     "mean": 76.66666666666667,
+     "halfwidth": 8.280459039167773,
+     "lo": 68.38620762749889,
+     "hi": 84.94712570583445,
+     "n": 3
+    },
+    "rr_coverage_pct": {
+     "mean": 100.0,
+     "halfwidth": 0.0,
+     "lo": 100.0,
+     "hi": 100.0,
+     "n": 3
+    },
+    "rr_rhyme_consonant_pct": {
+     "mean": 77.03703703703704,
+     "halfwidth": 2.7784931019447985,
+     "lo": 74.25854393509223,
+     "hi": 79.81553013898184,
+     "n": 3
+    },
+    "rr_rhyme_assonant_pct": {
+     "mean": 78.5925925925926,
+     "halfwidth": 2.2982866722409976,
+     "lo": 76.2943059203516,
+     "hi": 80.89087926483359,
+     "n": 3
+    },
+    "rr_rhyme_letters_pct": {
+     "mean": 54.444444444444436,
+     "halfwidth": 46.45920511363782,
+     "lo": 7.985239330806614,
+     "hi": 100.90364955808226,
+     "n": 3
+    },
+    "rr_meter_exact_pct": {
+     "mean": 36.42857142857142,
+     "halfwidth": 6.1750378859564625,
+     "lo": 30.25353354261496,
+     "hi": 42.60360931452789,
+     "n": 3
+    },
+    "rr_sonnet_pct": {
+     "mean": 16.666666666666668,
+     "halfwidth": 24.8413771175033,
+     "lo": -8.174710450836631,
+     "hi": 41.50804378416997,
+     "n": 3
+    },
+    "ladder/14 verses": {
+     "mean": 100.0,
+     "halfwidth": 0.0,
+     "lo": 100.0,
+     "hi": 100.0,
+     "n": 3
+    },
+    "ladder/+ every scheme pair rhymes": {
+     "mean": 34.44444444444445,
+     "halfwidth": 20.83869826458592,
+     "lo": 13.605746179858532,
+     "hi": 55.28314270903037,
+     "n": 3
+    },
+    "ladder/+ no repeated end word": {
+     "mean": 13.333333333333334,
+     "halfwidth": 8.280459039167768,
+     "lo": 5.052874294165566,
+     "hi": 21.613792372501102,
+     "n": 3
+    },
+    "ladder/+ groups use distinct sounds": {
+     "mean": 12.222222222222223,
+     "halfwidth": 9.561450510554362,
+     "lo": 2.660771711667861,
+     "hi": 21.783672732776587,
+     "n": 3
+    },
+    "ladder/+ >=12/14 verses 11 syll. (Rantanplan)": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder/+ 14/14 verses 11 syll. (Rantanplan)": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder_own_meter/14 verses": {
+     "mean": 100.0,
+     "halfwidth": 0.0,
+     "lo": 100.0,
+     "hi": 100.0,
+     "n": 3
+    },
+    "ladder_own_meter/+ every scheme pair rhymes": {
+     "mean": 34.44444444444445,
+     "halfwidth": 20.83869826458592,
+     "lo": 13.605746179858532,
+     "hi": 55.28314270903037,
+     "n": 3
+    },
+    "ladder_own_meter/+ no repeated end word": {
+     "mean": 13.333333333333334,
+     "halfwidth": 8.280459039167768,
+     "lo": 5.052874294165566,
+     "hi": 21.613792372501102,
+     "n": 3
+    },
+    "ladder_own_meter/+ groups use distinct sounds": {
+     "mean": 12.222222222222223,
+     "halfwidth": 9.561450510554362,
+     "lo": 2.660771711667861,
+     "hi": 21.783672732776587,
+     "n": 3
+    },
+    "ladder_own_meter/+ >=12/14 verses 10-12 syll. (own counter)": {
+     "mean": 2.2222222222222223,
+     "halfwidth": 4.78072525527718,
+     "lo": -2.558503033054958,
+     "hi": 7.0029474774994025,
+     "n": 3
+    },
+    "ladder_own_meter/+ 14/14 verses 10-12 syll. (own counter)": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder_detected/14 verses": {
+     "mean": 100.0,
+     "halfwidth": 0.0,
+     "lo": 100.0,
+     "hi": 100.0,
+     "n": 3
+    },
+    "ladder_detected/+ every pair rhymes (detected scheme)": {
+     "mean": 34.44444444444445,
+     "halfwidth": 20.83869826458592,
+     "lo": 13.605746179858532,
+     "hi": 55.28314270903037,
+     "n": 3
+    },
+    "ladder_detected/+ no repeated end word": {
+     "mean": 13.333333333333334,
+     "halfwidth": 8.280459039167768,
+     "lo": 5.052874294165566,
+     "hi": 21.613792372501102,
+     "n": 3
+    },
+    "ladder_detected/+ groups distinct (detected scheme)": {
+     "mean": 12.222222222222223,
+     "halfwidth": 9.561450510554362,
+     "lo": 2.660771711667861,
+     "hi": 21.783672732776587,
+     "n": 3
+    }
+   },
+   "detected_schemes": {
+    "ABBA ABBA CDE CDE": 82,
+    "ABAB ABAB CDE CDE": 6,
+    "ABBA ABBA CDC CDC": 1,
+    "ABBA ABBA CDE CED": 1
+   }
+  },
+  "human@cdcdcd": {
+   "replicates": 1,
+   "n_per_replicate": [
+    250
+   ],
+   "per_replicate": [
+    {
+     "n": 250,
+     "format_pct": 100.0,
+     "rhyme_orth_pct": 68.0,
+     "rhyme_orth_quatr_pct": 82.27,
+     "rhyme_phon_pct": 68.93,
+     "rhyme_phon_noident_pct": 68.53,
+     "rhyme_phon_noident_quatr_pct": 83.13,
+     "rhyme_phon_noident_detected_pct": 85.07,
+     "meter_in_range_pct": 91.14,
+     "meter_exact_pct": 72.63,
+     "distinct_groups_pct": 34.0,
+     "distinct_groups_detected_pct": 71.2,
+     "rr_coverage_pct": 100.0,
+     "rr_rhyme_consonant_pct": 68.29,
+     "rr_rhyme_assonant_pct": 69.47,
+     "rr_rhyme_letters_pct": 64.93,
+     "rr_meter_exact_pct": 92.37,
+     "rr_sonnet_pct": 67.2,
+     "ladder/14 verses": 100.0,
+     "ladder/+ every scheme pair rhymes": 29.6,
+     "ladder/+ no repeated end word": 26.0,
+     "ladder/+ groups use distinct sounds": 25.6,
+     "ladder/+ >=12/14 verses 11 syll. (Rantanplan)": 25.6,
+     "ladder/+ 14/14 verses 11 syll. (Rantanplan)": 24.0,
+     "ladder_own_meter/14 verses": 100.0,
+     "ladder_own_meter/+ every scheme pair rhymes": 29.6,
+     "ladder_own_meter/+ no repeated end word": 26.0,
+     "ladder_own_meter/+ groups use distinct sounds": 25.6,
+     "ladder_own_meter/+ >=12/14 verses 10-12 syll. (own counter)": 25.6,
+     "ladder_own_meter/+ 14/14 verses 10-12 syll. (own counter)": 20.0,
+     "ladder_detected/14 verses": 100.0,
+     "ladder_detected/+ every pair rhymes (detected scheme)": 67.2,
+     "ladder_detected/+ no repeated end word": 60.4,
+     "ladder_detected/+ groups distinct (detected scheme)": 58.8
+    }
+   ],
+   "aggregate": {
+    "format_pct": {
+     "mean": 100.0,
+     "halfwidth": 0.0,
+     "lo": 100.0,
+     "hi": 100.0,
+     "n": 1
+    },
+    "rhyme_orth_pct": {
+     "mean": 68.0,
+     "halfwidth": 0.0,
+     "lo": 68.0,
+     "hi": 68.0,
+     "n": 1
+    },
+    "rhyme_orth_quatr_pct": {
+     "mean": 82.26666666666667,
+     "halfwidth": 0.0,
+     "lo": 82.26666666666667,
+     "hi": 82.26666666666667,
+     "n": 1
+    },
+    "rhyme_phon_pct": {
+     "mean": 68.93333333333334,
+     "halfwidth": 0.0,
+     "lo": 68.93333333333334,
+     "hi": 68.93333333333334,
+     "n": 1
+    },
+    "rhyme_phon_noident_pct": {
+     "mean": 68.53333333333333,
+     "halfwidth": 0.0,
+     "lo": 68.53333333333333,
+     "hi": 68.53333333333333,
+     "n": 1
+    },
+    "rhyme_phon_noident_quatr_pct": {
+     "mean": 83.13333333333334,
+     "halfwidth": 0.0,
+     "lo": 83.13333333333334,
+     "hi": 83.13333333333334,
+     "n": 1
+    },
+    "rhyme_phon_noident_detected_pct": {
+     "mean": 85.07462686567165,
+     "halfwidth": 0.0,
+     "lo": 85.07462686567165,
+     "hi": 85.07462686567165,
+     "n": 1
+    },
+    "meter_in_range_pct": {
+     "mean": 91.14285714285714,
+     "halfwidth": 0.0,
+     "lo": 91.14285714285714,
+     "hi": 91.14285714285714,
+     "n": 1
+    },
+    "meter_exact_pct": {
+     "mean": 72.62857142857143,
+     "halfwidth": 0.0,
+     "lo": 72.62857142857143,
+     "hi": 72.62857142857143,
+     "n": 1
+    },
+    "distinct_groups_pct": {
+     "mean": 34.0,
+     "halfwidth": 0.0,
+     "lo": 34.0,
+     "hi": 34.0,
+     "n": 1
+    },
+    "distinct_groups_detected_pct": {
+     "mean": 71.2,
+     "halfwidth": 0.0,
+     "lo": 71.2,
+     "hi": 71.2,
+     "n": 1
+    },
+    "rr_coverage_pct": {
+     "mean": 100.0,
+     "halfwidth": 0.0,
+     "lo": 100.0,
+     "hi": 100.0,
+     "n": 1
+    },
+    "rr_rhyme_consonant_pct": {
+     "mean": 68.28888888888889,
+     "halfwidth": 0.0,
+     "lo": 68.28888888888889,
+     "hi": 68.28888888888889,
+     "n": 1
+    },
+    "rr_rhyme_assonant_pct": {
+     "mean": 69.46666666666667,
+     "halfwidth": 0.0,
+     "lo": 69.46666666666667,
+     "hi": 69.46666666666667,
+     "n": 1
+    },
+    "rr_rhyme_letters_pct": {
+     "mean": 64.93333333333334,
+     "halfwidth": 0.0,
+     "lo": 64.93333333333334,
+     "hi": 64.93333333333334,
+     "n": 1
+    },
+    "rr_meter_exact_pct": {
+     "mean": 92.37142857142857,
+     "halfwidth": 0.0,
+     "lo": 92.37142857142857,
+     "hi": 92.37142857142857,
+     "n": 1
+    },
+    "rr_sonnet_pct": {
+     "mean": 67.2,
+     "halfwidth": 0.0,
+     "lo": 67.2,
+     "hi": 67.2,
+     "n": 1
+    },
+    "ladder/14 verses": {
+     "mean": 100.0,
+     "halfwidth": 0.0,
+     "lo": 100.0,
+     "hi": 100.0,
+     "n": 1
+    },
+    "ladder/+ every scheme pair rhymes": {
+     "mean": 29.6,
+     "halfwidth": 0.0,
+     "lo": 29.6,
+     "hi": 29.6,
+     "n": 1
+    },
+    "ladder/+ no repeated end word": {
+     "mean": 26.0,
+     "halfwidth": 0.0,
+     "lo": 26.0,
+     "hi": 26.0,
+     "n": 1
+    },
+    "ladder/+ groups use distinct sounds": {
+     "mean": 25.6,
+     "halfwidth": 0.0,
+     "lo": 25.6,
+     "hi": 25.6,
+     "n": 1
+    },
+    "ladder/+ >=12/14 verses 11 syll. (Rantanplan)": {
+     "mean": 25.6,
+     "halfwidth": 0.0,
+     "lo": 25.6,
+     "hi": 25.6,
+     "n": 1
+    },
+    "ladder/+ 14/14 verses 11 syll. (Rantanplan)": {
+     "mean": 24.0,
+     "halfwidth": 0.0,
+     "lo": 24.0,
+     "hi": 24.0,
+     "n": 1
+    },
+    "ladder_own_meter/14 verses": {
+     "mean": 100.0,
+     "halfwidth": 0.0,
+     "lo": 100.0,
+     "hi": 100.0,
+     "n": 1
+    },
+    "ladder_own_meter/+ every scheme pair rhymes": {
+     "mean": 29.6,
+     "halfwidth": 0.0,
+     "lo": 29.6,
+     "hi": 29.6,
+     "n": 1
+    },
+    "ladder_own_meter/+ no repeated end word": {
+     "mean": 26.0,
+     "halfwidth": 0.0,
+     "lo": 26.0,
+     "hi": 26.0,
+     "n": 1
+    },
+    "ladder_own_meter/+ groups use distinct sounds": {
+     "mean": 25.6,
+     "halfwidth": 0.0,
+     "lo": 25.6,
+     "hi": 25.6,
+     "n": 1
+    },
+    "ladder_own_meter/+ >=12/14 verses 10-12 syll. (own counter)": {
+     "mean": 25.6,
+     "halfwidth": 0.0,
+     "lo": 25.6,
+     "hi": 25.6,
+     "n": 1
+    },
+    "ladder_own_meter/+ 14/14 verses 10-12 syll. (own counter)": {
+     "mean": 20.0,
+     "halfwidth": 0.0,
+     "lo": 20.0,
+     "hi": 20.0,
+     "n": 1
+    },
+    "ladder_detected/14 verses": {
+     "mean": 100.0,
+     "halfwidth": 0.0,
+     "lo": 100.0,
+     "hi": 100.0,
+     "n": 1
+    },
+    "ladder_detected/+ every pair rhymes (detected scheme)": {
+     "mean": 67.2,
+     "halfwidth": 0.0,
+     "lo": 67.2,
+     "hi": 67.2,
+     "n": 1
+    },
+    "ladder_detected/+ no repeated end word": {
+     "mean": 60.4,
+     "halfwidth": 0.0,
+     "lo": 60.4,
+     "hi": 60.4,
+     "n": 1
+    },
+    "ladder_detected/+ groups distinct (detected scheme)": {
+     "mean": 58.8,
+     "halfwidth": 0.0,
+     "lo": 58.8,
+     "hi": 58.8,
+     "n": 1
+    }
+   },
+   "detected_schemes": {
+    "ABBA ABBA CDE CDE": 119,
+    "ABBA ABBA CDC DCD": 84,
+    "ABBA ABBA CDE DCE": 16,
+    "ABBA ABBA CDE DEC": 8,
+    "ABAB ABAB CDE CDE": 7,
+    "ABAB ABAB CDC DCD": 6,
+    "ABBA ABBA CDE CED": 5,
+    "ABAB ABAB CDE DEC": 2,
+    "ABAB ABAB CDE DCE": 2,
+    "ABAB ABAB CDE CED": 1
+   }
+  },
+  "human_clean@cdcdcd": {
+   "replicates": 1,
+   "n_per_replicate": [
+    194
+   ],
+   "per_replicate": [
+    {
+     "n": 194,
+     "format_pct": 100.0,
+     "rhyme_orth_pct": 77.72,
+     "rhyme_orth_quatr_pct": 93.9,
+     "rhyme_phon_pct": 78.92,
+     "rhyme_phon_noident_pct": 78.44,
+     "rhyme_phon_noident_quatr_pct": 95.06,
+     "rhyme_phon_noident_detected_pct": 96.28,
+     "meter_in_range_pct": 97.75,
+     "meter_exact_pct": 78.17,
+     "distinct_groups_pct": 40.21,
+     "distinct_groups_detected_pct": 88.66,
+     "rr_coverage_pct": 100.0,
+     "rr_rhyme_consonant_pct": 78.09,
+     "rr_rhyme_assonant_pct": 79.27,
+     "rr_rhyme_letters_pct": 74.46,
+     "rr_meter_exact_pct": 98.2,
+     "rr_sonnet_pct": 86.6,
+     "ladder/14 verses": 100.0,
+     "ladder/+ every scheme pair rhymes": 38.14,
+     "ladder/+ no repeated end word": 33.51,
+     "ladder/+ groups use distinct sounds": 32.99,
+     "ladder/+ >=12/14 verses 11 syll. (Rantanplan)": 32.99,
+     "ladder/+ 14/14 verses 11 syll. (Rantanplan)": 30.93,
+     "ladder_own_meter/14 verses": 100.0,
+     "ladder_own_meter/+ every scheme pair rhymes": 38.14,
+     "ladder_own_meter/+ no repeated end word": 33.51,
+     "ladder_own_meter/+ groups use distinct sounds": 32.99,
+     "ladder_own_meter/+ >=12/14 verses 10-12 syll. (own counter)": 32.99,
+     "ladder_own_meter/+ 14/14 verses 10-12 syll. (own counter)": 25.77,
+     "ladder_detected/14 verses": 100.0,
+     "ladder_detected/+ every pair rhymes (detected scheme)": 86.6,
+     "ladder_detected/+ no repeated end word": 77.84,
+     "ladder_detected/+ groups distinct (detected scheme)": 75.77
+    }
+   ],
+   "aggregate": {
+    "format_pct": {
+     "mean": 100.0,
+     "halfwidth": 0.0,
+     "lo": 100.0,
+     "hi": 100.0,
+     "n": 1
+    },
+    "rhyme_orth_pct": {
+     "mean": 77.7205040091638,
+     "halfwidth": 0.0,
+     "lo": 77.7205040091638,
+     "hi": 77.7205040091638,
+     "n": 1
+    },
+    "rhyme_orth_quatr_pct": {
+     "mean": 93.90034364261169,
+     "halfwidth": 0.0,
+     "lo": 93.90034364261169,
+     "hi": 93.90034364261169,
+     "n": 1
+    },
+    "rhyme_phon_pct": {
+     "mean": 78.92325315005728,
+     "halfwidth": 0.0,
+     "lo": 78.92325315005728,
+     "hi": 78.92325315005728,
+     "n": 1
+    },
+    "rhyme_phon_noident_pct": {
+     "mean": 78.43642611683849,
+     "halfwidth": 0.0,
+     "lo": 78.43642611683849,
+     "hi": 78.43642611683849,
+     "n": 1
+    },
+    "rhyme_phon_noident_quatr_pct": {
+     "mean": 95.06013745704468,
+     "halfwidth": 0.0,
+     "lo": 95.06013745704468,
+     "hi": 95.06013745704468,
+     "n": 1
+    },
+    "rhyme_phon_noident_detected_pct": {
+     "mean": 96.28217349857006,
+     "halfwidth": 0.0,
+     "lo": 96.28217349857006,
+     "hi": 96.28217349857006,
+     "n": 1
+    },
+    "meter_in_range_pct": {
+     "mean": 97.7540500736377,
+     "halfwidth": 0.0,
+     "lo": 97.7540500736377,
+     "hi": 97.7540500736377,
+     "n": 1
+    },
+    "meter_exact_pct": {
+     "mean": 78.16642120765832,
+     "halfwidth": 0.0,
+     "lo": 78.16642120765832,
+     "hi": 78.16642120765832,
+     "n": 1
+    },
+    "distinct_groups_pct": {
+     "mean": 40.20618556701031,
+     "halfwidth": 0.0,
+     "lo": 40.20618556701031,
+     "hi": 40.20618556701031,
+     "n": 1
+    },
+    "distinct_groups_detected_pct": {
+     "mean": 88.65979381443299,
+     "halfwidth": 0.0,
+     "lo": 88.65979381443299,
+     "hi": 88.65979381443299,
+     "n": 1
+    },
+    "rr_coverage_pct": {
+     "mean": 100.0,
+     "halfwidth": 0.0,
+     "lo": 100.0,
+     "hi": 100.0,
+     "n": 1
+    },
+    "rr_rhyme_consonant_pct": {
+     "mean": 78.09278350515464,
+     "halfwidth": 0.0,
+     "lo": 78.09278350515464,
+     "hi": 78.09278350515464,
+     "n": 1
+    },
+    "rr_rhyme_assonant_pct": {
+     "mean": 79.26689576174113,
+     "halfwidth": 0.0,
+     "lo": 79.26689576174113,
+     "hi": 79.26689576174113,
+     "n": 1
+    },
+    "rr_rhyme_letters_pct": {
+     "mean": 74.45589919816724,
+     "halfwidth": 0.0,
+     "lo": 74.45589919816724,
+     "hi": 74.45589919816724,
+     "n": 1
+    },
+    "rr_meter_exact_pct": {
+     "mean": 98.19587628865979,
+     "halfwidth": 0.0,
+     "lo": 98.19587628865979,
+     "hi": 98.19587628865979,
+     "n": 1
+    },
+    "rr_sonnet_pct": {
+     "mean": 86.5979381443299,
+     "halfwidth": 0.0,
+     "lo": 86.5979381443299,
+     "hi": 86.5979381443299,
+     "n": 1
+    },
+    "ladder/14 verses": {
+     "mean": 100.0,
+     "halfwidth": 0.0,
+     "lo": 100.0,
+     "hi": 100.0,
+     "n": 1
+    },
+    "ladder/+ every scheme pair rhymes": {
+     "mean": 38.144329896907216,
+     "halfwidth": 0.0,
+     "lo": 38.144329896907216,
+     "hi": 38.144329896907216,
+     "n": 1
+    },
+    "ladder/+ no repeated end word": {
+     "mean": 33.50515463917526,
+     "halfwidth": 0.0,
+     "lo": 33.50515463917526,
+     "hi": 33.50515463917526,
+     "n": 1
+    },
+    "ladder/+ groups use distinct sounds": {
+     "mean": 32.98969072164948,
+     "halfwidth": 0.0,
+     "lo": 32.98969072164948,
+     "hi": 32.98969072164948,
+     "n": 1
+    },
+    "ladder/+ >=12/14 verses 11 syll. (Rantanplan)": {
+     "mean": 32.98969072164948,
+     "halfwidth": 0.0,
+     "lo": 32.98969072164948,
+     "hi": 32.98969072164948,
+     "n": 1
+    },
+    "ladder/+ 14/14 verses 11 syll. (Rantanplan)": {
+     "mean": 30.927835051546392,
+     "halfwidth": 0.0,
+     "lo": 30.927835051546392,
+     "hi": 30.927835051546392,
+     "n": 1
+    },
+    "ladder_own_meter/14 verses": {
+     "mean": 100.0,
+     "halfwidth": 0.0,
+     "lo": 100.0,
+     "hi": 100.0,
+     "n": 1
+    },
+    "ladder_own_meter/+ every scheme pair rhymes": {
+     "mean": 38.144329896907216,
+     "halfwidth": 0.0,
+     "lo": 38.144329896907216,
+     "hi": 38.144329896907216,
+     "n": 1
+    },
+    "ladder_own_meter/+ no repeated end word": {
+     "mean": 33.50515463917526,
+     "halfwidth": 0.0,
+     "lo": 33.50515463917526,
+     "hi": 33.50515463917526,
+     "n": 1
+    },
+    "ladder_own_meter/+ groups use distinct sounds": {
+     "mean": 32.98969072164948,
+     "halfwidth": 0.0,
+     "lo": 32.98969072164948,
+     "hi": 32.98969072164948,
+     "n": 1
+    },
+    "ladder_own_meter/+ >=12/14 verses 10-12 syll. (own counter)": {
+     "mean": 32.98969072164948,
+     "halfwidth": 0.0,
+     "lo": 32.98969072164948,
+     "hi": 32.98969072164948,
+     "n": 1
+    },
+    "ladder_own_meter/+ 14/14 verses 10-12 syll. (own counter)": {
+     "mean": 25.77319587628866,
+     "halfwidth": 0.0,
+     "lo": 25.77319587628866,
+     "hi": 25.77319587628866,
+     "n": 1
+    },
+    "ladder_detected/14 verses": {
+     "mean": 100.0,
+     "halfwidth": 0.0,
+     "lo": 100.0,
+     "hi": 100.0,
+     "n": 1
+    },
+    "ladder_detected/+ every pair rhymes (detected scheme)": {
+     "mean": 86.5979381443299,
+     "halfwidth": 0.0,
+     "lo": 86.5979381443299,
+     "hi": 86.5979381443299,
+     "n": 1
+    },
+    "ladder_detected/+ no repeated end word": {
+     "mean": 77.83505154639175,
+     "halfwidth": 0.0,
+     "lo": 77.83505154639175,
+     "hi": 77.83505154639175,
+     "n": 1
+    },
+    "ladder_detected/+ groups distinct (detected scheme)": {
+     "mean": 75.77319587628865,
+     "halfwidth": 0.0,
+     "lo": 75.77319587628865,
+     "hi": 75.77319587628865,
+     "n": 1
+    }
+   },
+   "detected_schemes": {
+    "ABBA ABBA CDE CDE": 93,
+    "ABBA ABBA CDC DCD": 76,
+    "ABBA ABBA CDE DCE": 11,
+    "ABAB ABAB CDE CDE": 4,
+    "ABBA ABBA CDE DEC": 4,
+    "ABBA ABBA CDE CED": 3,
+    "ABAB ABAB CDC DCD": 3
+   }
+  },
+  "nocontrol@cdcdcd": {
+   "replicates": 3,
+   "n_per_replicate": [
+    30,
+    30,
+    30
+   ],
+   "per_replicate": [
+    {
+     "n": 30,
+     "format_pct": 96.67,
+     "rhyme_orth_pct": 7.04,
+     "rhyme_orth_quatr_pct": 8.61,
+     "rhyme_phon_pct": 7.04,
+     "rhyme_phon_noident_pct": 6.85,
+     "rhyme_phon_noident_quatr_pct": 8.61,
+     "rhyme_phon_noident_detected_pct": 9.19,
+     "meter_in_range_pct": 50.71,
+     "meter_exact_pct": 16.67,
+     "distinct_groups_pct": 53.33,
+     "distinct_groups_detected_pct": 53.33,
+     "rr_coverage_pct": 100.0,
+     "rr_rhyme_consonant_pct": 6.85,
+     "rr_rhyme_assonant_pct": 13.33,
+     "rr_rhyme_letters_pct": 0.0,
+     "rr_meter_exact_pct": 18.57,
+     "rr_sonnet_pct": 0.0,
+     "ladder/14 verses": 96.67,
+     "ladder/+ every scheme pair rhymes": 0.0,
+     "ladder/+ no repeated end word": 0.0,
+     "ladder/+ groups use distinct sounds": 0.0,
+     "ladder/+ >=12/14 verses 11 syll. (Rantanplan)": 0.0,
+     "ladder/+ 14/14 verses 11 syll. (Rantanplan)": 0.0,
+     "ladder_own_meter/14 verses": 96.67,
+     "ladder_own_meter/+ every scheme pair rhymes": 0.0,
+     "ladder_own_meter/+ no repeated end word": 0.0,
+     "ladder_own_meter/+ groups use distinct sounds": 0.0,
+     "ladder_own_meter/+ >=12/14 verses 10-12 syll. (own counter)": 0.0,
+     "ladder_own_meter/+ 14/14 verses 10-12 syll. (own counter)": 0.0,
+     "ladder_detected/14 verses": 96.67,
+     "ladder_detected/+ every pair rhymes (detected scheme)": 0.0,
+     "ladder_detected/+ no repeated end word": 0.0,
+     "ladder_detected/+ groups distinct (detected scheme)": 0.0
+    },
+    {
+     "n": 30,
+     "format_pct": 96.67,
+     "rhyme_orth_pct": 1.67,
+     "rhyme_orth_quatr_pct": 0.83,
+     "rhyme_phon_pct": 1.85,
+     "rhyme_phon_noident_pct": 1.3,
+     "rhyme_phon_noident_quatr_pct": 0.28,
+     "rhyme_phon_noident_detected_pct": 3.33,
+     "meter_in_range_pct": 55.95,
+     "meter_exact_pct": 19.76,
+     "distinct_groups_pct": 46.67,
+     "distinct_groups_detected_pct": 66.67,
+     "rr_coverage_pct": 100.0,
+     "rr_rhyme_consonant_pct": 1.3,
+     "rr_rhyme_assonant_pct": 6.11,
+     "rr_rhyme_letters_pct": 0.37,
+     "rr_meter_exact_pct": 22.14,
+     "rr_sonnet_pct": 0.0,
+     "ladder/14 verses": 96.67,
+     "ladder/+ every scheme pair rhymes": 0.0,
+     "ladder/+ no repeated end word": 0.0,
+     "ladder/+ groups use distinct sounds": 0.0,
+     "ladder/+ >=12/14 verses 11 syll. (Rantanplan)": 0.0,
+     "ladder/+ 14/14 verses 11 syll. (Rantanplan)": 0.0,
+     "ladder_own_meter/14 verses": 96.67,
+     "ladder_own_meter/+ every scheme pair rhymes": 0.0,
+     "ladder_own_meter/+ no repeated end word": 0.0,
+     "ladder_own_meter/+ groups use distinct sounds": 0.0,
+     "ladder_own_meter/+ >=12/14 verses 10-12 syll. (own counter)": 0.0,
+     "ladder_own_meter/+ 14/14 verses 10-12 syll. (own counter)": 0.0,
+     "ladder_detected/14 verses": 96.67,
+     "ladder_detected/+ every pair rhymes (detected scheme)": 0.0,
+     "ladder_detected/+ no repeated end word": 0.0,
+     "ladder_detected/+ groups distinct (detected scheme)": 0.0
+    },
+    {
+     "n": 30,
+     "format_pct": 100.0,
+     "rhyme_orth_pct": 5.93,
+     "rhyme_orth_quatr_pct": 6.94,
+     "rhyme_phon_pct": 5.93,
+     "rhyme_phon_noident_pct": 5.37,
+     "rhyme_phon_noident_quatr_pct": 6.39,
+     "rhyme_phon_noident_detected_pct": 7.88,
+     "meter_in_range_pct": 53.57,
+     "meter_exact_pct": 20.24,
+     "distinct_groups_pct": 33.33,
+     "distinct_groups_detected_pct": 46.67,
+     "rr_coverage_pct": 100.0,
+     "rr_rhyme_consonant_pct": 5.37,
+     "rr_rhyme_assonant_pct": 12.41,
+     "rr_rhyme_letters_pct": 1.48,
+     "rr_meter_exact_pct": 26.67,
+     "rr_sonnet_pct": 0.0,
+     "ladder/14 verses": 100.0,
+     "ladder/+ every scheme pair rhymes": 0.0,
+     "ladder/+ no repeated end word": 0.0,
+     "ladder/+ groups use distinct sounds": 0.0,
+     "ladder/+ >=12/14 verses 11 syll. (Rantanplan)": 0.0,
+     "ladder/+ 14/14 verses 11 syll. (Rantanplan)": 0.0,
+     "ladder_own_meter/14 verses": 100.0,
+     "ladder_own_meter/+ every scheme pair rhymes": 0.0,
+     "ladder_own_meter/+ no repeated end word": 0.0,
+     "ladder_own_meter/+ groups use distinct sounds": 0.0,
+     "ladder_own_meter/+ >=12/14 verses 10-12 syll. (own counter)": 0.0,
+     "ladder_own_meter/+ 14/14 verses 10-12 syll. (own counter)": 0.0,
+     "ladder_detected/14 verses": 100.0,
+     "ladder_detected/+ every pair rhymes (detected scheme)": 0.0,
+     "ladder_detected/+ no repeated end word": 0.0,
+     "ladder_detected/+ groups distinct (detected scheme)": 0.0
+    }
+   ],
+   "aggregate": {
+    "format_pct": {
+     "mean": 97.77777777777779,
+     "halfwidth": 4.780725255277174,
+     "lo": 92.99705252250061,
+     "hi": 102.55850303305496,
+     "n": 3
+    },
+    "rhyme_orth_pct": {
+     "mean": 4.8765432098765435,
+     "halfwidth": 7.042047388000763,
+     "lo": -2.1655041781242197,
+     "hi": 11.918590597877307,
+     "n": 3
+    },
+    "rhyme_orth_quatr_pct": {
+     "mean": 5.462962962962963,
+     "halfwidth": 10.172702356648383,
+     "lo": -4.70973939368542,
+     "hi": 15.635665319611345,
+     "n": 3
+    },
+    "rhyme_phon_pct": {
+     "mean": 4.938271604938271,
+     "halfwidth": 6.781801571098923,
+     "lo": -1.8435299661606512,
+     "hi": 11.720073176037193,
+     "n": 3
+    },
+    "rhyme_phon_noident_pct": {
+     "mean": 4.506172839506173,
+     "halfwidth": 7.146453361872186,
+     "lo": -2.6402805223660124,
+     "hi": 11.652626201378359,
+     "n": 3
+    },
+    "rhyme_phon_noident_quatr_pct": {
+     "mean": 5.092592592592593,
+     "halfwidth": 10.719680042808278,
+     "lo": -5.627087450215686,
+     "hi": 15.81227263540087,
+     "n": 3
+    },
+    "rhyme_phon_noident_detected_pct": {
+     "mean": 6.800389010454656,
+     "halfwidth": 7.634951754799219,
+     "lo": -0.8345627443445629,
+     "hi": 14.435340765253875,
+     "n": 3
+    },
+    "meter_in_range_pct": {
+     "mean": 53.41269841269841,
+     "halfwidth": 6.515030331732762,
+     "lo": 46.89766808096565,
+     "hi": 59.92772874443117,
+     "n": 3
+    },
+    "meter_exact_pct": {
+     "mean": 18.88888888888889,
+     "halfwidth": 4.81717349767971,
+     "lo": 14.071715391209178,
+     "hi": 23.7060623865686,
+     "n": 3
+    },
+    "distinct_groups_pct": {
+     "mean": 44.44444444444445,
+     "halfwidth": 25.297220223978396,
+     "lo": 19.147224220466054,
+     "hi": 69.74166466842284,
+     "n": 3
+    },
+    "distinct_groups_detected_pct": {
+     "mean": 55.55555555555555,
+     "halfwidth": 25.29722022397841,
+     "lo": 30.25833533157714,
+     "hi": 80.85277577953396,
+     "n": 3
+    },
+    "rr_coverage_pct": {
+     "mean": 100.0,
+     "halfwidth": 0.0,
+     "lo": 100.0,
+     "hi": 100.0,
+     "n": 3
+    },
+    "rr_rhyme_consonant_pct": {
+     "mean": 4.506172839506173,
+     "halfwidth": 7.146453361872186,
+     "lo": -2.6402805223660124,
+     "hi": 11.652626201378359,
+     "n": 3
+    },
+    "rr_rhyme_assonant_pct": {
+     "mean": 10.617283950617283,
+     "halfwidth": 9.762228195844354,
+     "lo": 0.8550557547729287,
+     "hi": 20.379512146461636,
+     "n": 3
+    },
+    "rr_rhyme_letters_pct": {
+     "mean": 0.6172839506172839,
+     "halfwidth": 1.9152388935341713,
+     "lo": -1.2979549429168875,
+     "hi": 2.532522844151455,
+     "n": 3
+    },
+    "rr_meter_exact_pct": {
+     "mean": 22.46031746031746,
+     "halfwidth": 10.07801099099219,
+     "lo": 12.382306469325268,
+     "hi": 32.53832845130965,
+     "n": 3
+    },
+    "rr_sonnet_pct": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder/14 verses": {
+     "mean": 97.77777777777779,
+     "halfwidth": 4.780725255277174,
+     "lo": 92.99705252250061,
+     "hi": 102.55850303305496,
+     "n": 3
+    },
+    "ladder/+ every scheme pair rhymes": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder/+ no repeated end word": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder/+ groups use distinct sounds": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder/+ >=12/14 verses 11 syll. (Rantanplan)": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder/+ 14/14 verses 11 syll. (Rantanplan)": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder_own_meter/14 verses": {
+     "mean": 97.77777777777779,
+     "halfwidth": 4.780725255277174,
+     "lo": 92.99705252250061,
+     "hi": 102.55850303305496,
+     "n": 3
+    },
+    "ladder_own_meter/+ every scheme pair rhymes": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder_own_meter/+ no repeated end word": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder_own_meter/+ groups use distinct sounds": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder_own_meter/+ >=12/14 verses 10-12 syll. (own counter)": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder_own_meter/+ 14/14 verses 10-12 syll. (own counter)": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder_detected/14 verses": {
+     "mean": 97.77777777777779,
+     "halfwidth": 4.780725255277174,
+     "lo": 92.99705252250061,
+     "hi": 102.55850303305496,
+     "n": 3
+    },
+    "ladder_detected/+ every pair rhymes (detected scheme)": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder_detected/+ no repeated end word": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder_detected/+ groups distinct (detected scheme)": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    }
+   },
+   "detected_schemes": {
+    "ABBA ABBA CDE CDE": 70,
+    "ABAB ABAB CDE CDE": 4,
+    "ABBA ABBA CDE DCE": 4,
+    "ABBA ABBA CDE CED": 3,
+    "ABBA ABBA CDC CDC": 2,
+    "ABBA ABBA CDC DCD": 2,
+    "ABBA ABBA CDE DEC": 2,
+    "ABBA ABBA CDE EDC": 2,
+    "ABAB ABAB CDE DEC": 1
+   }
+  },
+  "K5_cdcdcd": {
+   "replicates": 3,
+   "n_per_replicate": [
+    30,
+    30,
+    30
+   ],
+   "per_replicate": [
+    {
+     "n": 30,
+     "format_pct": 100.0,
+     "rhyme_orth_pct": 91.48,
+     "rhyme_orth_quatr_pct": 91.39,
+     "rhyme_phon_pct": 91.48,
+     "rhyme_phon_noident_pct": 82.96,
+     "rhyme_phon_noident_quatr_pct": 85.0,
+     "rhyme_phon_noident_detected_pct": 86.43,
+     "meter_in_range_pct": 63.81,
+     "meter_exact_pct": 21.9,
+     "distinct_groups_pct": 16.67,
+     "distinct_groups_detected_pct": 13.33,
+     "rr_coverage_pct": 100.0,
+     "rr_rhyme_consonant_pct": 81.85,
+     "rr_rhyme_assonant_pct": 82.41,
+     "rr_rhyme_letters_pct": 68.15,
+     "rr_meter_exact_pct": 32.86,
+     "rr_sonnet_pct": 13.33,
+     "ladder/14 verses": 100.0,
+     "ladder/+ every scheme pair rhymes": 63.33,
+     "ladder/+ no repeated end word": 13.33,
+     "ladder/+ groups use distinct sounds": 10.0,
+     "ladder/+ >=12/14 verses 11 syll. (Rantanplan)": 0.0,
+     "ladder/+ 14/14 verses 11 syll. (Rantanplan)": 0.0,
+     "ladder_own_meter/14 verses": 100.0,
+     "ladder_own_meter/+ every scheme pair rhymes": 63.33,
+     "ladder_own_meter/+ no repeated end word": 13.33,
+     "ladder_own_meter/+ groups use distinct sounds": 10.0,
+     "ladder_own_meter/+ >=12/14 verses 10-12 syll. (own counter)": 0.0,
+     "ladder_own_meter/+ 14/14 verses 10-12 syll. (own counter)": 0.0,
+     "ladder_detected/14 verses": 100.0,
+     "ladder_detected/+ every pair rhymes (detected scheme)": 63.33,
+     "ladder_detected/+ no repeated end word": 13.33,
+     "ladder_detected/+ groups distinct (detected scheme)": 10.0
+    },
+    {
+     "n": 30,
+     "format_pct": 100.0,
+     "rhyme_orth_pct": 85.56,
+     "rhyme_orth_quatr_pct": 86.67,
+     "rhyme_phon_pct": 85.56,
+     "rhyme_phon_noident_pct": 74.81,
+     "rhyme_phon_noident_quatr_pct": 76.11,
+     "rhyme_phon_noident_detected_pct": 78.47,
+     "meter_in_range_pct": 68.81,
+     "meter_exact_pct": 25.95,
+     "distinct_groups_pct": 26.67,
+     "distinct_groups_detected_pct": 20.0,
+     "rr_coverage_pct": 100.0,
+     "rr_rhyme_consonant_pct": 73.89,
+     "rr_rhyme_assonant_pct": 75.0,
+     "rr_rhyme_letters_pct": 68.7,
+     "rr_meter_exact_pct": 40.95,
+     "rr_sonnet_pct": 16.67,
+     "ladder/14 verses": 100.0,
+     "ladder/+ every scheme pair rhymes": 40.0,
+     "ladder/+ no repeated end word": 0.0,
+     "ladder/+ groups use distinct sounds": 0.0,
+     "ladder/+ >=12/14 verses 11 syll. (Rantanplan)": 0.0,
+     "ladder/+ 14/14 verses 11 syll. (Rantanplan)": 0.0,
+     "ladder_own_meter/14 verses": 100.0,
+     "ladder_own_meter/+ every scheme pair rhymes": 40.0,
+     "ladder_own_meter/+ no repeated end word": 0.0,
+     "ladder_own_meter/+ groups use distinct sounds": 0.0,
+     "ladder_own_meter/+ >=12/14 verses 10-12 syll. (own counter)": 0.0,
+     "ladder_own_meter/+ 14/14 verses 10-12 syll. (own counter)": 0.0,
+     "ladder_detected/14 verses": 100.0,
+     "ladder_detected/+ every pair rhymes (detected scheme)": 40.0,
+     "ladder_detected/+ no repeated end word": 3.33,
+     "ladder_detected/+ groups distinct (detected scheme)": 0.0
+    },
+    {
+     "n": 30,
+     "format_pct": 100.0,
+     "rhyme_orth_pct": 91.67,
+     "rhyme_orth_quatr_pct": 93.06,
+     "rhyme_phon_pct": 91.67,
+     "rhyme_phon_noident_pct": 82.78,
+     "rhyme_phon_noident_quatr_pct": 83.61,
+     "rhyme_phon_noident_detected_pct": 84.59,
+     "meter_in_range_pct": 65.48,
+     "meter_exact_pct": 22.62,
+     "distinct_groups_pct": 30.0,
+     "distinct_groups_detected_pct": 26.67,
+     "rr_coverage_pct": 100.0,
+     "rr_rhyme_consonant_pct": 81.85,
+     "rr_rhyme_assonant_pct": 82.41,
+     "rr_rhyme_letters_pct": 78.89,
+     "rr_meter_exact_pct": 40.71,
+     "rr_sonnet_pct": 33.33,
+     "ladder/14 verses": 100.0,
+     "ladder/+ every scheme pair rhymes": 63.33,
+     "ladder/+ no repeated end word": 3.33,
+     "ladder/+ groups use distinct sounds": 3.33,
+     "ladder/+ >=12/14 verses 11 syll. (Rantanplan)": 0.0,
+     "ladder/+ 14/14 verses 11 syll. (Rantanplan)": 0.0,
+     "ladder_own_meter/14 verses": 100.0,
+     "ladder_own_meter/+ every scheme pair rhymes": 63.33,
+     "ladder_own_meter/+ no repeated end word": 3.33,
+     "ladder_own_meter/+ groups use distinct sounds": 3.33,
+     "ladder_own_meter/+ >=12/14 verses 10-12 syll. (own counter)": 0.0,
+     "ladder_own_meter/+ 14/14 verses 10-12 syll. (own counter)": 0.0,
+     "ladder_detected/14 verses": 100.0,
+     "ladder_detected/+ every pair rhymes (detected scheme)": 63.33,
+     "ladder_detected/+ no repeated end word": 3.33,
+     "ladder_detected/+ groups distinct (detected scheme)": 3.33
+    }
+   ],
+   "aggregate": {
+    "format_pct": {
+     "mean": 100.0,
+     "halfwidth": 0.0,
+     "lo": 100.0,
+     "hi": 100.0,
+     "n": 3
+    },
+    "rhyme_orth_pct": {
+     "mean": 89.5679012345679,
+     "halfwidth": 8.63492906790879,
+     "lo": 80.93297216665911,
+     "hi": 98.20283030247668,
+     "n": 3
+    },
+    "rhyme_orth_quatr_pct": {
+     "mean": 90.37037037037037,
+     "halfwidth": 8.232400252319433,
+     "lo": 82.13797011805093,
+     "hi": 98.6027706226898,
+     "n": 3
+    },
+    "rhyme_phon_pct": {
+     "mean": 89.5679012345679,
+     "halfwidth": 8.63492906790879,
+     "lo": 80.93297216665911,
+     "hi": 98.20283030247668,
+     "n": 3
+    },
+    "rhyme_phon_noident_pct": {
+     "mean": 80.18518518518518,
+     "halfwidth": 11.555708759465247,
+     "lo": 68.62947642571993,
+     "hi": 91.74089394465042,
+     "n": 3
+    },
+    "rhyme_phon_noident_quatr_pct": {
+     "mean": 81.57407407407408,
+     "halfwidth": 11.878549731486599,
+     "lo": 69.69552434258748,
+     "hi": 93.45262380556068,
+     "n": 3
+    },
+    "rhyme_phon_noident_detected_pct": {
+     "mean": 83.16123748981879,
+     "halfwidth": 10.346566103373275,
+     "lo": 72.81467138644551,
+     "hi": 93.50780359319207,
+     "n": 3
+    },
+    "meter_in_range_pct": {
+     "mean": 66.03174603174604,
+     "halfwidth": 6.324305055994599,
+     "lo": 59.70744097575144,
+     "hi": 72.35605108774064,
+     "n": 3
+    },
+    "meter_exact_pct": {
+     "mean": 23.492063492063494,
+     "halfwidth": 5.36678536477764,
+     "lo": 18.125278127285853,
+     "hi": 28.858848856841135,
+     "n": 3
+    },
+    "distinct_groups_pct": {
+     "mean": 24.444444444444446,
+     "halfwidth": 17.237150041807542,
+     "lo": 7.207294402636904,
+     "hi": 41.68159448625199,
+     "n": 3
+    },
+    "distinct_groups_detected_pct": {
+     "mean": 20.0,
+     "halfwidth": 16.560918078335533,
+     "lo": 3.4390819216644672,
+     "hi": 36.56091807833553,
+     "n": 3
+    },
+    "rr_coverage_pct": {
+     "mean": 100.0,
+     "halfwidth": 0.0,
+     "lo": 100.0,
+     "hi": 100.0,
+     "n": 3
+    },
+    "rr_rhyme_consonant_pct": {
+     "mean": 79.19753086419753,
+     "halfwidth": 11.42062144316215,
+     "lo": 67.77690942103538,
+     "hi": 90.61815230735968,
+     "n": 3
+    },
+    "rr_rhyme_assonant_pct": {
+     "mean": 79.93827160493827,
+     "halfwidth": 10.623833900615953,
+     "lo": 69.31443770432232,
+     "hi": 90.56210550555421,
+     "n": 3
+    },
+    "rr_rhyme_letters_pct": {
+     "mean": 71.91358024691358,
+     "halfwidth": 15.022022245408102,
+     "lo": 56.89155800150548,
+     "hi": 86.93560249232169,
+     "n": 3
+    },
+    "rr_meter_exact_pct": {
+     "mean": 38.17460317460317,
+     "halfwidth": 11.443414478204872,
+     "lo": 26.7311886963983,
+     "hi": 49.61801765280804,
+     "n": 3
+    },
+    "rr_sonnet_pct": {
+     "mean": 21.11111111111111,
+     "halfwidth": 26.617951704813745,
+     "lo": -5.506840593702634,
+     "hi": 47.729062815924856,
+     "n": 3
+    },
+    "ladder/14 verses": {
+     "mean": 100.0,
+     "halfwidth": 0.0,
+     "lo": 100.0,
+     "hi": 100.0,
+     "n": 3
+    },
+    "ladder/+ every scheme pair rhymes": {
+     "mean": 55.555555555555564,
+     "halfwidth": 33.465076786940266,
+     "lo": 22.0904787686153,
+     "hi": 89.02063234249583,
+     "n": 3
+    },
+    "ladder/+ no repeated end word": {
+     "mean": 5.555555555555556,
+     "halfwidth": 17.237150041807542,
+     "lo": -11.681594486251985,
+     "hi": 22.7927055973631,
+     "n": 3
+    },
+    "ladder/+ groups use distinct sounds": {
+     "mean": 4.444444444444445,
+     "halfwidth": 12.6486101119892,
+     "lo": -8.204165667544755,
+     "hi": 17.093054556433643,
+     "n": 3
+    },
+    "ladder/+ >=12/14 verses 11 syll. (Rantanplan)": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder/+ 14/14 verses 11 syll. (Rantanplan)": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder_own_meter/14 verses": {
+     "mean": 100.0,
+     "halfwidth": 0.0,
+     "lo": 100.0,
+     "hi": 100.0,
+     "n": 3
+    },
+    "ladder_own_meter/+ every scheme pair rhymes": {
+     "mean": 55.555555555555564,
+     "halfwidth": 33.465076786940266,
+     "lo": 22.0904787686153,
+     "hi": 89.02063234249583,
+     "n": 3
+    },
+    "ladder_own_meter/+ no repeated end word": {
+     "mean": 5.555555555555556,
+     "halfwidth": 17.237150041807542,
+     "lo": -11.681594486251985,
+     "hi": 22.7927055973631,
+     "n": 3
+    },
+    "ladder_own_meter/+ groups use distinct sounds": {
+     "mean": 4.444444444444445,
+     "halfwidth": 12.6486101119892,
+     "lo": -8.204165667544755,
+     "hi": 17.093054556433643,
+     "n": 3
+    },
+    "ladder_own_meter/+ >=12/14 verses 10-12 syll. (own counter)": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder_own_meter/+ 14/14 verses 10-12 syll. (own counter)": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "lo": 0.0,
+     "hi": 0.0,
+     "n": 3
+    },
+    "ladder_detected/14 verses": {
+     "mean": 100.0,
+     "halfwidth": 0.0,
+     "lo": 100.0,
+     "hi": 100.0,
+     "n": 3
+    },
+    "ladder_detected/+ every pair rhymes (detected scheme)": {
+     "mean": 55.555555555555564,
+     "halfwidth": 33.465076786940266,
+     "lo": 22.0904787686153,
+     "hi": 89.02063234249583,
+     "n": 3
+    },
+    "ladder_detected/+ no repeated end word": {
+     "mean": 6.666666666666667,
+     "halfwidth": 14.342175765831543,
+     "lo": -7.675509099164876,
+     "hi": 21.00884243249821,
+     "n": 3
+    },
+    "ladder_detected/+ groups distinct (detected scheme)": {
+     "mean": 4.444444444444445,
+     "halfwidth": 12.6486101119892,
+     "lo": -8.204165667544755,
+     "hi": 17.093054556433643,
+     "n": 3
+    }
+   },
+   "detected_schemes": {
+    "ABBA ABBA CDC DCD": 37,
+    "ABBA ABBA CDE CDE": 14,
+    "ABBA ABBA CDE DCE": 14,
+    "ABBA ABBA CDC CDC": 13,
+    "ABBA ABBA CDE CED": 5,
+    "ABBA ABBA CDE EDC": 3,
+    "ABAB ABAB CDE CDE": 2,
+    "ABAB ABAB CDE DCE": 1,
+    "ABAB ABAB CDC CDC": 1
+   }
+  }
+ }
+}

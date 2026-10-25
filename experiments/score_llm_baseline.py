@@ -19,13 +19,13 @@ Two ways to get the spread across replicates, and they are NOT equivalent:
     recorded in the output so the paper cannot quote one as the other.
 
 Uso:
-  conda run -n gpu python resultados/experimentos/score_llm_baseline.py \
-      --src resultados/datos/llm_baseline/haiku45_run1.txt \
-            resultados/datos/llm_baseline/haiku45_run2.txt \
-            resultados/datos/llm_baseline/haiku45_run3.txt
-  conda run -n gpu python resultados/experimentos/score_llm_baseline.py \
-      --src resultados/datos/dream_baseline/dream7b_sonnets.txt \
-      --out resultados/datos/dream_baseline_metrics.json \
+  conda run -n gpu python experiments/score_llm_baseline.py \
+      --src results/llm_baseline/haiku45_run1.txt \
+            results/llm_baseline/haiku45_run2.txt \
+            results/llm_baseline/haiku45_run3.txt
+  conda run -n gpu python experiments/score_llm_baseline.py \
+      --src results/dream_baseline/dream7b_sonnets.txt \
+      --out results/dream_baseline_metrics.json \
       --model Dream-org/Dream-v0-Instruct-7B
 """
 import argparse
@@ -35,7 +35,7 @@ import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
-ROOT = os.path.dirname(os.path.dirname(HERE))
+ROOT = os.path.dirname(HERE)
 
 import harness
 
@@ -45,9 +45,9 @@ import harness
 # the n=30 one, and a default that regenerates a different set of numbers
 # would silently contradict the paper. Pass the three files explicitly to use
 # them.
-DEFAULT_SRC = [os.path.join(ROOT, 'resultados', 'datos', 'llm_baseline',
+DEFAULT_SRC = [os.path.join(ROOT, 'results', 'llm_baseline',
                             'haiku45_sonnets.txt')]
-DEFAULT_OUT = os.path.join(ROOT, 'resultados', 'datos',
+DEFAULT_OUT = os.path.join(ROOT, 'results',
                            'llm_baseline_metrics.json')
 DEFAULT_MODEL = 'claude-haiku-4-5-20251001'
 

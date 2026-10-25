@@ -4,10 +4,10 @@ cost, and the resulting compute-matched best-of-N budget.
 Resolves two stated-but-unverified numbers in the course paper: the "87M
 parameters" figure (inherited from PoetryDiffusion, never measured here) and
 the sampling time, which the paper reports as ~270 s where
-resultados/README.md reports ~140 s for the same configuration.
+results/README.md reports ~140 s for the same configuration.
 
-Uso: conda run -n gpu python resultados/experimentos/audit_measurements.py [--n 8] [--repeats 3]
-Salida: resultados/datos/audit_measurements.json
+Uso: conda run -n gpu python experiments/audit_measurements.py [--n 8] [--repeats 3]
+Salida: results/audit_measurements.json
 """
 import argparse
 import json
@@ -16,7 +16,7 @@ import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
-ROOT = os.path.dirname(os.path.dirname(HERE))
+ROOT = os.path.dirname(HERE)
 
 import harness
 
@@ -69,7 +69,7 @@ def main():
         seconds_per_sonnet_controlled=round(wc['mean'] / a.n, 2),
         seconds_per_sonnet_uncontrolled=round(wu['mean'] / a.n, 2))
 
-    outp = os.path.join(ROOT, 'resultados', 'datos', 'audit_measurements.json')
+    outp = os.path.join(ROOT, 'results', 'audit_measurements.json')
     with open(outp, 'w') as f:
         json.dump(out, f, ensure_ascii=False, indent=1)
 

@@ -1,0 +1,22 @@
+{
+ "config": "pool",
+ "overrides": {
+  "K": 0
+ },
+ "seed": 202,
+ "n": 5040,
+ "wall_s": 2095.97,
+ "forward_calls": 16800,
+ "seconds_per_sonnet": 0.4159,
+ "old_metrics": {
+  "format_pct": 96.19,
+  "rhyme_full_pct": 5.5,
+  "rhyme_quartet_pct": 5.75,
+  "syll_mean": 10.31,
+  "syll_in_range_pct": 52.16,
+  "distinct_endwords_pct": 98.62
+ },
+ "keep": 30,
+ "pool_N": 168,
+ "chunk": 30
+}
